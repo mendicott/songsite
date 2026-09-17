@@ -62,11 +62,11 @@ footer{margin-top:44px; font-size:13.5px; color:var(--ink-soft); border-top:1px 
 <header class="masthead">
   <h1>Rainbow Songbook Shelf</h1>
   <div class="spectrum"></div>
-  <p class="lede">The consolidated <b>RainbowSongBooks</b> archive: <b>49 independent PDF songbooks</b> gathered from Rainbow Gatherings, singing circles, medicine ceremonies, kirtans and ashrams worldwide, plus <b>3 superseded editions</b> quarantined in <span style="font-family:ui-monospace,Consolas,monospace">superseded\</span> (deduplicated 2026-09-16 and -17). Each entry shows the exact file name, a title-page crop, and a short review. Two discoveries from this survey: <b>Rainbow Songbook With Notes.pdf</b> and <b>songbook.pdf</b> both contain hand-inked staff notation, and <b>rainbow songbook (2).pdf</b> is an alternate scan of the project's primary source, <i>Rainbow AU songs.pdf</i>.</p>
+  <p class="lede">The consolidated <b>RainbowSongBooks</b> archive: <b>48 independent PDF songbooks</b> gathered from Rainbow Gatherings, singing circles, medicine ceremonies, kirtans and ashrams worldwide, plus <b>3 superseded editions</b> quarantined in <span style="font-family:ui-monospace,Consolas,monospace">superseded\</span> (deduplicated 2026-09-16 and -17; <i>rainbow-rising-spirit-of-the-rainbows.pdf</i>, a zine rather than a songbook, removed 2026-09-17). Each entry shows the exact file name, a title-page crop, and a short review. Two discoveries from this survey: <b>Rainbow Songbook With Notes.pdf</b> and <b>songbook.pdf</b> both contain hand-inked staff notation, and <b>rainbow songbook (2).pdf</b> is an alternate scan of the project's primary source, <i>Rainbow AU songs.pdf</i>.</p>
 </header>
 
 <div class="filters" id="filters" role="group" aria-label="Filter by family">
-  <button data-f="all" aria-pressed="true">All 52</button>
+  <button data-f="all" aria-pressed="true">All 51</button>
   <button data-f="rainbow" aria-pressed="false">Rainbow &amp; circle</button>
   <button data-f="kirtan" aria-pressed="false">Kirtan &amp; mantra</button>
   <button data-f="medicine" aria-pressed="false">Medicine &amp; icaros</button>
@@ -302,15 +302,6 @@ footer{margin-top:44px; font-size:13.5px; color:var(--ink-soft); border-top:1px 
     <h2 class="fname">Rainbow Spirit songs.pdf</h2>
     <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>6 pages</span><span>0.7 MB</span></p>
     <p>The lyric sheet for "Rainbow Spirit: Twenty-Seven Songs and Chants Celebrating the Spirit of the Rainbow Family of Living Light" — the 1998 Conscious Wave video whose audio circulated free as MP3s, laid out for PDF by Allen Butcher of the Denver chant circles. Only six pages, but historically significant: these 27 songs were, in effect, a canonized 1998 snapshot of the core Rainbow repertoire, with recordings to match. (A pixel-identical duplicate, formerly filed as <i>Rainbow songbook.pdf</i>, was removed from the archive 2026-09-17.)</p>
-  </div>
-</article>
-
-<article class="book" data-tags="rainbow scan">
-  <div class="cover"><img src="covers/rainbow-rising-spirit-of-the-rainbows.jpg" alt="Cover of Rainbow Rising" loading="lazy"></div>
-  <div class="body">
-    <h2 class="fname">rainbow-rising-spirit-of-the-rainbows.pdf</h2>
-    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-scan">Image-only scan</span><span>64 pages</span><span>27.7 MB</span></p>
-    <p>Less a songbook than a scanned zine: "Rainbow Rising — Spirit of the Rainbows" mixes sepia photographs of beach circles and winged dancers, hand-drawn illustration, and short essays — including "Surround Sound: the power of music and song," a genuinely articulate statement of why Rainbow culture sings ("we lost our song, being taught that music is just for professionals"). Songs appear as hand-lettered lyrics with chord letters woven into the artwork. Thin on transcribable repertoire but rich as context; it is the book on this shelf that best explains what all the other books are <i>for</i>.</p>
   </div>
 </article>
 
@@ -567,7 +558,7 @@ footer{margin-top:44px; font-size:13.5px; color:var(--ink-soft); border-top:1px 
       var ok=(f==='all')||((' '+b.getAttribute('data-tags')+' ').indexOf(' '+f+' ')>=0);
       b.hidden=!ok; if(ok) shown++;
     });
-    count.textContent=(f==='all')?'Showing all 52 books (49 active + 3 superseded), alphabetical by file name.':('Showing '+shown+' of 52 books.');
+    count.textContent=(f==='all')?'Showing all 51 books (48 active + 3 superseded), alphabetical by file name.':('Showing '+shown+' of 51 books.');
   }
   btns.forEach(function(btn){
     btn.addEventListener('click',function(){
