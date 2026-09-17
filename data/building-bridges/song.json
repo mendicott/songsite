@@ -1,0 +1,18 @@
+{
+  "title": "Building Bridges",
+  "rank": 38,
+  "status": "draft",
+  "eyebrow": "Song 198 · Tier 2",
+  "chips": {
+    "key": "F minor",
+    "time": "4/4 round",
+    "tempo": "≈92"
+  },
+  "melody_note": "Encoded by eye from the songbook’s typeset notation (book A #198, printed page A(39), PDF p.29 — a four-line round in four flats, transcription credited to Elizabeth Cave). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Typeset source is cleaner than the hand-drawn pages, but pitch-level confidence still moderate. The round is widely published (Rise Up Singing) for an independent check.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #198, printed page A(39), PDF p.29 (typeset, 4-part round)",
+    "Credit": "Composed by the women of the Greenham Common peace occupation, England, 1983; transcription used by permission of Elizabeth Cave (per the book)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

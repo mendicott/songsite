@@ -1,0 +1,18 @@
+{
+  "title": "We Are the Power (in Everyone)",
+  "rank": 21,
+  "status": "draft",
+  "eyebrow": "Song 157 · Tier 1",
+  "chips": {
+    "key": "D minor",
+    "tempo": "≈100",
+    "chords": "Dm C F Bb Gm7 Am"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #157, printed page A(30), PDF p.38, two systems). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Awaiting human verification against the page.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #157, printed page A(30), PDF p.38 (hand-notated with chords; Spanish and German verses)",
+    "Credit": "Attributed to Starhawk / Reclaiming tradition",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

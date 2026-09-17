@@ -1,0 +1,18 @@
+{
+  "title": "Thank You for the Food",
+  "rank": 3,
+  "status": "draft",
+  "eyebrow": "Song 158 · Tier 1",
+  "chips": {
+    "key": "D minor",
+    "tempo": "≈96",
+    "chords": "Dm F C"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #158, printed page A(31), PDF p.37). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded directly from the book’s own hand-notated staff; pitch-level confidence moderate (small, dense hand-drawn scan). Awaiting human verification against the page.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #158, printed page A(31), PDF p.37 (hand-notated with chords; French verse included)",
+    "Also sung": "Substitute words: om, rain, love, joy, etc.",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Witchi Tai To",
+  "rank": 34,
+  "status": "draft",
+  "eyebrow": "Song 227 · Tier 2",
+  "chips": {
+    "key": "D minor (staff) / D major (word sheet)",
+    "tempo": "≈92",
+    "chords": "Dm C Am (staff) · D Dm7 G A (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #227, printed page A(45), PDF p.50, two systems). The word sheet gives a D-major chording of the same song. Draft reading — verify against the book page and Jim Pepper’s recording.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Rights note: Witchi Tai To © Jim Pepper, 1969 — melody is under copyright; the page should stay documentation-only unless cleared.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #227, printed page A(45), PDF p.50 (hand-notated with chords; word sheet variant above)",
+    "Credit": "Jim Pepper (Kaw/Muscogee), © 1969 — from a peyote chant of his grandfather’s",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

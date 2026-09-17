@@ -1,0 +1,17 @@
+{
+  "title": "I Am a Gypsy",
+  "rank": 30,
+  "status": "draft",
+  "eyebrow": "Song 42 · Tier 2",
+  "chips": {
+    "key": "D minor (staff) / E minor (word sheet)",
+    "tempo": "≈100",
+    "chords": "Dm Am (staff) · Em G D (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #42, PDF p.15, four systems: verse strain and unga-la strain on the same tune). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Word sheet is in Em, staff in Dm — in-book discrepancy.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #42, PDF p.15 (hand-notated, four systems)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

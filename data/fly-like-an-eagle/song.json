@@ -1,0 +1,18 @@
+{
+  "title": "Fly Like an Eagle",
+  "rank": 23,
+  "status": "draft",
+  "eyebrow": "Song 231 · Tier 1",
+  "chips": {
+    "key": "A minor (staff) / D minor (word sheet)",
+    "tempo": "≈100",
+    "chords": "Am G (staff) · Dm F C (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #231, PDF p.51, three systems with echo phrases and the witchy-tay-yo chorus). The word sheet’s verses are marked Dm — another in-book key discrepancy. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. The chant also appears in free chant collections for an independent check.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #231, PDF p.51 (hand-notated; French and Spanish verses)",
+    "External check": "Appears in free chant collections (firecirclechants / bliss-fire family)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

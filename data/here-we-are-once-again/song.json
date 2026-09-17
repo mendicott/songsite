@@ -1,0 +1,18 @@
+{
+  "title": "Here We Are (Once Again)",
+  "rank": 4,
+  "status": "draft",
+  "eyebrow": "Song 14 · Tier 1",
+  "chips": {
+    "key": "D minor",
+    "time": "6/8",
+    "tempo": "≈100",
+    "chords": "Dm C"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #14, PDF p.7, three systems in 6/8). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate (dense hand-drawn systems). Awaiting human verification against the page.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #14, PDF p.7 (hand-notated with chords, three systems)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

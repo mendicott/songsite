@@ -1,0 +1,17 @@
+{
+  "title": "Every Part of the Earth",
+  "rank": 46,
+  "status": "draft",
+  "eyebrow": "Song 357 · Tier 2",
+  "chips": {
+    "key": "D major",
+    "tempo": "≈88",
+    "chords": "D Em A"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation of the German twin “Jeder Teil dieser Erde” (book A #357, printed page A(72), PDF p.77), which carries the English words ‘Sacred is to my people every part of the Earth’ under the same staff. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. The routes file’s assumption — English melody = German twin — is confirmed: the book prints both texts under one melody.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #357, printed page A(72), PDF p.77 (hand-notated, bilingual)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

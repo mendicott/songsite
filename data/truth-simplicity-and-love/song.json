@@ -1,0 +1,17 @@
+{
+  "title": "Truth Simplicity and Love",
+  "rank": 49,
+  "status": "draft",
+  "eyebrow": "Vol. B Song 53 · Tier 2",
+  "chips": {
+    "key": "E minor (staff) / A minor (word sheet)",
+    "tempo": "≈88",
+    "chords": "Em D (staff) · Am G (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book B #53, printed page B(9), PDF p.104, two systems with Spanish, German and French verses interlined). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. B (kirtans), song #53, printed page B(9), PDF p.104 (hand-notated, multilingual)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

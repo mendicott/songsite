@@ -1,0 +1,19 @@
+{
+  "title": "We All Come from the Goddess",
+  "rank": 13,
+  "status": "draft",
+  "eyebrow": "Song 23 · Tier 1",
+  "chips": {
+    "key": "E minor (staff) / A minor (song sheet)",
+    "tempo": "≈96",
+    "chords": "Em D G Bm (staff) · Am C G Em (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s notation (book A #23, PDF p.10, five systems: Goddess/Sun God/One verses on one tune plus the Hoof and Horn refrain). One verse and the refrain encoded; the other verses repeat the tune. Sheet chords are Am-family, a fourth below the staff’s Em. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s notated staff; pitch-level confidence moderate. Independent check: the chant is widely published (bliss-fire, firecirclechants collections).",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #23, PDF p.10 (notated, five systems; Spanish verse)",
+    "External check": "<a href=\"http://www.bliss-fire.com/RainbowChants.pdf\" rel=\"noopener\">Butterfly Bill’s RainbowChants</a> · firecirclechants.com — the Goddess/Hoof-and-Horn medley is widely notated",
+    "Credit": "Chorus attributed to Z. Budapest; Hoof and Horn to Ian Corrigan",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

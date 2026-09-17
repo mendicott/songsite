@@ -1,0 +1,17 @@
+{
+  "title": "Deep Inside (My Heart)",
+  "rank": 64,
+  "status": "draft",
+  "eyebrow": "Song 48 · Tier 2",
+  "chips": {
+    "key": "C major",
+    "tempo": "≈88",
+    "chords": "C G Am F"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation, titled “Everlasting Love” on the staff (book A #48 “Deep inside my Heart”, printed page A(11), PDF p.16, three systems with interlined French). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Note the staff sings ‘everlasting love’, the word sheet prints ‘everlasting Light’.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #48, printed page A(11), PDF p.16 (hand-notated; French interlined)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

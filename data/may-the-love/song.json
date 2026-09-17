@@ -1,0 +1,17 @@
+{
+  "title": "May the Love (We're Sharing)",
+  "rank": 9,
+  "status": "draft",
+  "eyebrow": "Song 20 · Tier 1",
+  "chips": {
+    "key": "D minor (staff) / A minor (song sheet)",
+    "tempo": "≈88",
+    "chords": "Dm C (staff) · Am G (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (“May the Love We’re Sharing Spread Its Wings”, book A #20, PDF p.9, three systems in D minor). The book’s singalong column prints the words with Am/G chords — a different key than the staff. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Key discrepancy between staff (Dm) and song sheet (Am) is in the book itself.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #20, PDF p.9 (hand-notated, with French, Sanskrit and Arabic verses)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

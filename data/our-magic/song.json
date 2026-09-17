@@ -1,0 +1,17 @@
+{
+  "title": "Our Magic (Is Our Give-Away)",
+  "rank": 75,
+  "status": "draft",
+  "eyebrow": "Song 29 · Tier 2",
+  "chips": {
+    "key": "D minor (staff) / A minor (word sheet)",
+    "tempo": "≈96",
+    "chords": "Dm C (staff) · Am G (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #29 “Our Magic is our Giveaway”, PDF p.11, two systems). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #29, PDF p.11 (hand-notated with chords)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

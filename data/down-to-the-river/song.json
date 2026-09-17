@@ -1,0 +1,19 @@
+{
+  "title": "Down to the River (to Pray)",
+  "rank": 33,
+  "status": "draft",
+  "eyebrow": "Song 173 · Tier 1",
+  "chips": {
+    "key": "G major",
+    "tempo": "≈88",
+    "chords": "G C D Em"
+  },
+  "melody_note": "Extracted from the 8notes.com lead-sheet MIDI (traditional Appalachian spiritual; public domain) — melody taken as the top voice of the two-voice arrangement. Verse + chorus, one pass. The book carries it as “As I went down” (A p.34, song #173).",
+  "verdict": "Verdict: high confidence — machine extraction of the standard tune (as popularized by Alison Krauss, O Brother Where Art Thou). Check the book's word sheet for the Rainbow variant.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #173, printed page A 34 (as “As I went down”)",
+    "Notation": "<a href=\"https://www.8notes.com/scores/25045.asp\" rel=\"noopener\">8notes.com — Down to the River to Pray, lead sheet (Trad.)</a>; MIDI saved as notation-sources/down_to_the_river.mid",
+    "Alternate free source": "<a href=\"https://michaelkravchuk.com/free-lead-sheet-river-pray/\" rel=\"noopener\">Michael Kravchuk free lead sheet</a> (site blocked automated fetch)",
+    "Method": "MIDI melody extraction (top voice) via music21 → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

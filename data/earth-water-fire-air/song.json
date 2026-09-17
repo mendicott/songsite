@@ -1,0 +1,17 @@
+{
+  "title": "The Earth the Water the Fire the Air",
+  "rank": 11,
+  "status": "draft",
+  "eyebrow": "Song 239 · Tier 1",
+  "chips": {
+    "key": "D minor (staff) / E minor (song sheet)",
+    "tempo": "≈100",
+    "chords": "Dm C (staff) · Em D (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #239, PDF p.53, two systems with the hey/ho response). The book’s word sheet prints Em/D chords — a whole step above the staff’s Dm/C. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Key discrepancy between staff (Dm) and sheet (Em) is in the book itself.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #239, PDF p.53 (hand-notated, with hey/ho response line)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Listen Listen Listen",
+  "rank": 50,
+  "status": "draft",
+  "eyebrow": "Song 224 · Tier 2",
+  "chips": {
+    "key": "D minor",
+    "tempo": "≈84",
+    "chords": "Dm C"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation of “Listen to My Heartsong” (book A #224, printed page A(43), PDF p.48, two systems). Draft reading — verify against the book page and the SRF publication.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Strong independent check: the chant derives from Paramahansa Yogananda’s “Listen, Listen, Listen” (SRF Cosmic Chants, notated, © SRF).",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #224, printed page A(43), PDF p.48 (hand-notated with chords)",
+    "External check": "SRF Cosmic Chants p.9 (notated book, © Self-Realization Fellowship) — book-paywalled",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

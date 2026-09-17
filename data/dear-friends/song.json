@@ -1,0 +1,17 @@
+{
+  "title": "Dear Friends",
+  "rank": 99,
+  "status": "draft",
+  "eyebrow": "Song 18 · Tier 3",
+  "chips": {
+    "key": "E minor",
+    "tempo": "≈84",
+    "chords": "Em D Bm"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #18 “Dear Friend”, PDF p.8, two systems with interlined French). Sung as a round. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. The round is widely sung (Rise Up Singing prints a version) for an independent ear-check.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #18, PDF p.8 (hand-notated with chords; French interlined)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

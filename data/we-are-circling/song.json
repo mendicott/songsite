@@ -1,0 +1,19 @@
+{
+  "title": "We Are Circling",
+  "rank": 1,
+  "status": "draft",
+  "eyebrow": "Song 1 · Tier 1",
+  "chips": {
+    "key": "C major",
+    "tempo": "≈100",
+    "chords": "—"
+  },
+  "melody_note": "Encoded by eye from the Fire Circle Chants typeset lead sheet (we-are-circling.pdf, saved in notation-sources/). Clean single-voice engraving, no chords printed. Draft reading — verify against the sheet.",
+  "verdict": "Verdict: pending. Typeset source, so pitch-level confidence is high; awaiting human verification. A second free source exists: Butterfly Bill RainbowChants p.7.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #1 (the book's opening song)",
+    "Notation": "<a href=\"http://www.firecirclechants.com/sheetmusic/we-are-circling.pdf\" rel=\"noopener\">Fire Circle Chants — We Are Circling (credited “Rainbow Songs”)</a>, saved in notation-sources/we-are-circling.pdf",
+    "Second source": "Butterfly Bill, RainbowChants.pdf p.7 (bliss-fire.com), saved in notation-sources/",
+    "Method": "Visual transcription of typeset notation → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

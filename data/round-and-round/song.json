@@ -1,0 +1,17 @@
+{
+  "title": "Round and Round (the Earth Is Turning)",
+  "rank": 60,
+  "status": "draft",
+  "eyebrow": "Song 156 · Tier 2",
+  "chips": {
+    "key": "E minor",
+    "tempo": "≈96",
+    "chords": "Em Am Bm"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation of “Round and Round We Dance” (book A #156, printed page A(30), PDF p.38, two systems). Draft reading — verify against the book page, and confirm this book song is the manifest’s “Round and Round”.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Title check needed: manifest says ‘the Earth Is Turning’, book #156 sings ‘we dance’.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #156 “Round and Round We Dance”, printed page A(30), PDF p.38 (hand-notated with chords)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

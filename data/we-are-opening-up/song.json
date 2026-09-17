@@ -1,0 +1,19 @@
+{
+  "title": "We Are Opening Up (in Sweet Surrender)",
+  "rank": 27,
+  "status": "draft",
+  "eyebrow": "Rank 27 · Tier 1",
+  "chips": {
+    "key": "D dorian (no accidentals)",
+    "tempo": "≈92",
+    "chords": "—"
+  },
+  "melody_note": "Encoded from the Fire Circle Chants typeset lead sheet “Sweet Surrender” (sweet-surrender.pdf in notation-sources/), credited to Sophia. Pitches verified with automated notehead detection against the staff lines; rhythms read by eye (syncopated — verify bar 2's quarter–eighth–quarter figure). The sheet also gives the “rising up like the phoenix” alternative verse, which is the Rainbow manifest's incipit.",
+  "verdict": "Verdict: pending. Typeset source with machine-checked pitch positions; confidence high. Second free source: Butterfly Bill RainbowChants p.10.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs — attested (manifest incipit “rising up like a phoenix from the fire”)",
+    "Notation": "<a href=\"http://www.firecirclechants.com/sheetmusic/sweet-surrender.pdf\" rel=\"noopener\">Fire Circle Chants — Sweet Surrender (Sophia)</a>, saved in notation-sources/sweet-surrender.pdf",
+    "Second source": "Butterfly Bill, RainbowChants.pdf p.10 (bliss-fire.com)",
+    "Method": "Visual transcription + automated notehead detection → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "One Planet Is Turning",
+  "rank": 39,
+  "status": "draft",
+  "eyebrow": "Rank 39 · Tier 2",
+  "chips": {
+    "key": "E minor",
+    "tempo": "≈92",
+    "chords": "Em (played throughout)"
+  },
+  "melody_note": "Encoded from Butterfly Bill's RainbowChants.pdf p.5 (bliss-fire.com) — typeset lead sheet, three verses under one melody, “E minor is played throughout on the Rainbow Spirit video.” Some long notes are tied across systems; rhythm of the “a-round the” figure is a draft reading — verify.",
+  "verdict": "Verdict: pending. IDENTITY NOTE: these are the verses of Charlie Murphy's “Light Is Returning” (verse 2 here IS “Light is returning, even tho this is the darkest hour”) — the same song family as rank 44 “Returning of the Light”. This bears directly on the open rank-44 identity decision.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs — attested (manifest incipit “on her course around the sun”)",
+    "Notation": "<a href=\"http://www.bliss-fire.com/RainbowChants.pdf\" rel=\"noopener\">Butterfly Bill — Rainbow Chants, p.5</a>, saved in notation-sources/RainbowChants.pdf",
+    "Related": "Rank 44 “Returning of the Light” / Charlie Murphy “Light Is Returning” (firecirclechants sheet already encoded on this site)",
+    "Method": "Visual transcription + automated notehead detection → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

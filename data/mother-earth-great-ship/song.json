@@ -1,0 +1,17 @@
+{
+  "title": "Mother Earth Is a Great Big Ship (Great Ship)",
+  "rank": 67,
+  "status": "draft",
+  "eyebrow": "Song 223 · Tier 2",
+  "chips": {
+    "key": "A minor",
+    "tempo": "≈96",
+    "chords": "Am G D Em"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #223 “Mother Earth is the Great Big Ship”, printed page A(43), PDF p.48, three systems; the lower part of the page scan is heavily degraded). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate-to-low — this page’s scan is among the worst of the notated pages.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #223, printed page A(43), PDF p.48 (hand-notated with chords; scan partly degraded)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

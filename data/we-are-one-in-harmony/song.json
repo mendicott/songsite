@@ -1,0 +1,19 @@
+{
+  "title": "We Are One in Harmony",
+  "rank": 28,
+  "status": "draft",
+  "eyebrow": "Rank 28 · Tier 1",
+  "chips": {
+    "key": "C major (sheet) / D mixolydian (as performed)",
+    "tempo": "≈100",
+    "chords": "G F C G (repeat throughout)"
+  },
+  "melody_note": "Encoded from Butterfly Bill's RainbowChants.pdf p.8 (bliss-fire.com) — the full song: chorus, ‘We are one’ bridge on repeated high C, and both verses. Pitches machine-checked against the staff; rhythms read by eye and are the least certain part (several syncopations and cross-system ties) — this is the most intricate sheet in the free corpus, verify carefully. The sheet notes it is performed in D mixolydian (1 sharp) on the Rainbow Spirit video, a whole step above this C-major notation.",
+  "verdict": "Verdict: pending. Pitch skeleton confidence high, rhythm confidence moderate. An audio cross-check against the Rainbow Spirit video would settle the rhythms.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs — attested (manifest incipit “singing in celebration”)",
+    "Notation": "<a href=\"http://www.bliss-fire.com/RainbowChants.pdf\" rel=\"noopener\">Butterfly Bill — Rainbow Chants, p.8</a>, saved in notation-sources/RainbowChants.pdf",
+    "Performance key": "D mixolydian on the Rainbow Spirit video (per the sheet's note)",
+    "Method": "Visual transcription + automated notehead detection → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

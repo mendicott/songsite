@@ -1,0 +1,17 @@
+{
+  "title": "Every Little Cell",
+  "rank": 29,
+  "status": "draft",
+  "eyebrow": "Song 154 · Tier 1",
+  "chips": {
+    "key": "A minor",
+    "tempo": "≈96",
+    "chords": "Am G"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation of the book’s variant, “All the Cells in My Body” (book A #154, printed page A(30), PDF p.38, two systems with a long tie into ‘I’m’). The commonly sung “Every little cell… is happy” words are a variant of this song. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Note the book variant’s words differ from the widely sung ‘happy/well’ couplet.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #154 “All the Cells in My Body”, printed page A(30), PDF p.38 (hand-notated with chords)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

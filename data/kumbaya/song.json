@@ -1,0 +1,19 @@
+{
+  "title": "Kumbaya",
+  "rank": 32,
+  "status": "draft",
+  "eyebrow": "Song 137 · Tier 1",
+  "chips": {
+    "key": "C major",
+    "tempo": "≈84",
+    "chords": "C F G7"
+  },
+  "melody_note": "Extracted from the 8notes.com piano arrangement's MIDI file (traditional; public domain tune) — exact pitches and rhythms, no eye transcription involved. This is the standard campfire/hymnal version (hymnary.org tune KUM BA YAH).",
+  "verdict": "Verdict: high confidence — machine extraction from a published MIDI of the standard tune. Check against the book's word sheet (A p.27, song #137) for the Rainbow variant if any.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #137 (printed page A 27)",
+    "Notation": "<a href=\"https://www.8notes.com/scores/22520.asp\" rel=\"noopener\">8notes.com — Kum Ba Yah (Trad.)</a>; MIDI saved as notation-sources/kumbayah_pno.mid",
+    "Tune reference": "<a href=\"https://hymnary.org/tune/kum_ba_yah\" rel=\"noopener\">hymnary.org — tune KUM BA YAH</a> (African-American spiritual, Gullah tradition)",
+    "Method": "MIDI melody extraction via music21 → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

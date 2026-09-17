@@ -1,0 +1,18 @@
+{
+  "title": "Under the Full Moon",
+  "rank": 100,
+  "status": "draft",
+  "eyebrow": "Song 155 · Tier 3",
+  "chips": {
+    "key": "E minor",
+    "tempo": "≈100",
+    "chords": "Em Bm"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #155 “Under the Full Moon Light”, printed page A(30), PDF p.38). Draft reading — verify against the book page, and confirm this is the manifest’s song (routes CSV flags ‘verify = SC song’).",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. The song is widely sung as a round (credited to Karen Beth) — an independent ear-check is possible.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #155, printed page A(30), PDF p.38 (hand-notated with chords)",
+    "Credit": "Widely credited to Karen Beth (round)",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

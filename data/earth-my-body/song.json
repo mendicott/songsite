@@ -1,0 +1,18 @@
+{
+  "title": "Earth My Body",
+  "rank": 10,
+  "status": "draft",
+  "eyebrow": "Song 240 · Tier 1",
+  "chips": {
+    "key": "E minor",
+    "tempo": "≈92",
+    "chords": "Em D"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #240, PDF p.53, one system in E minor with Em/D/Bm chord marks). Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Independent checks exist: bliss-fire RainbowChants p.1 and firecirclechants (both free, notated).",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #240, PDF p.53 (hand-notated; Spanish and German verses)",
+    "External check": "<a href=\"http://www.bliss-fire.com/RainbowChants.pdf\" rel=\"noopener\">Butterfly Bill’s RainbowChants p.1</a> · firecirclechants.com · flutopedia — double-sourced",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

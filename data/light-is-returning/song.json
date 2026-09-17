@@ -1,0 +1,18 @@
+{
+  "title": "Light Is Returning",
+  "rank": 44,
+  "status": "draft",
+  "eyebrow": "Song 151 · Tier 2",
+  "chips": {
+    "key": "C major",
+    "tempo": "≈92",
+    "chords": "C Dm Am G"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation of “Returning of the Light” (book A #151, printed page A(29), PDF p.39, three systems). IMPORTANT: the book song’s words differ from Charlie Murphy’s widely-sung “Light Is Returning” — the routes file flagged this ‘verify’, and the two may be different songs sharing a theme.",
+  "verdict": "Verdict: pending, with an identity question. Book #151 (‘Dancing, we are greeting the returning of the light…’) is not the same lyric as Charlie Murphy’s ‘Light is returning, even though this is the darkest hour’. The firecirclechants light-is-returning.pdf holds the Murphy song. Marcus to decide which one the manifest means — or whether both deserve pages.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #151 “Returning of the Light”, printed page A(29), PDF p.39 (hand-notated with chords)",
+    "External": "<a href=\"http://www.firecirclechants.com/sheetmusic/light-is-returning.pdf\" rel=\"noopener\">firecirclechants — Light Is Returning (Charlie Murphy)</a> — possibly a different song",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

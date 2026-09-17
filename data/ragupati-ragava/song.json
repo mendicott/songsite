@@ -1,0 +1,18 @@
+{
+  "title": "Ragupati Ragava (Ram Dhun)",
+  "rank": 92,
+  "status": "draft",
+  "eyebrow": "Vol. B Song 265 · Tier 3",
+  "chips": {
+    "key": "C / mishra (printed letters)",
+    "tempo": "≈100",
+    "time": "4/4"
+  },
+  "melody_note": "Encoded from the songbook’s typeset notation (book B #265, printed page B(49), PDF p.144), which prints a LETTER NAME above every note — the highest-confidence source among the book’s notated songs. Four strains encoded: two Raghupati strains, the Ishwara Krishna strain, and the Rama Rama Jaya strain.",
+  "verdict": "Verdict: pending, but confidence is higher than the hand-drawn pages because the note letters are printed in the book itself. The Ram Dhun (Gandhi’s bhajan) is also globally published for an independent check.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. B (kirtans), song #265, printed page B(49), PDF p.144 (typeset, letters above notes; 3 settings in book — this is the notated one)",
+    "Credit": "Traditional Hindu bhajan (Ram Dhun), popularized by M. K. Gandhi’s ashram",
+    "Method": "Letter-name transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

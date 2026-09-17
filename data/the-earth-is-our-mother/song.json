@@ -1,0 +1,18 @@
+{
+  "title": "The Earth Is Our Mother",
+  "rank": 17,
+  "status": "draft",
+  "eyebrow": "Song 234 · Tier 1",
+  "chips": {
+    "key": "D minor (staff) / A minor (song sheet)",
+    "tempo": "≈104",
+    "chords": "Dm C F (staff) · Am C G (sheet)"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #234, PDF p.52, two systems: hey-yana chorus then verse). Verse, chorus and sacred-ground line encoded; further verses repeat the tune. Draft reading — verify against the book page.",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. Key discrepancy between staff (Dm) and sheet (Am) is in the book itself.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #234, printed page A(47), PDF p.52 (hand-notated with chords; French verses)",
+    "Credit": "Traditional; widely sung as a Hopi-attributed round — provenance care",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

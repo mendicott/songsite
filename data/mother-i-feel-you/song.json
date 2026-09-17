@@ -1,0 +1,18 @@
+{
+  "title": "Mother I Feel You (Under My Feet)",
+  "rank": 16,
+  "status": "draft",
+  "eyebrow": "Rank 16 · Tier 1",
+  "chips": {
+    "key": "E minor",
+    "tempo": "≈100",
+    "chords": "Em Bm D"
+  },
+  "melody_note": "Encoded from Butterfly Bill's RainbowChants.pdf p.4 (bliss-fire.com) — typeset lead sheet in E minor with chords, verse + heya chorus, both repeated. Pitches cross-checked with automated notehead detection; the low B3 on the seventh “ya” of the chorus verified at 900 dpi. Verse 2: “Father I see you where the eagles fly.”",
+  "verdict": "Verdict: pending. Typeset source with machine-checked pitches; confidence high. Other notated sources: Circle of Song p.69, Songs for Earthlings p.26 (both paywalled books — not consulted).",
+  "provenance": {
+    "Songbook": "Rainbow AU songs — attested (24 corpus songbooks carry it; census score 24)",
+    "Notation": "<a href=\"http://www.bliss-fire.com/RainbowChants.pdf\" rel=\"noopener\">Butterfly Bill — Rainbow Chants, p.4</a>, saved in notation-sources/RainbowChants.pdf",
+    "Method": "Visual transcription + automated notehead detection → melody.spec.json → MusicXML/MIDI, 2026-09-17"
+  }
+}

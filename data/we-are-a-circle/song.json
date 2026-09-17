@@ -1,0 +1,19 @@
+{
+  "title": "We Are a Circle (Within a Circle)",
+  "rank": 5,
+  "status": "draft",
+  "eyebrow": "Song 12 · Tier 1",
+  "chips": {
+    "key": "D minor",
+    "tempo": "≈92",
+    "chords": "Dm C F"
+  },
+  "melody_note": "Encoded by eye from the songbook’s hand-drawn notation (book A #12, PDF p.7). Draft reading — verify against the book page. Note: the book’s #12 variant omits the “within a circle” line sung in variant #8 (PDF p.6, Am).",
+  "verdict": "Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate. An independent check exists: firecirclechants.com we-are-a-circle.pdf (downloaded to notation-sources/).",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #12, PDF p.7 (hand-notated with chords; German and French verses)",
+    "Variant": "Song #8, PDF p.6 — “We are a circle, within a circle” (Am, words and chords only)",
+    "External check": "<a href=\"http://www.firecirclechants.com/sheetmusic/we-are-a-circle.pdf\" rel=\"noopener\">Fire Circle Chants — We Are a Circle (Rick Hamouris)</a>, saved in notation-sources/",
+    "Method": "Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16"
+  }
+}

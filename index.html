@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rainbow Songbook — The Core 50</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#F2F4EF; --ink:#26302B; --muted:#5C685F; --river:#2E6E63;
+    --wood:#8A5A2B; --rule:#D8DDD2; --paper:#FBFAF4; --paper-edge:#E3E0D2;
+    --chip:#E7EBE2;
+  }
+  :root:not([data-theme="light"]){}
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#171B18; --ink:#E7E4D8; --muted:#9AA69B; --river:#6FB5A8;
+      --wood:#D9A05B; --rule:#2C332D; --paper:#F4F1E6; --paper-edge:#3A423B;
+      --chip:#232A24;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#171B18; --ink:#E7E4D8; --muted:#9AA69B; --river:#6FB5A8;
+    --wood:#D9A05B; --rule:#2C332D; --paper:#F4F1E6; --paper-edge:#3A423B;
+    --chip:#232A24;
+  }
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:"Source Serif 4", Georgia, serif;
+    line-height:1.6; font-size:17px;
+  }
+  .page{max-width:46rem; margin:0 auto; padding:2.5rem 1.25rem 4rem;}
+  .eyebrow{
+    font-family:"IBM Plex Mono", monospace; font-size:.72rem; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--river); margin:0 0 .4rem;
+  }
+  .eyebrow a{text-decoration:none;}
+  h1{
+    font-family:Fraunces, Georgia, serif; font-weight:700; font-size:2.6rem;
+    line-height:1.08; margin:0 0 1rem; text-wrap:balance;
+  }
+  .chips{display:flex; flex-wrap:wrap; gap:.5rem; margin:0 0 2rem;}
+  .chip{
+    font-family:"IBM Plex Mono", monospace; font-size:.74rem;
+    background:var(--chip); border:1px solid var(--rule); border-radius:999px;
+    padding:.25rem .7rem; white-space:nowrap;
+  }
+  .chip b{font-weight:500; color:var(--river);}
+  .chip.draft b{color:var(--wood);}
+  section{margin:0 0 2.5rem;}
+  h2{
+    font-family:"IBM Plex Mono", monospace; font-size:.78rem; font-weight:500;
+    letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
+    border-bottom:1px solid var(--rule); padding-bottom:.4rem; margin:0 0 1rem;
+  }
+  .paper{
+    background:var(--paper); border:1px solid var(--paper-edge); border-radius:4px;
+    padding:.75rem .5rem; overflow-x:auto;
+  }
+  .paper-note{font-size:.8rem; color:var(--muted); margin:.6rem 0 0;}
+  .controls{display:flex; align-items:center; gap:1rem; margin:1rem 0 0;}
+  button{
+    font-family:"IBM Plex Mono", monospace; font-size:.85rem; cursor:pointer;
+    background:var(--river); color:var(--paper); border:none; border-radius:4px;
+    padding:.55rem 1.3rem;
+  }
+  button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
+  .verses{display:grid; gap:1.5rem;}
+  .chordline{
+    font-family:"IBM Plex Mono", monospace; font-size:.8rem; font-weight:500;
+    color:var(--wood); white-space:pre; line-height:1.2; margin:0;
+  }
+  .lyric{margin:0 0 .55rem; white-space:pre-wrap;}
+  dl{display:grid; grid-template-columns:max-content 1fr; gap:.35rem 1.25rem; margin:0;}
+  dt{font-family:"IBM Plex Mono", monospace; font-size:.74rem; letter-spacing:.08em;
+     text-transform:uppercase; color:var(--muted); padding-top:.15rem;}
+  dd{margin:0;}
+  a{color:var(--river);}
+  .fit{display:flex; gap:1.5rem; flex-wrap:wrap; margin:0 0 .8rem;}
+  .fit div{min-width:8rem;}
+  .fit .num{
+    font-family:Fraunces, Georgia, serif; font-size:1.9rem; font-weight:700;
+    color:var(--river); font-variant-numeric:tabular-nums;
+  }
+  .fit .lbl{font-size:.8rem; color:var(--muted);}
+  .verdict{font-size:.9rem; color:var(--muted); margin:0;}
+  footer{border-top:1px solid var(--rule); padding-top:1rem; font-size:.82rem; color:var(--muted);}
+  table{border-collapse:collapse; width:100%; font-size:.95rem;}
+  td,th{padding:.45rem .6rem; border-bottom:1px solid var(--rule); text-align:left;}
+  th{font-family:"IBM Plex Mono", monospace; font-size:.72rem; font-weight:500;
+     color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
+  tr.built td{background:var(--paper); color:#26302B;}
+  tr.built td a{color:var(--river);}
+  .flag{
+    font-family:"IBM Plex Mono", monospace; font-size:.68rem; letter-spacing:.05em;
+    color:var(--wood); border:1px solid var(--rule); border-radius:999px;
+    padding:.1rem .5rem; margin-left:.4rem; white-space:nowrap;
+  }
+  @media (prefers-reduced-motion: reduce){ *{transition:none!important;} }
+</style>
+</head><body>
+<div class="page">
+  <p class="eyebrow"><a href="https://sites.google.com/view/aworldmadeofrainbows">A World Made of Rainbows</a> · Rainbow Songbook</p>
+  <h1>The Core 50, Song by Song</h1>
+  <p>The songbooks preserve the words and chords; the melodies are the endangered
+  part. These pages restore verified staff notation, one song at a time.
+  A census across 46 independent songbooks, the community archives, and the
+  recorded evidence confirmed every song in the top 50 — the project&rsquo;s
+  working focus. <b>30</b> of 50 core pages built so far.</p>
+  <table>
+  <tr><th>#</th><th>Song</th><th>Melody route</th><th>Status</th></tr>
+  <tr class="built"><td>1</td><td><a href="we-are-circling/index.html">We Are Circling</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr><td>2</td><td>May the Circle Be Open (Merry Meet)</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr class="built"><td>3</td><td><a href="thank-you-for-the-food/index.html">Thank You for the Food</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>4</td><td><a href="here-we-are-once-again/index.html">Here We Are (Once Again)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>5</td><td><a href="we-are-a-circle/index.html">We Are a Circle (Within a Circle)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>6</td><td>Magic Hat</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>7</td><td>I Am a Circle</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>8</td><td><a href="welcome-home/index.html">Welcome Home</a></td><td>AUDIO</td><td>draft</td></tr>
+  <tr class="built"><td>9</td><td><a href="may-the-love/index.html">May the Love (We&#x27;re Sharing)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>10</td><td><a href="earth-my-body/index.html">Earth My Body</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>11</td><td><a href="earth-water-fire-air/index.html">The Earth the Water the Fire the Air</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>12</td><td>Fly Like the Wind</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>13</td><td><a href="we-all-come-from-the-goddess/index.html">We All Come from the Goddess</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>14</td><td><a href="hoof-and-horn/index.html">Hoof and Horn</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr class="built"><td>15</td><td><a href="the-river-is-flowing/index.html">The River Is Flowing</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>16</td><td><a href="mother-i-feel-you/index.html">Mother I Feel You (Under My Feet)</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr class="built"><td>17</td><td><a href="the-earth-is-our-mother/index.html">The Earth Is Our Mother</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>18</td><td>Ancient Mother</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>19</td><td>Isis Astarte Diana Hecate</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>20</td><td>Cauldron of Changes</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>21</td><td><a href="we-are-the-power/index.html">We Are the Power (in Everyone)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>22</td><td>Air Moves Us (Elements Chant)</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr class="built"><td>23</td><td><a href="fly-like-an-eagle/index.html">Fly Like an Eagle</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>24</td><td><a href="circle-around/index.html">Circle Around (We Circle Around)</a></td><td>AUDIO</td><td>draft</td></tr>
+  <tr><td>25</td><td>Oh Great Spirit</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>26</td><td>Tall Trees Warm Fire (Strong Wind)</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>27</td><td><a href="we-are-opening-up/index.html">We Are Opening Up (in Sweet Surrender)</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr class="built"><td>28</td><td><a href="we-are-one-in-harmony/index.html">We Are One in Harmony</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr class="built"><td>29</td><td><a href="every-little-cell/index.html">Every Little Cell</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>30</td><td><a href="i-am-a-gypsy/index.html">I Am a Gypsy</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>31</td><td>Dance Gypsies Dance</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>32</td><td><a href="kumbaya/index.html">Kumbaya</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr class="built"><td>33</td><td><a href="down-to-the-river/index.html">Down to the River (to Pray)</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr class="built"><td>34</td><td><a href="witchi-tai-to/index.html">Witchi Tai To</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>35</td><td>White Buffalo Woman</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>36</td><td>Hey Yona</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>37</td><td>Hey Niketi</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>38</td><td><a href="building-bridges/index.html">Building Bridges</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>39</td><td><a href="one-planet-is-turning/index.html">One Planet Is Turning</a></td><td>EXTERNAL</td><td>draft</td></tr>
+  <tr><td>40</td><td>May the Long Time Sun Shine</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>41</td><td>May the Road Rise (With You)</td><td>EXTERNAL-VERIFY</td><td>queued</td></tr>
+  <tr class="built"><td>42</td><td><a href="return-again/index.html">Return Again</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>43</td><td>How Could Anyone</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr class="built"><td>44</td><td><a href="light-is-returning/index.html">Light Is Returning</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>45</td><td>Humble (Yourself)</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>46</td><td><a href="every-part-of-the-earth/index.html">Every Part of the Earth</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>47</td><td>We Are One in the Spirit</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>48</td><td>Pacha Mama</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>49</td><td><a href="truth-simplicity-and-love/index.html">Truth Simplicity and Love</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>50</td><td><a href="listen-listen-listen/index.html">Listen Listen Listen</a></td><td>BOOK</td><td>draft</td></tr>
+  </table>
+
+  <h2 style="margin-top:3rem">The extended list — 51&ndash;100</h2>
+  <p>Kept for the record, worked on as time allows. Songs the validation could
+  not corroborate outside the primary songbook are marked.
+  <b>7</b> of 50 pages built.</p>
+  <table>
+  <tr><th>#</th><th>Song</th><th>Melody route</th><th>Status</th></tr>
+  <tr><td>51</td><td>Door of My Heart</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>52</td><td>Rainbow Country</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>53</td><td>Walk Along the Rainbow Trail <span class="flag">unverified</span></td><td>MEMORY</td><td>queued</td></tr>
+  <tr><td>54</td><td>I See the Crystal Rainbow <span class="flag">unverified</span></td><td>MEMORY</td><td>queued</td></tr>
+  <tr><td>55</td><td>Rainbow Around the Moon</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>56</td><td>Give Thanks to the Mother</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>57</td><td>Music Is the Key <span class="flag">thin</span></td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>58</td><td>Our Love Is Taking Us Higher <span class="flag">thin</span></td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>59</td><td>Sun Liberates from Grey Clouds <span class="flag">unverified</span></td><td>MEMORY</td><td>queued</td></tr>
+  <tr class="built"><td>60</td><td><a href="round-and-round/index.html">Round and Round (the Earth Is Turning)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>61</td><td>We Are the Flow We Are the Ebb</td><td>BOOK</td><td>queued</td></tr>
+  <tr><td>62</td><td>She&#x27;s Been Waiting</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>63</td><td>A Rainbow Sings Within My Heart</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>64</td><td><a href="deep-inside-my-heart/index.html">Deep Inside (My Heart)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>65</td><td>Trees Grow Tall</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>66</td><td>O Round Mother Earth</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>67</td><td><a href="mother-earth-great-ship/index.html">Mother Earth Is a Great Big Ship (Great Ship)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>68</td><td>Spirit of the Water Place</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>69</td><td>The Rocks the Stones and the Crystals</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>70</td><td>I Honour Your Body Earth Mother</td><td>EXTERNAL-VERIFY</td><td>queued</td></tr>
+  <tr><td>71</td><td>We Will Raise Our Songs Again</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>72</td><td>Fire Child (Light&#x27;s Streaming)</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>73</td><td>I Am a Tower of Strength</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>74</td><td>Doors Opening</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>75</td><td><a href="our-magic/index.html">Our Magic (Is Our Give-Away)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>76</td><td>Jingo-lo-ba</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>77</td><td>Umojah He <span class="flag">unverified</span></td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>78</td><td>Kunga Alafaya (Ashe Ashe)</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>79</td><td>Ayinde O <span class="flag">unverified</span></td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>80</td><td>Kuwate Leno Leno (Maote)</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>81</td><td>Jaj Devla <span class="flag">plausible</span></td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>82</td><td>Wakan Tanka / Tunkashila chants</td><td>EXTERNAL-CARE</td><td>queued</td></tr>
+  <tr><td>83</td><td>Otshi Mata <span class="flag">unverified</span></td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>84</td><td>Ide Were</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>85</td><td>Guate</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>86</td><td>Akatumbale</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>87</td><td>Ho&#x27;oponopono</td><td>EXTERNAL-VERIFY</td><td>queued</td></tr>
+  <tr><td>88</td><td>Sat Nam</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>89</td><td>Om Shiva Om</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>90</td><td>Jay Ma</td><td>EXTERNAL</td><td>queued</td></tr>
+  <tr><td>91</td><td>Shakti Jay</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>92</td><td><a href="ragupati-ragava/index.html">Ragupati Ragava (Ram Dhun)</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr><td>93</td><td>Lead Us (Om Asato Ma)</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>94</td><td>Jewel in the Lotus Flower</td><td>BOOK-VERIFY</td><td>queued</td></tr>
+  <tr><td>95</td><td>Jah Rastafarai</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>96</td><td>Celestial Heart</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>97</td><td>Angel Heart</td><td>AUDIO</td><td>queued</td></tr>
+  <tr><td>98</td><td>Child of the Universe</td><td>AUDIO</td><td>queued</td></tr>
+  <tr class="built"><td>99</td><td><a href="dear-friends/index.html">Dear Friends</a></td><td>BOOK</td><td>draft</td></tr>
+  <tr class="built"><td>100</td><td><a href="under-the-full-moon/index.html">Under the Full Moon</a></td><td>BOOK</td><td>draft</td></tr>
+  </table>
+  <footer style="margin-top:3rem">Generated from per-song data folders · fit
+  scores measure how well the transcribed melody conforms to the songbook words
+  and chords · validation verdicts from the 2026 three-step census
+  (songbook corpus → community archives → recordings).</footer>
+</div>
+</body></html>
