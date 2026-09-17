@@ -1,0 +1,583 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Rainbow Songbook Shelf</title>
+<style>
+:root{
+  --paper:#faf8f4; --ink:#2b2733; --ink-soft:#5e5870; --line:#e3ddd2;
+  --card:#ffffff; --accent:#5b4a9e; --accent-soft:#efeaf8; --chip:#f1ede5;
+  --flag-note:#1d6b4f; --flag-note-bg:#e2f2ea; --flag-scan:#8a5a1f; --flag-scan-bg:#f6ecdc;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#181521; --ink:#e8e4f0; --ink-soft:#a49cbb; --line:#332e42;
+    --card:#211d2e; --accent:#a795e8; --accent-soft:#2c2544; --chip:#2a2637;
+    --flag-note:#7fd0ab; --flag-note-bg:#1d3529; --flag-scan:#e0b276; --flag-scan-bg:#3a2d1b;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#181521; --ink:#e8e4f0; --ink-soft:#a49cbb; --line:#332e42;
+  --card:#211d2e; --accent:#a795e8; --accent-soft:#2c2544; --chip:#2a2637;
+  --flag-note:#7fd0ab; --flag-note-bg:#1d3529; --flag-scan:#e0b276; --flag-scan-bg:#3a2d1b;
+}
+body{background:var(--paper); color:var(--ink); font-family:"Alegreya Sans",system-ui,sans-serif;
+  font-size:16.5px; line-height:1.55; margin:0; padding:0 20px;}
+.wrap{max-width:1060px; margin:0 auto; padding-block:34px 60px;}
+header.masthead{margin-bottom:6px;}
+h1{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:clamp(30px,5vw,44px);
+  margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance;}
+.spectrum{height:4px; border-radius:2px; margin:14px 0 18px; background:linear-gradient(90deg,#c9503e,#d98a2b,#c9b02e,#4d8f5b,#3d7fa6,#5b4a9e,#8e5a9e);}
+.lede{color:var(--ink-soft); max-width:68ch; margin:0 0 10px;}
+.lede b{color:var(--ink);}
+.filters{display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 26px;}
+.filters button{font:inherit; font-size:14px; padding:5px 13px; border-radius:99px;
+  border:1px solid var(--line); background:var(--chip); color:var(--ink-soft); cursor:pointer;}
+.filters button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff;}
+:root[data-theme="dark"] .filters button[aria-pressed="true"]{color:#171422;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .filters button[aria-pressed="true"]{color:#171422;}}
+.filters button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.grid{display:flex; flex-direction:column; gap:18px;}
+article.book{display:flex; gap:20px; background:var(--card); border:1px solid var(--line);
+  border-radius:10px; padding:18px;}
+.cover{flex:0 0 138px;}
+.cover img{width:138px; height:186px; object-fit:cover; object-position:top;
+  border:1px solid var(--line); border-radius:4px; background:#fff; display:block;}
+.body{min-width:0;}
+h2.fname{font-family:ui-monospace,"Cascadia Code",Consolas,monospace; font-size:15.5px;
+  font-weight:600; margin:0 0 2px; word-break:break-word; color:var(--accent);}
+.meta{font-size:13px; color:var(--ink-soft); margin:0 0 8px; display:flex; flex-wrap:wrap; gap:4px 14px;}
+.meta .fam{color:var(--ink); background:var(--accent-soft); border-radius:4px; padding:0 7px;}
+.meta .flag-note{color:var(--flag-note); background:var(--flag-note-bg); border-radius:4px; padding:0 7px; font-weight:600;}
+.meta .flag-scan{color:var(--flag-scan); background:var(--flag-scan-bg); border-radius:4px; padding:0 7px;}
+.book p{margin:0; max-width:72ch;}
+.book p b{font-weight:600;}
+.count{font-size:14px; color:var(--ink-soft); margin:0 0 14px;}
+footer{margin-top:44px; font-size:13.5px; color:var(--ink-soft); border-top:1px solid var(--line); padding-top:14px; max-width:72ch;}
+@media (max-width:560px){
+  article.book{flex-direction:column;}
+  .cover img{width:120px; height:162px;}
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+
+<div class="wrap">
+<header class="masthead">
+  <h1>Rainbow Songbook Shelf</h1>
+  <div class="spectrum"></div>
+  <p class="lede">The consolidated <b>RainbowSongBooks</b> archive: <b>49 independent PDF songbooks</b> gathered from Rainbow Gatherings, singing circles, medicine ceremonies, kirtans and ashrams worldwide, plus <b>3 superseded editions</b> quarantined in <span style="font-family:ui-monospace,Consolas,monospace">superseded\</span> (deduplicated 2026-09-16 and -17). Each entry shows the exact file name, a title-page crop, and a short review. Two discoveries from this survey: <b>Rainbow Songbook With Notes.pdf</b> and <b>songbook.pdf</b> both contain hand-inked staff notation, and <b>rainbow songbook (2).pdf</b> is an alternate scan of the project's primary source, <i>Rainbow AU songs.pdf</i>.</p>
+</header>
+
+<div class="filters" id="filters" role="group" aria-label="Filter by family">
+  <button data-f="all" aria-pressed="true">All 52</button>
+  <button data-f="rainbow" aria-pressed="false">Rainbow &amp; circle</button>
+  <button data-f="kirtan" aria-pressed="false">Kirtan &amp; mantra</button>
+  <button data-f="medicine" aria-pressed="false">Medicine &amp; icaros</button>
+  <button data-f="regional" aria-pressed="false">Regional &amp; other traditions</button>
+  <button data-f="notation" aria-pressed="false">Has melody notation</button>
+  <button data-f="scan" aria-pressed="false">Image-only scan</button>
+</div>
+<p class="count" id="count"></p>
+
+<div class="grid" id="grid">
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/alli-ruhi-songs-of-the-rainbow.jpg" alt="Cover of Alli Ruhi - Songs of the Rainbow" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Alli Ruhi- Songs of the Rainbow.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>282 pages</span><span>3.2 MB</span></p>
+    <p>One of the largest and best-organized Rainbow collections in the archive: one song per page with lyrics, chord letters and rhythm-slash patterns beneath. It opens with Rumi's "Come, come, whoever you are" and ranges across circle standards, pagan chants (May the Circle Be Open), Andean and Spanish medicine songs (Cuñaq), and a long run of Hindu bhajans and aartis. The clean text layer makes it excellent for searching, and the chord-plus-rhythm format is unusually performance-ready. It appears to be the text twin of the illustrated scan filed as <i>Rainbow songs and prays.pdf</i>, which shares its cover art.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/aolbhajans.jpg" alt="Cover of Art of Living Bhajans" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">aolbhajans.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>68 pages</span><span>0.1 MB</span></p>
+    <p>A tidy Word-typeset collection of Art of Living satsang bhajans in the tradition of Sri Sri Ravi Shankar, with a full table of contents and — its most useful feature — multiple chord arrangements ("Ver 1", "Ver 2") for many chants, showing how the same bhajan is harmonized differently in practice. The repertoire is purely Hindu devotional (Om Namah Shivaya, Devi bhajans, guru songs) with essentially no Rainbow-specific material, but it is a solid cross-reference for the mantra half of the corpus.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/ayahuasca-wasi-song-book.jpg" alt="Cover of Ayahuasca-Wasi song book" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">superseded\Ayahuasca-Wasi song book.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span class="flag-scan">Superseded edition</span><span>216 pages</span><span>4.1 MB</span></p>
+    <p>Diego Palma's Ayahuasca-Wasi ceremony book (version 14.05.23 from sacredvalleytribe.com): medicine songs, mantras, icaros and a-cappella songs, indexed by language with capo position and key for every entry — a professional touch few books in the archive match. Attributions name the composers (Shimshai, Alonso del Río, Jarah Tree, Darpan), which makes it valuable for rights research as well as repertoire. This is an earlier edition of the collection whose 15.02.07 revision is filed as <i>Icaros.pdf</i>.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/booklet-songs-from-the-heart-canciones-del-corazon.jpg" alt="Cover of Songs from the Heart booklet" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Booklet Songs from the Heart - Canciones del Corazon.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>38 pages</span><span>1.0 MB</span></p>
+    <p>A charming DIY booklet by the Finnish traveler-musician Se Misha, complete with printing-and-folding instructions so you can bind your own copy. The songs mix English circle standards (With These Hands, Kuate Leno Leno), Brazilian Yemanjá songs, Sanskrit chants and a few Finnish touches, with chords listed at line ends in the compiler's own idiosyncratic system. Warm, personal, and clearly assembled from songs actually carried around the road-family circuit; a shorter Spanish-leaning sibling is filed as <i>Spanish Songs.pdf</i>.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/canciones.jpg" alt="First page of Canciones" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Canciones.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span>11 pages</span><span>0.2 MB</span></p>
+    <p>An eleven-page cheat sheet that packs a remarkable amount in: alphabetized songs with inline chords, running from medicine standards (Ábrete Corazón, Above and Below) through Nick Barber's Celestial Heart to campfire reggae (Jammin') and What a Wonderful World. There is no title page, index or commentary — it reads like one guitarist's personal setlist compressed for printing. Useful precisely because it is a snapshot of what one circle actually sings, rather than an aspirational anthology.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/ciranda-poimpoim.jpg" alt="Cover of Ciranda PoimPoim" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Ciranda PoimPoim.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>234 pages</span><span>2.8 MB</span></p>
+    <p>A Brazilian ciranda hymnal from Angel Heart Publishing: numbered Portuguese devotional hymns in the Santo Daime style (Firmeza, prayers to Jesus, Maria and the forest), presented as clean lyrics without chords. The opening pages are decorative images, but the body has a good text layer. It documents the Brazilian hinário tradition that flows into European ciranda circles, and pairs naturally with the two Ibiza volumes; for the melody project it is lyrics-only reference material.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/elf-songbook.jpg" alt="First page of Elf Songbook" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Elf Songbook.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>48 pages</span><span>0.3 MB</span></p>
+    <p>The text edition of the ELF Spiritual Songbook: over ninety numbered chants, opening with the traditional Ganesha invocations and moving through Shiva, Devi and Sufi/Hebrew material (Ishq Allah, Od Yavo Shalom), each with chord letters and an English translation of the Sanskrit. A closing page explains the compiler's chord conventions (lowercase for minor, markers for repeated progressions). Dense and unglamorous, but one of the most complete kirtan references in the archive — and searchable, unlike its scanned sibling below.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan scan">
+  <div class="cover"><img src="covers/elf-spiritual-songbook-vol-one-compiled-arranged-by-baba-chris.jpg" alt="Cover of Elf Spiritual Songbook Volume One" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Elf_Spiritual_Songbook_Vol_One_Compiled_Arranged_by_Baba_Chris.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-scan">Image-only scan</span><span>44 pages</span><span>31.5 MB</span></p>
+    <p>The original photocopied zine behind <i>Elf Songbook.pdf</i>: a scan of the spiral-bound "Elf Spiritual Songbook, Volume One" compiled and arranged by Baba Chris, with a collaged deity-and-devotee cover straight from the ashram photocopier. Inside are the same numbered chants in typewritten pages decorated with calligraphy and Islamic and Hindu ornaments. There is no text layer, so it can't be searched, but as an artifact it preserves the look and feel of a real hand-assembled gathering songbook better than almost anything else on this shelf.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/french-song-book.jpg" alt="Cover of Cercles de chants" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">french song book.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>109 pages</span><span>4.3 MB</span></p>
+    <p>"Cercles de chants, Volume 1" (cerclesdechants.weebly.com) in its "version pour instrumentiste" — a French singing-circle book of about 154 numbered songs with chords. The mix is a faithful picture of a francophone circle: Rainbow standards (The River Is Flowing, We Are Opening Up, We Are One in Harmony), Sikh and Hindu mantras, Yoruba chants (Idé Weré), and genuinely French material (A tous mes frères, Prière pour l'eau) that appears nowhere else in the archive. Well-typeset and fully searchable; one of the better European compilations.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/ibiza-05-sagrada-2017-web.jpg" alt="Cover of Ibiza Sagrada 2017" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">IBIZA_05_SAGRADA_2017_web.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>248 pages</span><span>2.0 MB</span></p>
+    <p>"Sagrada Ibiza — Songs &amp; Mantras 2017", the later and more polished of the two Ibiza ciranda books, dedicated "to the family of eagle and condor... the medicine bearers &amp; music makers." Nearly 250 pages of songs with chords spanning Portuguese cirandas, English heart songs, French rounds and mantras, professionally laid out one song per page. Together with <i>IBIZA_CIRANDA.pdf</i> it documents the Ibiza medicine-music scene; the 2017 volume has the cleaner typography of the pair.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/ibiza-ciranda.jpg" alt="Cover of Ibiza Ciranda 2015" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">IBIZA_CIRANDA.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>380 pages</span><span>5.7 MB</span></p>
+    <p>The 2015 Ibiza "Ciranda — Songs &amp; Mantras with chords", at 380 pages the second-largest book in the archive. It gathers the international ciranda repertoire — Brazilian hymns, mantras with meter markings (a 2/4 "Om Shiva Om / Shiva Hear My Call" in Dm, for instance), and heart songs — with chords and time signatures noted per song. The sheer breadth makes it a strong census source: many songs from the top-100 manifest turn up here in variant forms. Its 2017 successor is filed as <i>IBIZA_05_SAGRADA_2017_web.pdf</i>.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/icaros.jpg" alt="Cover of Icaros" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Icaros.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span>227 pages</span><span>5.1 MB</span></p>
+    <p>The revised edition (v15.02.07) of Diego Palma's Ayahuasca-Wasi collection, expanded by a dozen songs over the version filed as <i>Ayahuasca-Wasi song book.pdf</i>. Everything that makes the earlier book good is here and slightly better: language-sorted indexes with capo and key for each song, composer attributions, and clean one-song-per-page layout with chord letters beside each line. Between the two, this is the copy to consult; the earlier one is worth keeping only to track how the repertoire evolved.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/mahadevi-ashram-bhajans-mantras-booklet.jpg" alt="Cover of Mahadevi Ashram booklet" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Mahadevi-Ashram-Bhajans&amp;Mantras-Booklet.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>16 pages</span><span>0.8 MB</span></p>
+    <p>A graceful sixteen-page booklet from Mahadevi Ashram ("Love · Evolve · Awaken"), containing about sixty numbered bhajans and mantras with lowercase-minor chord letters and unusually good English translations — the Sanskrit invocations are rendered with real care rather than boilerplate. It opens with a full Devi invocation and closes with the traditional Sanskrit peace prayers, translated. Small but dense, and the most elegant of the pure-kirtan booklets in the archive.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/mantra-sammlung-rafael.jpg" alt="First page of Mantra Sammlung Rafael" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Mantra_Sammlung_Rafael.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>77 pages</span><span>1.2 MB</span></p>
+    <p>Rafael's German mantra collection: 79 pages of chants with capo positions, chords, and — its distinguishing feature — a short German explanation of each mantra's meaning and deity beneath the text. Beyond the Sanskrit core it wanders pleasantly into Hawaiian (He Kehau), Arabic (Mash'Allah) and English territory, including Rainbow standards like Above and Below and the Nahko-style Great Spirit. A good example of the German singing-circle tradition of annotating rather than just transcribing.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/mantra-s-rainbow-songs-iris-1.jpg" alt="First page of Mantras and rainbow songs by Iris" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Mantra_s_rainbow_songs_iris-1.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>10 pages</span><span>0.1 MB</span></p>
+    <p>A Dutch compiler's personal sheet titled "Mantra's – Rainbow – shaman songs – Hollandse Gouwe Ouwe" ("Dutch golden oldies"): 54 numbered items mixing Sanskrit mantras with Dutch glosses, Rainbow circle songs (We Are Opening Up, One in Harmony), Spanish gratitude songs, and a few purely Dutch originals like the hummingbird song "Kolibrie". The Gayatri mantra even gets a syllable-by-syllable esoteric exegesis in Dutch. Slight in size but a genuine document of how the repertoire is localized in the Netherlands.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/mastermantra-v1-0.jpg" alt="First page of MasterMantra" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">MasterMantra_v1.0.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>128 pages</span><span>2.1 MB</span></p>
+    <p>A large-print song-leader's book: one chant per page in big type with chords above the syllables and an "(all sing together)" cue under each title, clearly designed to be read across a circle or projected. Attributions are unusually consistent — Thai Circus, Yopi Jay, Deva Premal &amp; Miten, Peia — which makes it handy for tracing who wrote the melodies the circles sing. The repertoire leans kirtan (Hey Ganga Ma, Jay Ma, Om Namo Narayanaya) with some English heart songs. Version 1.0 of what was evidently meant to be a living document.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/medicine-songbook-english.jpg" alt="Cover of Sacred Valley Tribe Songbook English" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">superseded\medicine_songbook-english.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span class="flag-scan">Superseded edition</span><span>130 pages</span><span>2.2 MB</span></p>
+    <p>The Sacred Valley Tribe "Songbook ENGLISH" v16.04 by Diego Palma — an earlier edition of the English volume whose v19.09 revision is filed as <i>sacred valley2 song book english.pdf</i>. The format is the series' best feature: every song gets capo position, chords aligned to lyric syllables, and a rhythm pattern spelled out phonetically ("tumchá • tumchá takitúm"), with occasional notes on a song's origin such as the Metta Bhavana prayer behind "May All Beings". Superseded by v19.09 but useful for tracking which songs entered the canon when.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/new-song-book.jpg" alt="First page of new song book" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">new song book.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>25 pages</span><span>1.0 MB</span></p>
+    <p>A German-made Rainbow book with the most practical table of contents in the archive: songs are grouped "Good for Foodcircle" and "Good for Magic Hat" — organized by gathering ritual rather than by tradition. The Rainbow section (I Am Here to Release All of My Fears, How Could Anyone, Fire Sacred Fire) is followed by Sanskrit mantras sorted by deity energy with a short explanation of Hinduism, and it closes with the compiler's own songs, including a Chinese poem set to chords. (Its content-identical twin, formerly filed as <i>rainbow medicine songboko.pdf</i>, was removed 2026-09-17.)</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/rainbow-caravan.jpg" alt="First page of Rainbow Caravan" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Rainbow Caravan.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>225 pages</span><span>7.3 MB</span></p>
+    <p>Compiled by ChuCha Rucha, this is the songbook of the Nomadic Rainbow Caravans: 325+ numbered songs "sung at the countless Rainbow Gatherings around the world since 1972," indexed by language and theme, with chords and English translations for the Spanish material. It is one of the highest-value books for the Core 50 — She's Been Waiting, One Planet Is Turning, May the Circle Be Open and many more appear here — and its closing "Nomads" section (I'm a Nomad) is unique caravan culture found nowhere else. A generous, sprawling, essential collection.
+
+</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/rainbow-kirtan.jpg" alt="First page of Rainbow Kirtan chant book" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Rainbow Kirtan.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>32 pages</span><span>0.5 MB</span></p>
+    <p>The "Rainbow Kirtan Bhajan Mantra Heartsong Chant Book" (version 2014-01-12, compiler bkinsey), notable as one of the few explicitly licensed books in the archive — CC BY-NC-SA, stamped on every page. It is lyrics-only but cleverly indexed: an alphabetical contents plus thematic groupings (all the Krishna chants, all the Hanuman chants, Great Spirit songs) and even a word-level index at the back. Already mined by the project — a copy lives in notation-sources — it remains the best quick lookup for whether a chant belongs to the Rainbow kirtan canon.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/rainbow-parody-songs.jpg" alt="Cover of The Alternative Rainbow Songbook" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Rainbow Parody songs.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>84 pages</span><span>0.3 MB</span></p>
+    <p>"The Alternative Rainbow Songbook", 2nd edition, by the travel writer Tom Thumb — the archive's only comedy volume. The introduction is a small essay on learning to love the Rainbow by laughing at it ("God is a comedian, playing to an audience too afraid to laugh"), followed by affectionate parodies of the very songs the rest of this shelf takes seriously. Zero value for melody reconstruction, since the tunes are the originals, but real value as cultural commentary — and as proof that the standards were so universally known they could be parodied.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow scan notation">
+  <div class="cover"><img src="covers/rainbow-songbook-2.jpg" alt="First page of rainbow songbook (2)" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">rainbow songbook (2).pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-note">Staff notation</span><span class="flag-scan">Image-only scan</span><span>162 pages</span><span>28.9 MB</span></p>
+    <p><b>This is an alternate scan of the project's primary source.</b> Its 162 pages and handwritten index — with the telltale "(p.) et (part)" partition markers and French titles like "Paix amour et lumière" — match <i>Rainbow AU songs.pdf</i>, the two-volume French-compiled book the whole melody-reconstruction effort is built on. That makes this file quietly one of the most important on the shelf: where the primary scan is blurry or clipped by the booklet imposition, this second copy may be legible. It has no text layer, but every notation page in the primary book exists here too. Worth a systematic side-by-side pass.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow scan notation">
+  <div class="cover"><img src="covers/rainbow-songbook-with-notes.jpg" alt="First page of Rainbow Songbook With Notes" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Rainbow Songbook With Notes.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-note">Staff notation</span><span class="flag-scan">Image-only scan</span><span>53 pages</span><span>6.9 MB</span></p>
+    <p><b>A notation goldmine.</b> Internally titled "minirainbowsongs", this scan delivers exactly what its file name promises: hand-inked staff notation, with chord letters and lyrics under the notes, for Rainbow standards — Fly Like an Eagle, We Are the Power in Everyone and more, in a confident calligraphic hand. In an archive where 47 of 55 books are words-and-chords only, actual melodies are the scarce resource, and this book has them on page after page. No text layer, so it must be read by eye, but it belongs at the front of the queue for cross-checking the Core 50 encodes.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow scan">
+  <div class="cover"><img src="covers/rainbow-songs-and-prays.jpg" alt="Cover of Rainbow songs and prays" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Rainbow songs and prays.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-scan">Image-only scan</span><span>340 pages</span><span>34.0 MB</span></p>
+    <p>The largest file in the archive: a 340-page illustrated scan opening with the same psychedelic colored-pencil cover as <i>Alli Ruhi- Songs of the Rainbow.pdf</i> — this appears to be the full art-and-layout edition of that collection. Inside, songs are beautifully typeset with small chord letters floated above the syllables, organized into language sections marked by margin icons (the Hebrew section includes Im Betoch Ha'esh and Nuach with translations and singing notes). No text layer, so the searchable Alli Ruhi file is the working copy — but this is the definitive visual edition of the book, and the chord-over-syllable placement is more precise here.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/rainbow-spirit-songs.jpg" alt="First page of Rainbow Spirit songs" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Rainbow Spirit songs.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>6 pages</span><span>0.7 MB</span></p>
+    <p>The lyric sheet for "Rainbow Spirit: Twenty-Seven Songs and Chants Celebrating the Spirit of the Rainbow Family of Living Light" — the 1998 Conscious Wave video whose audio circulated free as MP3s, laid out for PDF by Allen Butcher of the Denver chant circles. Only six pages, but historically significant: these 27 songs were, in effect, a canonized 1998 snapshot of the core Rainbow repertoire, with recordings to match. (A pixel-identical duplicate, formerly filed as <i>Rainbow songbook.pdf</i>, was removed from the archive 2026-09-17.)</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow scan">
+  <div class="cover"><img src="covers/rainbow-rising-spirit-of-the-rainbows.jpg" alt="Cover of Rainbow Rising" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">rainbow-rising-spirit-of-the-rainbows.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-scan">Image-only scan</span><span>64 pages</span><span>27.7 MB</span></p>
+    <p>Less a songbook than a scanned zine: "Rainbow Rising — Spirit of the Rainbows" mixes sepia photographs of beach circles and winged dancers, hand-drawn illustration, and short essays — including "Surround Sound: the power of music and song," a genuinely articulate statement of why Rainbow culture sings ("we lost our song, being taught that music is just for professionals"). Songs appear as hand-lettered lyrics with chord letters woven into the artwork. Thin on transcribable repertoire but rich as context; it is the book on this shelf that best explains what all the other books are <i>for</i>.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/sacred-valley1-spanish-and-other.jpg" alt="Cover of Sacred Valley Tribe Songbook Espanol" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Sacred valley1 spanish and other.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span>179 pages</span><span>6.7 MB</span></p>
+    <p>Diego Palma's Sacred Valley Tribe "Songbook ESPAÑOL &amp; OTROS" v17.07: the Spanish-language volume of the series, from A Li Kuni and Ábrete Corazón through Cuñaq to the wistful closing "Paula". The house format — capo, syllable-aligned chords, phonetic rhythm patterns — is applied to the whole Andean and Amazonian repertoire, and asterisks mark songs added in this revision. (An identical copy, formerly filed as <i>Songbook-ESPANOL.pdf</i>, was removed 2026-09-17.)</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/sacred-valley2-song-book-english.jpg" alt="Cover of Sacred Valley Tribe Songbook English v19" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">sacred valley2 song book english.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span>152 pages</span><span>6.5 MB</span></p>
+    <p>The newest English volume in the archive's Sacred Valley Tribe set (v19.09), superseding the v16.04 copy filed as <i>medicine_songbook-english.pdf</i> with about twenty added songs, marked by asterisks in the index (Ancient Mother II, Breath of Life, Give Praise to the Sun). Relevant to the Core 50 rights questions: it prints "Long Time Sun" credited as an original by Melita rather than the Incredible String Band lineage, an attribution worth noting in the provenance file. As throughout the series, chords, capo and rhythm patterns are exact; melodies are not notated.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/sacred-valley3-mantras.jpg" alt="Cover of Sacred Valley Tribe Songbook Mantras v19" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">sacred valley3 mantras.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>137 pages</span><span>4.4 MB</span></p>
+    <p>The v19.09 MANTRAS volume of the Sacred Valley Tribe series — the current edition of the book whose v17.07 printing is filed as <i>Songbook-MANTRAS.pdf</i>. Where most mantra books give one version per chant, Palma's index lists variants by melody source: three different Hare Krishnas (Alonso, Lakshmi, Maneesh), two Asato Maas (Claire, Deva), two Green Taras. That variant-consciousness is exactly the mindset of the melody-reconstruction project, making this the most methodologically sympathetic mantra book on the shelf. Closes with a Yogi Bhajan quote on gratitude.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-full.jpg" alt="Title page of Shanti Salish Kirtan Chantbook" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Full ©.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>97 pages</span><span>0.7 MB</span></p>
+    <p>Natavar Knudsen's ©2020 chantbook, the master volume of the seven-file Shanti Salish set, and the archive's most unusual notation system: every chant is written as letter-name melody sequences aligned over the syllables, with the drone note specified and a link to the source recording (Krishna Das, Kripalu, Deva Premal, Jai Uttal) for each. It is, in effect, machine-readable melodic contour without staff notation — pitch classes but no rhythm. For any kirtan in the manifest, this book can seed a melody spec that the recording then confirms. The six companion files below split the same material by deity.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-ganesh-2020.jpg" alt="First page of Shanti Salish Ganesh volume" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Ganesh  ©2020.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>14 pages</span><span>0.3 MB</span></p>
+    <p>The Ganesha fascicle of the Shanti Salish set, opening with a well-written page on who Ganesha is and why kirtans traditionally begin with him, then giving a dozen-plus Ganesha chants (Ganesha Sharanam, Om Gam Ganapataye in many settings) in the letter-note-over-syllable system with drones and source-recording links for each — Kripalu recordings, Dave Stringer, Edo &amp; Jo, MC Yogi. The deity essay plus multiple melodic settings of the same mantra text makes this little booklet a model of how variant melodies should be documented.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-guru-other-2020.jpg" alt="First page of Shanti Salish Guru and Other volume" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Guru_Other ©2020.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>18 pages</span><span>0.2 MB</span></p>
+    <p>The catch-all fascicle of the Shanti Salish set: guru chants, opening and closing prayers (Gayatri, Asato Ma, Lokah Samastah in several settings), Sufi chants and English-language material that fits no single deity chapter — including Rickie Beckwith's "We Let the Light Wash Over Us" with its melody spelled out in letter names. Like its siblings it pairs every chant with a drone note and a link to the recording it transcribes. The prayers section is the most practically useful: these are the chants that open and close nearly every kirtan.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-krishna-2020.jpg" alt="First page of Shanti Salish Krishna volume" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Krishna ©2020.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>58 pages</span><span>0.9 MB</span></p>
+    <p>At 58 pages the largest deity fascicle in the Shanti Salish set, reflecting Krishna's dominance of the kirtan repertoire: Maha Mantra settings from traditional to Krishna Das, Radhe chants, Govinda chants, Narayana chants — each with letter-name melody, drone, and a link to the exact recording transcribed. It opens with a readable essay on Krishna's story explaining why so many chant names (Govinda, Gopala, Murari) refer to him. For reconstructing any Hare Krishna variant in the corpus this is the first place to look.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-ma-2020.jpg" alt="First page of Shanti Salish Ma volume" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Ma ©2020.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>25 pages</span><span>0.5 MB</span></p>
+    <p>The Divine Mother fascicle: Kali, Durga, Lakshmi and Jagadambe chants in the Shanti Salish letter-note system, opening with a clear primer on the Tridevi and the many names under which the Goddess is invoked. Directly relevant to the Core 50 — "Kali Durge Namo Namah" and the Jai Ma family are here in multiple melodic settings (Kripalu, Krishna Das, Brenda McMorrow), each tied to its source recording — and it even strays ecumenically into a Mary Magdalene chant by Gina Sala. The census hit "Jay Ma" (30 books) can be melody-checked against this volume.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-ram-2020.jpg" alt="First page of Shanti Salish Ram volume" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Ram ©2020.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>32 pages</span><span>0.2 MB</span></p>
+    <p>The Ram fascicle covers the Rama/Sita/Hanuman chant family — Rama Bolo, Shri Ram Jaya Ram (in Kripalu, Krishna Das and Dave Stringer settings), Om Ram Ramaya Swaha — with the set's usual letter-name melodies, drones and recording links, prefaced by a short essay on the Ramayana and why Ram stands for dharma. Notable inclusion: Karen Drucker's English "You Are the Heart" paired with Natavar's own Sanskrit response verse, an example of the East-West blending typical of the Salish Sea kirtan scene the series is named for.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan notation">
+  <div class="cover"><img src="covers/shanti-salish-kirtan-chantbook-shiva-2020.jpg" alt="First page of Shanti Salish Shiva volume" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Shanti Salish Kirtan Chantbook - Shiva  ©2020.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-note">Melody letters</span><span>26 pages</span><span>0.5 MB</span></p>
+    <p>The Shiva fascicle: Om Namah Shivaya in its many melodic lives (Krishna Das's Live on Earth setting among them), Hara Hara Mahadeva, Jaya Shiva Shankara and Samba Sadashiva, all in letter-note melody with drones and source links, introduced by a Nataraja essay quoting Yogananda. Since "Om Shiva Om" and the Shiva-chant family scored high in the corpus census, this volume is a ready-made melodic cross-reference for them. With this file the seven-part Shanti Salish set is complete — collectively the archive's second notation system after staff.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/sol-diamante-chords.jpg" alt="Title page of Sol Diamante" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Sol-Diamante-chords.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span>416 pages</span><span>18.1 MB</span></p>
+    <p>The archive's biggest book by page count: "Sound of Light DIAMANTE — Prayers, Affirmations, Sacred Songs of Healing and Joy," 416 pages with chords, under the epigraph "Sing from your soul, we are transforming all into light." The repertoire is new-paradigm medicine and light-language material (the visionary "Awaken" — Son of Sky, Daughter of the Earth), generously laid out one song per page with illustration. Its sheer size makes it useful for census work, though its repertoire overlaps the Rainbow Core 50 less than the Sacred Valley or Caravan books do.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/song-book.jpg" alt="Title page of Spiritual Song Book" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">song.book.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>20 pages</span><span>1.0 MB</span></p>
+    <p>"Spiritual Song Book — New Age Songs of Devotion" by Daniela Ferdová: a compact Czech-made collection of circle standards (Above and Below, We Are a Circle, We Are Circling, We Are Opening, We Shall Lift Each Other Up) with chords above the lyrics, plus Spanish and reggae-flavored numbers. Its colophon is the best license statement on the shelf: "No rights are reserved. Any spreading of this book is highly recommended," in English and Czech. Small, cheerful, and squarely aimed at the same core repertoire as the project's manifest.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow scan notation">
+  <div class="cover"><img src="covers/songbook.jpg" alt="First page of songbook.pdf" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">songbook.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-note">Staff notation</span><span class="flag-scan">Image-only scan</span><span>51 pages</span><span>1.9 MB</span></p>
+    <p><b>The archive's second staff-notation discovery.</b> Behind the most generic file name on the shelf (PDF author: Maarten Vandekeybus) hides a scanned book of hand-inked staff notation with chord letters and lyrics set under the notes, in beautiful ornamental hand-lettering: I Am a Gypsy, Dear Friend, and the Russian peace round Mir Miro Mir, page after page. Like <i>Rainbow Songbook With Notes.pdf</i> it has no text layer and must be read by eye, but it directly attacks the project's scarcest resource — verified melodies — and deserves a full page-by-page census against the Core 50.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/songbook2005.jpg" alt="First page of songbook2005" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">songbook2005.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>20 pages</span><span>3.0 MB</span></p>
+    <p>A rough scan of a photocopied gathering songbook from 2005 — handwritten and typewritten pages, with an OCR layer so garbled it is almost decorative ("Respect the Music" becomes scattered letters). Fifty-three numbered songs with a handwritten index: Hebrew songs (Mode Ani, Egel Tal), German ones (Alles verändert sich), reggae (Babylon Is Fallin'), and Rainbow items like Welcome Home and May the Circle Be Open. Historically the most "authentic" object in the archive — this is what a songbook passed hand-to-hand around a 2005 fire actually looked like — but for research it needs eyes, not search.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="medicine">
+  <div class="cover"><img src="covers/songbook-dennis-03-2021-chords.jpg" alt="First page of Songbook Dennis" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Songbook Dennis 03 2021 chords.pdf</h2>
+    <p class="meta"><span class="fam">Medicine &amp; icaros</span><span>86 pages</span><span>0.5 MB</span></p>
+    <p>Dennis Ruemping's March 2021 personal songbook: medicine songs with meticulous headers — capo, meter and key for every song ("Capo II, 4/4, F#m") — plus English or German prose translations after each Spanish or Portuguese text. Includes core-50 material (Mother I Feel You, complete with heya vocable verses) alongside Nessi Gomez's All Related and Brazilian pontos. The closing pages are actual ceremony setlists ("Os und Gäste 1: 01. Shue Shuar..."), a rare documentary record of what got sung in what order. One of the most precise chord sources in the archive.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/songbook-flora.jpg" alt="Title page of Songbook Flora Spirit-Wind" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Songbook Flora.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>110 pages</span><span>1.4 MB</span></p>
+    <p>"Spirit-Wind: Spirit- &amp; Herzenslieder, Medizin-Songs, Mantren" — a German circle book with a numbered index in three language sections. Its German section is the real treasure: twenty original German spirit songs (Frau Holle, Roter Mond überm Silbersee, Kranich-Lied) that exist in no other book on this shelf, alongside the international standards (Above and Below, Circle of Women) and Spanish medicine songs with German translations. A reminder that the European circles are generating their own repertoire, not just translating the American one.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/songbook-mantras.jpg" alt="Cover of Songbook MANTRAS" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">superseded\Songbook-MANTRAS.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span class="flag-scan">Superseded edition</span><span>124 pages</span><span>3.3 MB</span></p>
+    <p>The v17.07 edition of the Sacred Valley Tribe MANTRAS volume — superseded by the v19.09 copy filed as <i>sacred valley3 mantras.pdf</i>, which adds a dozen chants (Gate Gate, Hey Amba, Baba Hanuman variants are marked new there). The variant-listing index (three Hare Krishnas, two Asato Maas, each named for who sings that melody) is already present in this edition, as are the capo/chord/rhythm headers. It closes with a curious prose bonus: a channeled-style essay titled "Let Fear Be Your Guide". Keep for version archaeology; consult v19.09 for content.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/songbook2020pdf.jpg" alt="Title page of Moondance Austria songbook" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Songbook2020pdf.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>71 pages</span><span>0.8 MB</span></p>
+    <p>The Atlachinolli Meztli Moondance Austria songbook (moondanceaustria.com), prepared for the four-night Moondance ceremony of August 2021. It is the most ceremonially structured book in the archive: each song is tagged with symbols for element (fire, earth, wind, water) and ritual function (sweatlodge, circle, moon, sacred-pipe song), and the introduction explains that during the ceremony only the huehuetl drum and rattles accompany the voices. The repertoire blends Lakota and Nahuatl traditional songs with English circle material like Lindsey Wise's Gathering the Flowers and the Triple Goddess Chant.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/songbookneu.jpg" alt="Index page of Songs of the Heart" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">songbookneu.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>9 pages</span><span>0.06 MB</span></p>
+    <p>"Songs of the Heart" (May 2016): the smallest file in the archive at 60 KB, a nine-page LaTeX-clean sheet of about forty heart songs with chords, indexed alphabetically. Despite its size it holds several manifest songs — Long Time Sun, Evening Rise, How Can Anyone (sic), We Shall Lift Each Other Up — plus German items like Wanderer im Weltgetriebe. German-made ("Licht durchflutet", "songbookneu" = "new songbook"), it is the archive's best example of the minimal, no-frills chord sheet that actually travels to gatherings in backpacks.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/songs-of-light.jpg" alt="Cover of Songs of Light, Love and Devotion" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Songs-of-Light.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>169 pages</span><span>5.0 MB</span></p>
+    <p>"Songs of Light, Love and Devotion," compiled by Frank Otto (singularica.com), a Berlin singing-circle facilitator, current to 2024 — the newest actively-maintained book on the shelf, complete with links to his Telegram circle-recording channels and an invitation to submit corrections. Songs carry composer credits and capo/chord headers (Lasst uns Erinnern by "Carb — Colourful Tribe"), mixing German originals with the international repertoire, and ending, in true songbook fashion, with a comic German number about Bodo and his digger. Valuable as a living, versioned document of the Berlin scene.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/sound-of-the-heart.jpg" alt="First page of Sound of The Heart" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Sound of The Heart.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>330 pages</span><span>5.8 MB</span></p>
+    <p>A 330-page "heart singing" anthology whose preface lays out the most ambitious sectioning in the archive: Rainbow; Tribal (Native American, African, Aborigine, Nyabinghi, European folk, Gypsy, Hebrew, Flower Power, Bhajans); Beija Flor (Portuguese songs of the Amazonas); and Baladi (songs of the Middle East). Chords are given as slash-grid patterns below each song — a system that encodes strum rhythm as well as harmony. The Gypsy and Middle-Eastern sections (Otchi Chyornie, Romani songs transliterated from film soundtracks) cover ground no other book here touches. A major, eclectic source.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/spanish-songs.jpg" alt="Title page of Spanish Songs by Se Misha" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Spanish Songs.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>22 pages</span><span>0.3 MB</span></p>
+    <p>Se Misha's "Las Canciones del Corazones" in its denser, Spanish-leaning form — the same Finnish compiler and front matter as <i>Booklet Songs from the Heart</i>, but with a different and larger song list packed into 22 pages: an alphabetical index of some eighty items from Ábrete Corazón and El Pescador to Bremenskie Muzykanty (Russian!), cumbia and lambada alongside the mantras. Where the Booklet is designed for printing and folding, this reads as the compiler's fuller working file. Between the two, this one has more repertoire; the other has more charm.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/taizechords.jpg" alt="Title page of Taize chords" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">taizechords.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>16 pages</span><span>0.3 MB</span></p>
+    <p>A 2009 guitar-chord companion to the chants of the Taizé community, its title page listing "Songs from" in nineteen languages — a nice emblem of the ecumenical tradition it serves. Some sixty numbered chants (Dans nos obscurités, Ubi Caritas, Nada te turbe, Veni Sancte Spiritus) are given with syllable-aligned chord letters, including German-notation quirks (H for B natural) and capo alternatives. The one Christian-contemplative book on the shelf; its ostinato-round form is a direct ancestor of the short repetitive circle-song style the Rainbow repertoire favors.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="regional">
+  <div class="cover"><img src="covers/turkish-sufi-songbook.jpg" alt="Title page of Turkish Sufi Songbook" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">Turkish Sufi Songbook.pdf</h2>
+    <p class="meta"><span class="fam">Regional &amp; other traditions</span><span>178 pages</span><span>3.4 MB</span></p>
+    <p>"Tasawwuf İlahiler" of the Rifa'i Marufi order (January 2021): Turkish Sufi hymns with serious musicological apparatus — each ilahi names its makam (Uşşak, etc.), its poet (Yunus Emre) and composer, and its position in the ceremonial set ("preceded by... followed by..."). It opens with a primer on the principles of Sufism and the Al-Fatiha with English translation, and closes with a dedication to Şerif Baba Çatalkaya. Entirely outside the Rainbow repertoire, but the most scholarly book in the archive and a model of how oral melodic tradition can be documented without staff notation.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="rainbow">
+  <div class="cover"><img src="covers/unilaiva-songbook.jpg" alt="Title page of Unilaiva songbook" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">unilaiva-songbook.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span>292 pages</span><span>9.7 MB</span></p>
+    <p>The Finnish "Unilaiva songbook — paths to higher knowledge, By: humankind" (2019 beta, unilaiva.aavalla.net): the most professionally engineered book on the shelf, typeset in LaTeX with a numbered song system, per-song tag metadata, chord symbols set inline at the exact syllable, translations, and a full tag index (fire, circle, Divine Mother, even "chords missing"). Already assessed by the project — chords only, no melodies — it remains the gold standard for structure: its data model is essentially what the songsite's per-song JSON is reinventing. Compiled from Finnish medicine and Rainbow circles.</p>
+  </div>
+</article>
+
+<article class="book" data-tags="kirtan">
+  <div class="cover"><img src="covers/zangboekje-2023-2024.jpg" alt="Title page of Zangboek 2023-2024" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">zangboekje 2023_2024.pdf</h2>
+    <p class="meta"><span class="fam">Kirtan &amp; mantra</span><span>44 pages</span><span>0.3 MB</span></p>
+    <p>The 2023–2024 "Zangboek" of Dutch voice teacher Linnet van der Wal (linnetvanderwal.nl) — the newest dated book in the archive. Around ninety numbered chants with chords in clean uppercase layout: Sikh mantras (Aad Guray), the kirtan core (Durge Durge in Shantala's call-and-response setting, Jay Ambe), and contemporary circle songs like Sacred Space with its Yemaya coda. It closes with an Osho passage, in Dutch, on disappearing into the song — "you became like hollow bamboo, like a flute." A tidy snapshot of the current Dutch singing-circle repertoire.</p>
+  </div>
+</article>
+
+</div>
+
+<footer>
+  Compiled 2026-09-17 from <b>ClaudeCode37\RainbowSongBooks</b>: 49 independent PDFs in the main folder plus 3 superseded editions in <i>superseded\</i>. Cover images are 480-px crops of each file's first non-blank page; reviews are based on extracted text samples and page renders from every file. Dedupe history: 2026-09-16 consolidation to 55 files; 2026-09-17 removal of three content-identical duplicates (<i>Rainbow songbook.pdf</i>, <i>rainbow medicine songboko.pdf</i>, <i>Songbook-ESPANOL.pdf</i>) and quarantine of the three older Sacred Valley / Ayahuasca-Wasi editions, so census counts draw only on independent sources.
+</footer>
+</div>
+
+<script>
+(function(){
+  var grid=document.getElementById('grid');
+  var books=Array.prototype.slice.call(grid.querySelectorAll('article.book'));
+  var btns=Array.prototype.slice.call(document.querySelectorAll('#filters button'));
+  var count=document.getElementById('count');
+  function apply(f){
+    var shown=0;
+    books.forEach(function(b){
+      var ok=(f==='all')||((' '+b.getAttribute('data-tags')+' ').indexOf(' '+f+' ')>=0);
+      b.hidden=!ok; if(ok) shown++;
+    });
+    count.textContent=(f==='all')?'Showing all 52 books (49 active + 3 superseded), alphabetical by file name.':('Showing '+shown+' of 52 books.');
+  }
+  btns.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      btns.forEach(function(b){b.setAttribute('aria-pressed','false');});
+      btn.setAttribute('aria-pressed','true');
+      apply(btn.getAttribute('data-f'));
+    });
+  });
+  apply('all');
+})();
+</script>
+
+</body></html>
