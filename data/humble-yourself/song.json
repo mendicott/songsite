@@ -1,0 +1,23 @@
+{
+  "title": "Humble (Yourself)",
+  "rank": 45,
+  "status": "draft",
+  "eyebrow": "Rank 45 · Tier 2",
+  "chips": {
+    "key": "C major / A minor",
+    "tempo": "≈129",
+    "chords": "Am G E"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's dedicated recording (90-second clip, no separation). Raw machine output — two more Mettaben versions (family jam, version 2) exist for cross-checking.",
+  "fit": [
+    {"num": "85.3%", "label": "chords fit — melody time on Am·G·E tones"},
+    {"num": "41.1%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Strong chords fit (85.3%) in the songbook's own Am–G–E family; verify verse order (Mother vs. Water/Sun/Moon/Forest variants circulate) before promoting.",
+  "provenance": {
+    "Songbook": "Elf Songbook #136 (chorded) · Songbook2020 #38 (elemental verses)",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/humble_yourself.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — humble_yourself.mp3</a> (CC BY-NC-SA; 2 alternate takes in same collection)",
+    "Credit": "Adapted from the traditional gospel “Humble Yourself in the Sight of the Lord” — the Rainbow rewrite turns it to the Mother and the elements",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}

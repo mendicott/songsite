@@ -1,0 +1,23 @@
+{
+  "title": "Hey Niketi",
+  "rank": 37,
+  "status": "draft",
+  "eyebrow": "Rank 37 · Tier 1",
+  "chips": {
+    "key": "F major on source",
+    "tempo": "≈129",
+    "chords": "Am G Em (capo I)"
+  },
+  "melody_note": "Transcribed by song2xml from a circle-style sing-along recording (Lulu Moon and friends, YouTube). Raw machine output — the chant is a vocable song; several melodic variants circulate.",
+  "fit": [
+    {"num": "88.7%", "label": "chords fit — melody time on Am·G·Em tones"},
+    {"num": "6.5%", "label": "words match — vocable chant; cadence scan is not meaningful here"}
+  ],
+  "verdict": "Verdict: pending. Strong chords fit (88.7%); the words score is uninformative because the text is vocables sung continuously. Compare with the songbook's “Hey Nikiti Hey Wa Na” word sheet and the other circulating versions before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs (“Hey Nikiti Hey Wa Na”) · Songbook Dennis 2021 p.28 (chorded, with the sisters/brothers verse)",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=1Ajo3msPf5s\" rel=\"noopener\">Hey wani — Hey niketi hey wana — Rainbowsong, YouTube</a> (composition credited to Philipp Stegmüller &amp; Michael Stillwater)",
+    "Reference": "<a href=\"https://www.song-circle.com/en/world-songs/rainbow/hey-niketi/\" rel=\"noopener\">song-circle.com — Hey Niketi</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}

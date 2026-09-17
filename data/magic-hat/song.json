@@ -1,0 +1,23 @@
+{
+  "title": "Magic Hat",
+  "rank": 6,
+  "status": "draft",
+  "eyebrow": "Song 9 · Tier 1",
+  "chips": {
+    "key": "C major",
+    "tempo": "≈99",
+    "chords": "G C D"
+  },
+  "melody_note": "Transcribed by song2xml from Sounds from the Rainbow's dedicated field recording — “The Magic Hat Band, The Magic Hat Song,” Main Circle, Pennsylvania 2026 (no separation). This replaces the earlier attempt from a noisy YouTube medley (68.3% chords fit) that had the song parked.",
+  "fit": [
+    {"num": "96.1%", "label": "chords fit — melody time on G·C·D tones"},
+    {"num": "24.2%", "label": "words match — sung lyric vs. trilingual songbook text"}
+  ],
+  "verdict": "Verdict: pending, but the strongest chords fit of the audio batch (96.1%). The low words score reflects the trilingual printed text against an English-sung field take; verify the verse melody against the book's word sheet (A p.1, song #9). Was marked ENDANGERED — rescued twice over.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #9, p.1 (trilingual: English/French; lyrics and chords)",
+    "Recording": "<a href=\"https://archive.org/download/soundsfromtherainbow2000-2025/29.%20Pennsylvania%202026/Main%20Circle/The%20Magic%20Hat%20Band%20-%20The%20Magic%20Hat%20Song.mp3\" rel=\"noopener\">Sounds from the Rainbow — The Magic Hat Band, Main Circle, Pennsylvania 2026</a>",
+    "Also sung": "YouTube medley vhsRm37lh9U (Marcus's find — first rescue of the song from memory-only status)",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}

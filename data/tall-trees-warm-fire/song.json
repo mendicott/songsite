@@ -1,0 +1,24 @@
+{
+  "title": "Tall Trees Warm Fire (Strong Wind)",
+  "rank": 26,
+  "status": "draft",
+  "eyebrow": "Song 242 · Tier 1",
+  "chips": {
+    "key": "F major on source",
+    "songbook key": "E minor",
+    "tempo": "≈136",
+    "chords": "Em C D Bm"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's “pure_earth_warm_fire” recording (no separation) — a variant wording of the same chant family. Raw machine output; the detected key (F major) does not sit inside the songbook's Em chord family, so treat pitches as provisional.",
+  "fit": [
+    {"num": "61.5%", "label": "chords fit — melody time on Em·C·D·Bm tones"},
+    {"num": "39.8%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending — weakest fit of the audio batch. The recording is the “Pure Earth Warm Fire” variant and sits outside the songbook's Em family; check against the song-circle.com Strong Wind reference and re-transcribe if a truer circle version surfaces.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #242 (lyrics only) · Sound of The Heart #39 “Strong Wind” (chorded, with Hebrew verse)",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/pure_earth_warm_fire.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — pure_earth_warm_fire.mp3</a> (CC BY-NC-SA)",
+    "Reference": "<a href=\"https://www.song-circle.com/en/world-songs/rainbow/strong-wind/\" rel=\"noopener\">song-circle.com — Strong Wind</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "White Buffalo Woman",
+  "rank": 35,
+  "status": "draft",
+  "eyebrow": "Rank 35 · Tier 1",
+  "chips": {
+    "key": "D minor on source",
+    "tempo": "≈99",
+    "chords": "unaccompanied (traditional)"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's recording of the Lakota White Buffalo Calf Pipe Song (no separation). Identification caution: the gathering songbooks also carry a different “White Buffalo Calf Woman (I seek your vision)” song (Rainbow Caravan #32, Am–G) — which of the two is the rank-35 circle staple is unverified.",
+  "fit": [
+    {"num": "48.3%", "label": "words match — sung Lakota text vs. printed text"}
+  ],
+  "verdict": "Verdict: pending, with provenance care. This is a Lakota ceremonial song (sung in the third round of inipi to honor the original pipe); the page should stay documentation-only, with cultural attribution kept intact, unless guidance from Lakota practitioners says otherwise. Verify against the UK songbook's phonetic White Buffalo chant to settle which song rank 35 names.",
+  "provenance": {
+    "Tradition": "Lakota — White Buffalo Calf Pipe Song (“Oyate wanmayanka po”); translation and ceremonial context printed in Rainbow Kirtan p.29",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/white_buffalo_calf_pipe_song.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — white_buffalo_calf_pipe_song.mp3</a> (CC BY-NC-SA)",
+    "Alternate song": "Rainbow Caravan #32 “White Buffalo Calf Women — I seek your vision” (Am–G) — possibly the song the top-100 list means; not yet located on record",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Pacha Mama",
+  "rank": 48,
+  "status": "draft",
+  "eyebrow": "Song 120 · Tier 2",
+  "chips": {
+    "key": "D minor on source",
+    "songbook key": "E minor",
+    "tempo": "≈144",
+    "chords": "Em Bm Am D"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's dedicated recording (90-second clip, no separation). Raw machine output — awaiting human verification against the unilaiva songbook's chorded text (song 415).",
+  "fit": [
+    {"num": "67.0%", "label": "chords fit — melody time on Em·Bm·Am·D tones"},
+    {"num": "48.4%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Detected key (D minor) sits a tone below the songbook's E-minor chording — likely sung transposed; verify against the Patricko reference version before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #120 (lyrics only) · unilaiva-songbook #415 (chorded, credited melody line Ronny Hickel)",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/pacha_mama.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — pacha_mama.mp3</a> (CC BY-NC-SA)",
+    "Reference": "Rainbow Kirtan chant book p.22 names Patricko's version (soundcloud.com/patricko-2) as the model Mettaben learned from",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}

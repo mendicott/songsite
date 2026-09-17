@@ -1,0 +1,35 @@
+{
+  "title": "Makpia Glegleika Oyate Wakan",
+  "subtitle": "Sacred Rainbow Nation — the Rainbow Unity Song",
+  "eyebrow": "Living addition · First-person source",
+  "status": "draft",
+  "rank": null,
+  "route": "ORAL+AUDIO",
+  "chips": {
+    "key": "D minor (detected)",
+    "tempo": "≈129",
+    "origin": "Katuah Solstice, 1991",
+    "language": "Lakota"
+  },
+  "melody_heading": "Melody — transcribed from the carrier's voice memo",
+  "melody_note": "Machine transcription of the a-cappella voice memo sung by Deborah Dorland (Rainbow Dancer), 42&thinsp;s, via the project&rsquo;s audio&rarr;MusicXML pipeline (no vocal separation needed &mdash; solo voice). Detected D&nbsp;minor, &asymp;129&nbsp;BPM, 66 notes. The rise to the stretched, higher third repetition is audible in the second half. An unaccompanied voice memo transcribes with pitch jitter &mdash; treat as a draft reading against the recording.",
+  "words_heading": "The chant — canonical form, from the carrier",
+  "extra_sections": [
+    {
+      "heading": "What the words mean",
+      "html": "    <dl>\n      <dt>Makpía</dt><dd>&ldquo;Sky Father&rdquo; &mdash; Lakota <i>makȟpíya</i>, cloud / sky</dd>\n      <dt>Glégléika</dt><dd>the over-arching &ldquo;Rainbow&rdquo; that unites us &mdash; as taught by Inila Wakan; compare Lakota <i>gleǧá</i> &ldquo;striped&rdquo;, reduplicated <i>glegléǧa</i> &ldquo;striped all over&rdquo;</dd>\n      <dt>Oyáte</dt><dd>&ldquo;Nation&rdquo;, people &mdash; many tribes united into one</dd>\n      <dt>Wakȟáŋ</dt><dd>&ldquo;Sacred&rdquo; &mdash; the Great Mystery is so very sacred</dd>\n    </dl>\n    <p class=\"paper-note\">Together: &ldquo;Sacred Rainbow Nation&rdquo; &mdash; or more fully, the Sky Father Rainbow Nation: the one large sky rainbow above that unites all the small rainbows swirling on the Earth. The teaching that came with the song is kept deliberately simple: sing the Lakota, and let the English chorus be the heartbeat underneath.</p>"
+    },
+    {
+      "heading": "The standing dance — one movement per word",
+      "html": "    <dl>\n      <dt>Makpía</dt><dd>both arms straight up, wrists bent down, fingers waving downward like rain sprinkling from the sky &mdash; the Sky Father&rsquo;s gift of rain</dd>\n      <dt>Glégléika</dt><dd>cross hands overhead and arch them out and down to the sides &mdash; twinkling finger-colors spreading a rainbow from overhead to the hips</dd>\n      <dt>Oyáte</dt><dd>the finger-colors swirl together at the sides and twist into gentle fists of strength over each kidney &mdash; many grounded into one</dd>\n      <dt>Wakȟáŋ</dt><dd>head bowed (or raised) a little in respect; the fists open into palms together in a praying pose, sliding up the center line over the heart and mind, and the arms rise back overhead to raining blessings &mdash; to begin again</dd>\n    </dl>\n    <p class=\"paper-note\">Continuous, connected, symbolic &mdash; danced standing in place, it cycles with each repetition of the line and &ldquo;can go for hours&rdquo;.</p>"
+    }
+  ],
+  "verdict": "Single-source oral tradition, internally consistent across a year of tellings; melody transcribed from the carrier's own singing, pitch-level confidence moderate. The phrase itself is unattested in print or online (checked September 2026) — consistent with an orally-carried song. The component words check out against Lakota reference material: makȟpíya (cloud, sky), oyáte (people, nation), and wakȟáŋ (sacred, holy) are all standard; the everyday Lakota word for rainbow is wígmuŋke, and \"wígmuŋke oyáte\" (rainbow people) is attested. Glegléika is best read as a form of gleǧá / glegléǧa, \"striped all over\" — a many-striped sky — fitting the teaching that it names the arching rainbow rather than borrowing the common noun. Care note: this is a Lakota-language blessing given, per the carrier, explicitly to be shared worldwide — credit Inila Wakan and Deborah Dorland whenever it is taught.",
+  "provenance": {
+    "Given by": "Inila Wakan (&ldquo;Quiet Spirit&rdquo;), Lakota, Pine Ridge &mdash; at the Katuah Solstice Gathering (Southern Appalachians), June 1991, after a sweat lodge and vision. Asked to teach &ldquo;Rainbow people&rdquo; in Lakota, he returned from his tipi and corrected: <i>&ldquo;No! Not Rainbow people &mdash; Makpia Glegleika Oyate Wakan!&rdquo;</i> &mdash; Sacred Rainbow Nation &mdash; and asked that it be taught &ldquo;so they will remember who they truly are&rdquo;.",
+    "Melody by": "Deborah Dorland (Rainbow Dancer), who set the phrase to a simple melody to make it teachable, with the hand movements and standing dance",
+    "Spread": "Sung at gatherings through summer 1991; adopted by consensus at the European World Rainbow Gathering in Poland that August as the worldwide Rainbow Unity Song; a hit in Vermont; already being sung on the island of Avernakø, Denmark, before the carrier arrived",
+    "Source": "First-person Messenger correspondence, Deborah Dorland with Marcus L Endicott, June 2024 &ndash; August 2025 (text of the chant, meanings, dance notation, and sung voice memos); conversation captured 2026-09-17",
+    "Method": "Canonical text collated from the carrier&rsquo;s successive Messenger versions (2024-08-04 / 2024-08-05, ending with the version she approved); melody from her 42&thinsp;s voice memo via song2xml --no-separate, 2026-09-17"
+  }
+}

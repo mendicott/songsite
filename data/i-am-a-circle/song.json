@@ -1,0 +1,22 @@
+{
+  "title": "I Am a Circle",
+  "rank": 7,
+  "status": "draft",
+  "eyebrow": "Song 177 · Tier 1",
+  "chips": {
+    "key": "A major on source",
+    "tempo": "≈144",
+    "chords": "unchorded in book"
+  },
+  "melody_note": "Transcribed by song2xml from the Sacred Songs recording on SoundCloud. Raw machine output. This closed the last “no recording found” gap in the Core 50 audio queue apart from Hey Yona.",
+  "fit": [
+    {"num": "69.7%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Rights note: “I Am a Circle” © Rick Hamouris, 1986 (companion to We Are a Circle) — melody under copyright; the page should stay documentation-only unless cleared. Verify which book entry it is (index A p.35 #177 vs. p.1 #10).",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A — index p.35 #177 (research doc also cites p.1 #10; verify which)",
+    "Recording": "<a href=\"https://soundcloud.com/jonkins-559435072/i-am-a-circle-i-am-healing-you\" rel=\"noopener\">I Am A Circle, I Am Healing You — Sacred Songs, SoundCloud</a>; also recorded by Prana (“The Best of Prana”, 1999) and Anthony Ward (Bandcamp, 2016)",
+    "Credit": "© Rick Hamouris, 1986 — companion piece to We Are a Circle",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}
