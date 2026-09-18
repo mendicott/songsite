@@ -1,0 +1,30 @@
+{
+  "title": "Step Into the Flow",
+  "rank": 106,
+  "status": "draft",
+  "about": "“I step into the flow and then I let it go — I open my heart, my body, my soul.” Printed in Mantra-Sammlung Rafael p.62 (chords) and four more books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=DcBv8bB_fqk\" rel=\"noopener\">Music of Consciousness — Step Into the Flow by Miriam Ginsberg (Rainbow song)</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "D major on source",
+    "songbook key": "A minor",
+    "tempo": "≈76",
+    "chords": "Am G Em"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "53.7%",
+      "label": "chords fit — melody time on Am G Em tones"
+    },
+    {
+      "num": "37.7%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (D major) differs from the songbook's A-minor chording — likely sung transposed; verify before promoting.",
+  "provenance": {
+    "Songbook": "Mantra-Sammlung Rafael p.62 (chords Am G Em) · new song book · songbook-flora",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=DcBv8bB_fqk\" rel=\"noopener\">Music of Consciousness — Miriam Ginsberg (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

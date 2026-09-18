@@ -1,0 +1,30 @@
+{
+  "title": "Let Your Little Light Shine",
+  "rank": 107,
+  "status": "draft",
+  "about": "“Let your little light shine, shine, shine — there might be someone down in the valley trying to get home.” A gospel-rooted circle song, distinct from This Little Light of Mine — printed in Rainbow Caravan, song 56 (p.39, words and chords) and three more books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=q222n1JmgLE\" rel=\"noopener\">Maxime Polydor — Let your little light shine, rainbow song played on ukulele</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "D minor on source",
+    "songbook key": "A minor",
+    "tempo": "≈129",
+    "chords": "Am G C"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "72.9%",
+      "label": "chords fit — melody time on Am G C tones"
+    },
+    {
+      "num": "56.3%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (D minor) a fourth from the songbook's A-minor chording — ukulele rendition, likely transposed; verify before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow Caravan song 56 (p.39, chords Am G C) · Canciones · new song book",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=q222n1JmgLE\" rel=\"noopener\">Maxime Polydor (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

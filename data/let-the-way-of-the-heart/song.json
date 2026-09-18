@@ -1,0 +1,30 @@
+{
+  "title": "Let the Way of the Heart",
+  "rank": 101,
+  "status": "draft",
+  "about": "A circle song of the heart’s way shining through — printed in Rainbow Caravan, song 20 (p.22, words and chords) and Sound of The Heart p.51, and carried in some two dozen of the collection’s songbooks. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=dnQMYF1YII4\" rel=\"noopener\">Ananda Das — Rainbow Spirit Oregon: Let the Way of the Heart Shine Thru</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "A minor on source",
+    "songbook key": "A minor",
+    "tempo": "≈152",
+    "chords": "Am G C"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "94.0%",
+      "label": "chords fit — melody time on Am G C tones"
+    },
+    {
+      "num": "37.4%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook chording exactly (A minor); 94% chord-tone fit — strong candidate for promotion after human check.",
+  "provenance": {
+    "Songbook": "Rainbow Caravan song 20 (p.22, chords Am G C) · Sound of The Heart p.51",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=dnQMYF1YII4\" rel=\"noopener\">Ananda Das — Rainbow Spirit Oregon (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

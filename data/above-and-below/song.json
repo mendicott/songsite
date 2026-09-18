@@ -1,0 +1,30 @@
+{
+  "title": "Above and Below",
+  "rank": 102,
+  "status": "draft",
+  "about": "“Above and below, and all around you are — you are the essence of all the beauty of life.” Printed in Canciones (Family Songbook 1.1.3) and Elf Songbook p.41 among some twenty books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=Hzs266fPJpE\" rel=\"noopener\">Florian Michael Litzlfelder — Above and Below (Rainbow Circle Song) at Riedlhof</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "B minor on source",
+    "songbook key": "E minor",
+    "tempo": "≈123",
+    "chords": "Em D Am C Bm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "77.3%",
+      "label": "chords fit — melody time on Em D Am C Bm tones"
+    },
+    {
+      "num": "38.1%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (B minor) sits a fifth above the songbook's E-minor chording — likely sung transposed; verify before promoting.",
+  "provenance": {
+    "Songbook": "Canciones (Family Songbook 1.1.3, chords Em D Am C Bm) · Elf Songbook p.41",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Hzs266fPJpE\" rel=\"noopener\">Florian Michael Litzlfelder @ Riedlhof (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

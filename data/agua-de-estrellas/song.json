@@ -1,0 +1,31 @@
+{
+  "title": "Agua de Estrellas",
+  "rank": 103,
+  "status": "draft",
+  "about": "A Spanish-language water blessing — its “Limpia limpia, limpia corazón” bridge is how many circles name the song. Printed in Songs of Light p.147 and Mantra-Sammlung Rafael p.72 among roughly fifteen books of the collection; authorship is sometimes credited to Miguel Molina. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=UBnNie-rXB8\" rel=\"noopener\">The White Arrow — Limpia corazón</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "F minor on source",
+    "songbook key": "A minor",
+    "tempo": "≈112",
+    "chords": "Am C G F Dm Em"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "65.0%",
+      "label": "chords fit — melody time on Am C G F Dm Em tones"
+    },
+    {
+      "num": "35.8%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (F minor) far from the songbook's A-minor chording — rehearsal recording, likely transposed; verify against another rendition before promoting.",
+  "provenance": {
+    "Songbook": "Songs of Light p.147 (chords Am C G F Dm Em) · Mantra-Sammlung Rafael p.72",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=UBnNie-rXB8\" rel=\"noopener\">The White Arrow — Limpia corazón (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  },
+  "subtitle": "Limpia, limpia corazón"
+}

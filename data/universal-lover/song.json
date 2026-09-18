@@ -1,0 +1,30 @@
+{
+  "title": "Universal Lover",
+  "rank": 105,
+  "status": "draft",
+  "about": "“You are my mother, you are my father, you are my lover and my best friend.” Credited to Fantuzzi in MasterMantra v1.0 p.72 (“Fantuzzi / Rainbow Family — all sing together”) and printed in eleven books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=isBLJ-G86FY\" rel=\"noopener\">Ananda Das — Rainbow Spirit: Universal Lover, by Fantuzzi</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "E minor on source",
+    "songbook key": "E minor",
+    "tempo": "≈92",
+    "chords": "Em D"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "94.9%",
+      "label": "chords fit — melody time on Em D tones"
+    },
+    {
+      "num": "48.9%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook chording exactly (E minor); 94.9% chord-tone fit. RIGHTS: authored song (Fantuzzi) — Marcus to decide inclusion before publishing.",
+  "provenance": {
+    "Songbook": "MasterMantra v1.0 p.72 (credited Fantuzzi; chords Em D) · Canciones · Alli Ruhi",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=isBLJ-G86FY\" rel=\"noopener\">Ananda Das — Rainbow Spirit (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

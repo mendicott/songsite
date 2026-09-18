@@ -1,0 +1,31 @@
+{
+  "title": "I Find My Joy",
+  "rank": 104,
+  "status": "draft",
+  "about": "“I find my joy in the simple things that are coming from the earth” — with its wordless heya-heya chorus. Printed in Alli Ruhi — Songs of the Rainbow p.99 and Sound of The Heart song 131 (p.16), among fifteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=kp-0ic_lJgY\" rel=\"noopener\">Medicine}SONG Book — I find my joy in the simple things (Rainbow song)</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "B major on source",
+    "songbook key": "A minor / G / C",
+    "tempo": "≈152",
+    "chords": "Am G C"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "41.5%",
+      "label": "chords fit — melody time on Am G C tones"
+    },
+    {
+      "num": "35.4%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Low chord fit (41.5%) and detected key (B major) far from the songbook chording — clip window may include speech; re-transcribe with an adjusted window before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi — Songs of the Rainbow p.99 · Sound of The Heart song 131 (p.16), chords Am G C",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=kp-0ic_lJgY\" rel=\"noopener\">Medicine}SONG Book (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  },
+  "subtitle": "In the simple things"
+}
