@@ -74,7 +74,7 @@ footer a{color:var(--accent);}
   <h1>Rainbow Songbook Collection</h1>
   <div class="spectrum"></div>
   <p class="lede">The source library behind the songs on this site:
-  <b>51 independent songbooks</b> gathered from Rainbow Gatherings, singing
+  <b>52 independent songbooks</b> gathered from Rainbow Gatherings, singing
   circles, medicine ceremonies, kirtans and ashrams worldwide. The books passed hand to hand and
   camp to camp, each one somebody&rsquo;s labor of love &mdash; typed,
   hand-copied or hand-notated, photocopied and carried on. Each entry below
@@ -84,7 +84,7 @@ footer a{color:var(--accent);}
 </header>
 
 <div class="filters" id="filters" role="group" aria-label="Filter by family">
-  <button data-f="all" aria-pressed="true">All 51</button>
+  <button data-f="all" aria-pressed="true">All 52</button>
   <button data-f="rainbow" aria-pressed="false">Rainbow &amp; circle</button>
   <button data-f="kirtan" aria-pressed="false">Kirtan &amp; mantra</button>
   <button data-f="medicine" aria-pressed="false">Medicine &amp; icaros</button>
@@ -485,6 +485,15 @@ footer a{color:var(--accent);}
   </div>
 </article>
 
+<article class="book" data-tags="rainbow notation">
+  <div class="cover"><img src="covers/rainbowchants.jpg" alt="First page of Rainbow Chants by Butterfly Bill" loading="lazy"></div>
+  <div class="body">
+    <h2 class="fname">RainbowChants.pdf</h2>
+    <p class="meta"><span class="fam">Rainbow &amp; circle</span><span class="flag-note">Staff notation</span><span>10 pages</span><span>6.1 MB</span></p>
+    <p><b>Twenty core chants in clean engraved staff notation.</b> "Rainbow Chants that you might hear by a campfire at a Rainbow Gathering," compiled by Butterfly Bill of bliss-fire.com (2014): each chant is professionally typeset with the melody on the staff, chord letters above and lyrics under the notes — The Earth Is Our Mother, Fly Like an Eagle, We All Come from the Goddess, We Are Opening and more, straight from the heart of the Core 50. The compiler's notes are a bonus in themselves: which songs alternate with which in circle practice, which keys the Rainbow Spirit video performs them in, and attributions (Mother I Feel You "is by a Rainbow sister named Windsong"). Small, but pound for pound one of the most melody-dense books on the shelf.</p>
+  </div>
+</article>
+
 <article class="book" data-tags="rainbow scan">
   <div class="cover"><img src="covers/rainbowspirit-songbook.jpg" alt="Cover of Rainbow Spirit From the Heart of the Fire songbook" loading="lazy"></div>
   <div class="body">
@@ -560,7 +569,7 @@ footer a{color:var(--accent);}
 </div>
 
 <footer>
-  Rainbow Songbook Collection · 51 independent songbooks, reviewed cover to
+  Rainbow Songbook Collection · 52 independent songbooks, reviewed cover to
   cover; duplicate scans, re-editions and superseded editions are consolidated
   so every book counted is an independent source.
   · <a href="../index.html">Back to the songs</a>
@@ -579,7 +588,7 @@ footer a{color:var(--accent);}
       var ok=(f==='all')||((' '+b.getAttribute('data-tags')+' ').indexOf(' '+f+' ')>=0);
       b.hidden=!ok; if(ok) shown++;
     });
-    count.textContent=(f==='all')?'Showing all 51 books, most site songs first.':('Showing '+shown+' of 51 books.');
+    count.textContent=(f==='all')?'Showing all 52 books, most site songs first.':('Showing '+shown+' of 52 books.');
   }
   btns.forEach(function(btn){
     btn.addEventListener('click',function(){
