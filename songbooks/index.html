@@ -2,64 +2,69 @@
 <title>Rainbow Songbook Shelf</title>
 <style>
 :root{
-  --paper:#faf8f4; --ink:#2b2733; --ink-soft:#5e5870; --line:#e3ddd2;
-  --card:#ffffff; --accent:#5b4a9e; --accent-soft:#efeaf8; --chip:#f1ede5;
-  --flag-note:#1d6b4f; --flag-note-bg:#e2f2ea; --flag-scan:#8a5a1f; --flag-scan-bg:#f6ecdc;
+  --paper:#F2F4EF; --ink:#26302B; --ink-soft:#5C685F; --line:#D8DDD2;
+  --card:#FBFAF4; --card-edge:#E3E0D2; --accent:#2E6E63; --accent-soft:#E7EBE2; --chip:#E7EBE2;
+  --flag-note:#2E6E63; --flag-note-bg:#E7EBE2; --flag-scan:#8A5A2B; --flag-scan-bg:#F6ECDC;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --paper:#181521; --ink:#e8e4f0; --ink-soft:#a49cbb; --line:#332e42;
-    --card:#211d2e; --accent:#a795e8; --accent-soft:#2c2544; --chip:#2a2637;
-    --flag-note:#7fd0ab; --flag-note-bg:#1d3529; --flag-scan:#e0b276; --flag-scan-bg:#3a2d1b;
+    --paper:#171B18; --ink:#E7E4D8; --ink-soft:#9AA69B; --line:#2C332D;
+    --card:#1E2420; --card-edge:#3A423B; --accent:#6FB5A8; --accent-soft:#232A24; --chip:#232A24;
+    --flag-note:#6FB5A8; --flag-note-bg:#232A24; --flag-scan:#D9A05B; --flag-scan-bg:#33291B;
   }
 }
 :root[data-theme="dark"]{
-  --paper:#181521; --ink:#e8e4f0; --ink-soft:#a49cbb; --line:#332e42;
-  --card:#211d2e; --accent:#a795e8; --accent-soft:#2c2544; --chip:#2a2637;
-  --flag-note:#7fd0ab; --flag-note-bg:#1d3529; --flag-scan:#e0b276; --flag-scan-bg:#3a2d1b;
+  --paper:#171B18; --ink:#E7E4D8; --ink-soft:#9AA69B; --line:#2C332D;
+  --card:#1E2420; --card-edge:#3A423B; --accent:#6FB5A8; --accent-soft:#232A24; --chip:#232A24;
+  --flag-note:#6FB5A8; --flag-note-bg:#232A24; --flag-scan:#D9A05B; --flag-scan-bg:#33291B;
 }
-body{background:var(--paper); color:var(--ink); font-family:"Alegreya Sans",system-ui,sans-serif;
-  font-size:16.5px; line-height:1.55; margin:0; padding:0 20px;}
-.wrap{max-width:1060px; margin:0 auto; padding-block:34px 60px;}
+body{background:var(--paper); color:var(--ink); font-family:"Source Serif 4",Georgia,serif;
+  font-size:17px; line-height:1.6; margin:0; padding:0 20px;}
+.wrap{max-width:46rem; margin:0 auto; padding-block:2.5rem 4rem;}
 header.masthead{margin-bottom:6px;}
-.eyebrow{margin:0 0 10px; font-size:13px; letter-spacing:.08em; text-transform:uppercase;}
-.eyebrow a{color:#4d8f5b; text-decoration:none;}
+.eyebrow{margin:0 0 .4rem; font-family:"IBM Plex Mono",monospace; font-size:.72rem;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--accent);}
+.eyebrow a{color:var(--accent); text-decoration:none;}
 .eyebrow a:hover{text-decoration:underline;}
-h1{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:clamp(30px,5vw,44px);
-  margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance;}
+h1{font-family:"Fraunces",Georgia,serif; font-weight:700; font-size:2.6rem;
+  line-height:1.08; margin:0 0 4px; text-wrap:balance;}
 .spectrum{height:4px; border-radius:2px; margin:14px 0 18px; background:linear-gradient(90deg,#c9503e,#d98a2b,#c9b02e,#4d8f5b,#3d7fa6,#5b4a9e,#8e5a9e);}
-.lede{color:var(--ink-soft); max-width:68ch; margin:0 0 10px;}
+.lede{color:var(--ink-soft); margin:0 0 10px;}
 .lede b{color:var(--ink);}
-.filters{display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 26px;}
-.filters button{font:inherit; font-size:14px; padding:5px 13px; border-radius:99px;
-  border:1px solid var(--line); background:var(--chip); color:var(--ink-soft); cursor:pointer;}
-.filters button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff;}
-:root[data-theme="dark"] .filters button[aria-pressed="true"]{color:#171422;}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .filters button[aria-pressed="true"]{color:#171422;}}
+.filters{display:flex; flex-wrap:wrap; gap:.5rem; margin:20px 0 26px;}
+.filters button{font-family:"IBM Plex Mono",monospace; font-size:.74rem; padding:.25rem .7rem;
+  border-radius:999px; border:1px solid var(--line); background:var(--chip);
+  color:var(--ink-soft); cursor:pointer;}
+.filters button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--paper);}
 .filters button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
 .grid{display:flex; flex-direction:column; gap:18px;}
-article.book{display:flex; gap:20px; background:var(--card); border:1px solid var(--line);
-  border-radius:10px; padding:18px;}
+article.book{display:flex; gap:20px; background:#FBFAF4; color:#26302B;
+  border:1px solid var(--card-edge); border-radius:4px; padding:18px;}
+:root[data-theme="dark"] article.book{background:#F4F1E6;}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) article.book{background:#F4F1E6;}}
 .cover{flex:0 0 138px;}
 .cover img{width:138px; height:186px; object-fit:cover; object-position:top;
-  border:1px solid var(--line); border-radius:4px; background:#fff; display:block;}
+  border:1px solid #E3E0D2; border-radius:4px; background:#fff; display:block;}
 .body{min-width:0;}
-h2.fname{font-family:ui-monospace,"Cascadia Code",Consolas,monospace; font-size:15.5px;
-  font-weight:600; margin:0 0 2px; word-break:break-word; color:var(--accent);}
-.meta{font-size:13px; color:var(--ink-soft); margin:0 0 8px; display:flex; flex-wrap:wrap; gap:4px 14px;}
-.meta .fam{color:var(--ink); background:var(--accent-soft); border-radius:4px; padding:0 7px;}
-.meta .flag-note{color:var(--flag-note); background:var(--flag-note-bg); border-radius:4px; padding:0 7px; font-weight:600;}
-.meta .flag-scan{color:var(--flag-scan); background:var(--flag-scan-bg); border-radius:4px; padding:0 7px;}
-.book p{margin:0; max-width:72ch;}
+h2.fname{font-family:"IBM Plex Mono",Consolas,monospace; font-size:15.5px;
+  font-weight:500; margin:0 0 2px; word-break:break-word; color:#2E6E63;}
+.meta{font-size:13px; color:#5C685F; margin:0 0 8px; display:flex; flex-wrap:wrap; gap:4px 14px;
+  font-family:"IBM Plex Mono",monospace;}
+.meta .fam{color:#26302B; background:#E7EBE2; border-radius:4px; padding:0 7px;}
+.meta .flag-note{color:#2E6E63; background:#E2F2EA; border-radius:4px; padding:0 7px; font-weight:500;}
+.meta .flag-scan{color:#8A5A2B; background:#F6ECDC; border-radius:4px; padding:0 7px;}
+.book p{margin:0; font-size:.95rem;}
 .book p b{font-weight:600;}
 .count{font-size:14px; color:var(--ink-soft); margin:0 0 14px;}
-footer{margin-top:44px; font-size:13.5px; color:var(--ink-soft); border-top:1px solid var(--line); padding-top:14px; max-width:72ch;}
+footer{margin-top:44px; font-size:.82rem; color:var(--ink-soft); border-top:1px solid var(--line); padding-top:1rem;}
+footer a{color:var(--accent);}
 @media (max-width:560px){
   article.book{flex-direction:column;}
   .cover img{width:120px; height:162px;}
 }
 </style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 
 <div class="wrap">
 <header class="masthead">
@@ -547,7 +552,7 @@ footer{margin-top:44px; font-size:13.5px; color:var(--ink-soft); border-top:1px 
 
 <footer>
   Compiled 2026-09-17 from <b>ClaudeCode37\RainbowSongBooks</b>: 48 independent PDFs in the main folder plus 3 superseded editions in <i>superseded\</i>. Cover images are 480-px crops of each file's first non-blank page; reviews are based on extracted text samples and page renders from every file. Dedupe history: 2026-09-16 consolidation to 55 files; 2026-09-17 removal of three content-identical duplicates (<i>Rainbow songbook.pdf</i>, <i>rainbow medicine songboko.pdf</i>, <i>Songbook-ESPANOL.pdf</i>) and quarantine of the three older Sacred Valley / Ayahuasca-Wasi editions, and removal of <i>rainbow-rising-spirit-of-the-rainbows.pdf</i> (a zine, not a songbook), so census counts draw only on independent songbook sources.
-  · <a href="../index.html" style="color:#4d8f5b">Back to the Core 50</a>
+  · <a href="../index.html">Back to the Core 50</a>
 </footer>
 </div>
 
