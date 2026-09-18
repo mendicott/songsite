@@ -2,29 +2,29 @@
   "title": "I Find My Joy",
   "rank": 104,
   "status": "draft",
-  "about": "“I find my joy in the simple things that are coming from the earth” — with its wordless heya-heya chorus. Printed in Alli Ruhi — Songs of the Rainbow p.99 and Sound of The Heart song 131 (p.16), among fifteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=izbfdxqI1Ow\" rel=\"noopener\">Stefan Pulsaris &amp; Riedlhof Heartcore — I find my Joy in the simple things (English + Bavarian), via Medicine}SONG Book</a>.",
+  "about": "“I find my joy in the simple things that are coming from the earth” — with its wordless heya-heya chorus. Printed in Alli Ruhi — Songs of the Rainbow p.99 and Sound of The Heart song 131 (p.16), among fifteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=PXJrNXqByYI\" rel=\"noopener\">Primitive Tribal Craft — I Find My Joy, Nitsan Charcko Mizrachi</a>.",
   "eyebrow": "Beyond the Core 50",
   "chips": {
-    "key": "E minor on source",
+    "key": "A minor on source",
     "songbook key": "A minor / G / C",
-    "tempo": "≈118",
+    "tempo": "≈112",
     "chords": "Am G C"
   },
   "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
   "fit": [
     {
-      "num": "92.4%",
+      "num": "100.0%",
       "label": "chords fit — melody time on Am G C tones"
     },
     {
-      "num": "48.8%",
+      "num": "33.8%",
       "label": "words match — sung lyric vs. songbook text"
     }
   ],
-  "verdict": "Verdict: pending. Re-transcribed 2026-09-18 from the Pulsaris/Riedlhof recording at 60s offset per Marcus (first attempt off the dedicated clip scored 41.5%). 92.4% chord-tone fit; detected E minor vs the songbook's Am G C — likely sung transposed; verify before promoting.",
+  "verdict": "Verdict: pending. Third source tried, chosen by Marcus: Primitive Tribal Craft recording detects A minor — exactly the songbook chording (Am G C) — with 100% chord-tone fit. Strong candidate for promotion after human check.",
   "provenance": {
     "Songbook": "Alli Ruhi — Songs of the Rainbow p.99 · Sound of The Heart song 131 (p.16), chords Am G C",
-    "Recording": "<a href=\"https://www.youtube.com/watch?v=izbfdxqI1Ow\" rel=\"noopener\">Stefan Pulsaris &amp; Riedlhof Heartcore, via Medicine}SONG Book (YouTube)</a>",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=PXJrNXqByYI\" rel=\"noopener\">Primitive Tribal Craft — I Find My Joy, Nitsan Charcko Mizrachi</a> (clip from 60s)",
     "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
   },
   "subtitle": "In the simple things"
