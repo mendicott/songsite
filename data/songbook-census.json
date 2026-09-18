@@ -1,78 +1,80 @@
 {
  "generated": "songbook_census.py (POC)",
  "n_books": 51,
- "n_searchable": 44,
+ "n_searchable": 51,
  "counts": {
-  "above-and-below": 23,
-  "agua-de-estrellas": 15,
-  "air-moves-us": 3,
-  "ancient-mother": 13,
-  "building-bridges": 1,
+  "above-and-below": 26,
+  "agua-de-estrellas": 16,
+  "air-moves-us": 4,
+  "ancient-mother": 16,
+  "building-bridges": 2,
   "cauldron-of-changes": 2,
-  "circle-around": 6,
-  "dance-gypsies-dance": 2,
-  "dear-friends": 8,
-  "deep-inside-my-heart": 13,
-  "down-to-the-river": 4,
-  "earth-my-body": 18,
-  "earth-water-fire-air": 1,
-  "every-little-cell": 8,
-  "every-part-of-the-earth": 11,
-  "fly-like-an-eagle": 14,
-  "fly-like-the-wind": 3,
-  "here-we-are-once-again": 17,
-  "hey-niketi": 11,
-  "hoof-and-horn": 9,
-  "humble-yourself": 18,
-  "i-am-a-circle": 1,
-  "i-am-a-gypsy": 8,
-  "i-find-my-joy": 14,
-  "ide-were": 24,
-  "isis-astarte-diana-hecate": 0,
+  "circle-around": 9,
+  "dance-gypsies-dance": 4,
+  "dear-friends": 9,
+  "deep-inside-my-heart": 14,
+  "down-to-the-river": 5,
+  "earth-my-body": 22,
+  "earth-water-fire-air": 3,
+  "every-little-cell": 10,
+  "every-part-of-the-earth": 13,
+  "fly-like-an-eagle": 18,
+  "fly-like-the-wind": 6,
+  "here-we-are-once-again": 21,
+  "hey-niketi": 12,
+  "hoof-and-horn": 11,
+  "humble-yourself": 21,
+  "i-am-a-circle": 2,
+  "i-am-a-gypsy": 11,
+  "i-find-my-joy": 18,
+  "ide-were": 25,
+  "isis-astarte-diana-hecate": 1,
   "jay-ma": 11,
-  "kumbaya": 5,
-  "lead-us": 22,
-  "let-the-way-of-the-heart": 21,
-  "let-your-little-light-shine": 3,
+  "kumbaya": 7,
+  "lead-us": 24,
+  "let-the-way-of-the-heart": 26,
+  "let-your-little-light-shine": 4,
   "light-is-returning": 5,
-  "listen-listen-listen": 2,
-  "magic-hat": 8,
+  "listen-listen-listen": 3,
+  "magic-hat": 10,
   "makpia-glegleika": 0,
-  "may-the-circle-be-open": 9,
-  "may-the-love": 21,
-  "mother-earth-great-ship": 3,
-  "mother-i-feel-you": 23,
-  "oh-great-spirit": 14,
-  "one-planet-is-turning": 4,
-  "our-magic": 8,
-  "pacha-mama": 26,
-  "ragupati-ragava": 9,
-  "rainbow-around-the-moon": 3,
-  "rainbow-country": 0,
-  "return-again": 8,
-  "round-and-round": 9,
+  "may-the-circle-be-open": 10,
+  "may-the-love": 24,
+  "mother-earth-great-ship": 4,
+  "mother-i-feel-you": 28,
+  "oh-great-spirit": 17,
+  "one-planet-is-turning": 8,
+  "our-magic": 10,
+  "pacha-mama": 28,
+  "ragupati-ragava": 12,
+  "rainbow-around-the-moon": 5,
+  "rainbow-country": 1,
+  "return-again": 11,
+  "round-and-round": 11,
   "step-into-the-flow": 5,
   "tall-trees-warm-fire": 14,
-  "thank-you-for-the-food": 5,
-  "the-earth-is-our-mother": 10,
-  "the-river-is-flowing": 19,
-  "truth-simplicity-and-love": 6,
-  "under-the-full-moon": 4,
-  "universal-lover": 11,
-  "we-all-come-from-the-goddess": 15,
-  "we-are-a-circle": 14,
-  "we-are-circling": 11,
-  "we-are-one-in-harmony": 13,
-  "we-are-opening-up": 23,
-  "we-are-the-power": 4,
+  "thank-you-for-the-food": 8,
+  "the-earth-is-our-mother": 13,
+  "the-river-is-flowing": 25,
+  "truth-simplicity-and-love": 9,
+  "under-the-full-moon": 7,
+  "universal-lover": 14,
+  "we-all-come-from-the-goddess": 18,
+  "we-are-a-circle": 18,
+  "we-are-circling": 15,
+  "we-are-one-in-harmony": 18,
+  "we-are-opening-up": 29,
+  "we-are-the-power": 7,
   "welcome-home": 0,
-  "white-buffalo-woman": 1,
+  "white-buffalo-woman": 2,
   "witchi-tai-to": 0
  },
+ "n_scan_indexed": 6,
  "books": {
   "alli-ruhi-songs-of-the-rainbow": {
    "file": "Alli Ruhi- Songs of the Rainbow.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -128,6 +130,7 @@
   "aolbhajans": {
    "file": "aolbhajans.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "we-are-opening-up"
    ]
@@ -135,6 +138,7 @@
   "booklet-songs-from-the-heart-canciones-del-corazon": {
    "file": "Booklet Songs from the Heart - Canciones del Corazon.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -156,6 +160,7 @@
   "canciones": {
    "file": "Canciones.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -192,6 +197,7 @@
   "ciranda-poimpoim": {
    "file": "Ciranda PoimPoim.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "pacha-mama"
    ]
@@ -199,6 +205,7 @@
   "elf-songbook": {
    "file": "Elf Songbook.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "fly-like-an-eagle",
@@ -219,12 +226,27 @@
   },
   "elf-spiritual-songbook-vol-one-compiled-arranged-by-baba-chris": {
    "file": "Elf_Spiritual_Songbook_Vol_One_Compiled_Arranged_by_Baba_Chris.pdf",
-   "searchable": false,
-   "songs": []
+   "searchable": true,
+   "source": "scan index",
+   "songs": [
+    "above-and-below",
+    "here-we-are-once-again",
+    "humble-yourself",
+    "i-find-my-joy",
+    "lead-us",
+    "let-the-way-of-the-heart",
+    "oh-great-spirit",
+    "pacha-mama",
+    "ragupati-ragava",
+    "the-river-is-flowing",
+    "we-all-come-from-the-goddess",
+    "we-are-opening-up"
+   ]
   },
   "french-song-book": {
    "file": "french song book.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -248,6 +270,7 @@
   "ibiza-05-sagrada-2017-web": {
    "file": "IBIZA_05_SAGRADA_2017_web.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "pacha-mama",
     "white-buffalo-woman"
@@ -256,6 +279,7 @@
   "ibiza-ciranda": {
    "file": "IBIZA_CIRANDA.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "ide-were",
@@ -271,6 +295,7 @@
   "icaros": {
    "file": "Icaros.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -293,6 +318,7 @@
   "mahadevi-ashram-bhajans-mantras-booklet": {
    "file": "Mahadevi-Ashram-Bhajans&Mantras-Booklet.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "down-to-the-river",
     "lead-us"
@@ -301,6 +327,7 @@
   "mantra-s-rainbow-songs-iris-1": {
    "file": "Mantra_s_rainbow_songs_iris-1.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "ancient-mother",
@@ -322,6 +349,7 @@
   "mantra-sammlung-rafael": {
    "file": "Mantra_Sammlung_Rafael.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -356,6 +384,7 @@
   "mastermantra-v1-0": {
    "file": "MasterMantra_v1.0.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "ancient-mother",
@@ -373,6 +402,7 @@
   "metta-rainbow-chantbook": {
    "file": "Metta-Rainbow-Chantbook.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "air-moves-us",
     "ancient-mother",
@@ -396,6 +426,7 @@
   "new-song-book": {
    "file": "new song book.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "ancient-mother",
@@ -420,9 +451,65 @@
     "we-are-one-in-harmony"
    ]
   },
+  "rainbow-au-songs": {
+   "file": "Rainbow AU songs.pdf",
+   "searchable": true,
+   "source": "scan index",
+   "songs": [
+    "above-and-below",
+    "air-moves-us",
+    "ancient-mother",
+    "building-bridges",
+    "circle-around",
+    "dance-gypsies-dance",
+    "dear-friends",
+    "deep-inside-my-heart",
+    "earth-my-body",
+    "earth-water-fire-air",
+    "every-little-cell",
+    "every-part-of-the-earth",
+    "fly-like-an-eagle",
+    "fly-like-the-wind",
+    "here-we-are-once-again",
+    "i-am-a-circle",
+    "i-am-a-gypsy",
+    "i-find-my-joy",
+    "isis-astarte-diana-hecate",
+    "kumbaya",
+    "lead-us",
+    "let-the-way-of-the-heart",
+    "let-your-little-light-shine",
+    "listen-listen-listen",
+    "magic-hat",
+    "may-the-circle-be-open",
+    "may-the-love",
+    "mother-earth-great-ship",
+    "mother-i-feel-you",
+    "oh-great-spirit",
+    "one-planet-is-turning",
+    "our-magic",
+    "ragupati-ragava",
+    "rainbow-around-the-moon",
+    "rainbow-country",
+    "return-again",
+    "round-and-round",
+    "thank-you-for-the-food",
+    "the-earth-is-our-mother",
+    "the-river-is-flowing",
+    "truth-simplicity-and-love",
+    "under-the-full-moon",
+    "universal-lover",
+    "we-are-a-circle",
+    "we-are-one-in-harmony",
+    "we-are-opening-up",
+    "we-are-the-power",
+    "white-buffalo-woman"
+   ]
+  },
   "rainbow-caravan": {
    "file": "Rainbow Caravan.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "air-moves-us",
@@ -467,6 +554,7 @@
   "rainbow-kirtan": {
    "file": "Rainbow Kirtan.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "air-moves-us",
@@ -503,25 +591,44 @@
   "rainbow-parody-songs": {
    "file": "Rainbow Parody songs.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "down-to-the-river",
     "magic-hat",
     "may-the-love"
    ]
   },
-  "rainbow-songbook-2": {
-   "file": "rainbow songbook (2).pdf",
-   "searchable": false,
-   "songs": []
-  },
   "rainbow-songbook-with-notes": {
    "file": "Rainbow Songbook With Notes.pdf",
-   "searchable": false,
-   "songs": []
+   "searchable": true,
+   "source": "scan index",
+   "songs": [
+    "ancient-mother",
+    "circle-around",
+    "earth-my-body",
+    "earth-water-fire-air",
+    "fly-like-an-eagle",
+    "here-we-are-once-again",
+    "i-am-a-gypsy",
+    "i-find-my-joy",
+    "may-the-love",
+    "our-magic",
+    "return-again",
+    "round-and-round",
+    "thank-you-for-the-food",
+    "the-earth-is-our-mother",
+    "the-river-is-flowing",
+    "truth-simplicity-and-love",
+    "under-the-full-moon",
+    "we-all-come-from-the-goddess",
+    "we-are-a-circle",
+    "we-are-the-power"
+   ]
   },
   "rainbow-songs-mantras-bahjans-rainbow-songs-lyrics-chords-yt-links-ebook": {
    "file": "Rainbow Songs - Mantras, Bahjans & Rainbow Songs (Lyrics, Chords, YT links) Ebook.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "ancient-mother",
@@ -570,22 +677,102 @@
   },
   "rainbow-songs-and-prays": {
    "file": "Rainbow songs and prays.pdf",
-   "searchable": false,
-   "songs": []
+   "searchable": true,
+   "source": "scan index",
+   "songs": [
+    "above-and-below",
+    "agua-de-estrellas",
+    "ancient-mother",
+    "circle-around",
+    "dance-gypsies-dance",
+    "down-to-the-river",
+    "earth-my-body",
+    "every-little-cell",
+    "every-part-of-the-earth",
+    "fly-like-an-eagle",
+    "here-we-are-once-again",
+    "hey-niketi",
+    "hoof-and-horn",
+    "i-am-a-gypsy",
+    "i-find-my-joy",
+    "ide-were",
+    "kumbaya",
+    "let-the-way-of-the-heart",
+    "may-the-love",
+    "mother-i-feel-you",
+    "oh-great-spirit",
+    "pacha-mama",
+    "ragupati-ragava",
+    "return-again",
+    "thank-you-for-the-food",
+    "the-river-is-flowing",
+    "truth-simplicity-and-love",
+    "under-the-full-moon",
+    "we-are-a-circle",
+    "we-are-circling",
+    "we-are-one-in-harmony",
+    "we-are-opening-up",
+    "we-are-the-power"
+   ]
   },
   "rainbow-spirit-songs": {
    "file": "Rainbow Spirit songs.pdf",
-   "searchable": false,
-   "songs": []
+   "searchable": true,
+   "source": "scan index",
+   "songs": [
+    "fly-like-the-wind",
+    "humble-yourself",
+    "let-the-way-of-the-heart",
+    "mother-i-feel-you",
+    "one-planet-is-turning",
+    "the-river-is-flowing",
+    "universal-lover",
+    "we-are-circling",
+    "we-are-one-in-harmony",
+    "we-are-opening-up"
+   ]
+  },
+  "rainbowchants": {
+   "file": "RainbowChants.pdf",
+   "searchable": true,
+   "source": "text layer",
+   "songs": [
+    "earth-my-body",
+    "fly-like-an-eagle",
+    "hoof-and-horn",
+    "magic-hat",
+    "mother-i-feel-you",
+    "one-planet-is-turning",
+    "the-earth-is-our-mother",
+    "the-river-is-flowing",
+    "we-all-come-from-the-goddess",
+    "we-are-a-circle",
+    "we-are-circling",
+    "we-are-one-in-harmony",
+    "we-are-opening-up"
+   ]
   },
   "rainbowspirit-songbook": {
    "file": "RainbowSpirit Songbook.pdf",
-   "searchable": false,
-   "songs": []
+   "searchable": true,
+   "source": "scan index",
+   "songs": [
+    "fly-like-the-wind",
+    "humble-yourself",
+    "let-the-way-of-the-heart",
+    "mother-i-feel-you",
+    "one-planet-is-turning",
+    "rainbow-around-the-moon",
+    "universal-lover",
+    "we-are-circling",
+    "we-are-one-in-harmony",
+    "we-are-opening-up"
+   ]
   },
   "sacred-valley2-song-book-english": {
    "file": "sacred valley2 song book english.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "ancient-mother",
@@ -602,11 +789,13 @@
   "sacred-valley3-mantras": {
    "file": "sacred valley3 mantras.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": []
   },
   "shanti-salish-kirtan-chantbook-full": {
    "file": "Shanti Salish Kirtan Chantbook - Full ©.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "lead-us",
     "ragupati-ragava",
@@ -616,11 +805,13 @@
   "shanti-salish-kirtan-chantbook-ganesh-2020": {
    "file": "Shanti Salish Kirtan Chantbook - Ganesh  ©2020.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": []
   },
   "shanti-salish-kirtan-chantbook-guru-other-2020": {
    "file": "Shanti Salish Kirtan Chantbook - Guru_Other ©2020.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "lead-us",
     "we-are-opening-up"
@@ -629,16 +820,19 @@
   "shanti-salish-kirtan-chantbook-krishna-2020": {
    "file": "Shanti Salish Kirtan Chantbook - Krishna ©2020.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": []
   },
   "shanti-salish-kirtan-chantbook-ma-2020": {
    "file": "Shanti Salish Kirtan Chantbook - Ma ©2020.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": []
   },
   "shanti-salish-kirtan-chantbook-ram-2020": {
    "file": "Shanti Salish Kirtan Chantbook - Ram ©2020.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "ragupati-ragava"
    ]
@@ -646,11 +840,13 @@
   "shanti-salish-kirtan-chantbook-shiva-2020": {
    "file": "Shanti Salish Kirtan Chantbook - Shiva  ©2020.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": []
   },
   "sol-diamante-chords": {
    "file": "Sol-Diamante-chords.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -674,6 +870,7 @@
   "song-book": {
    "file": "song.book.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "dear-friends",
@@ -707,6 +904,7 @@
   "songbook-dennis-03-2021-chords": {
    "file": "Songbook Dennis 03 2021 chords.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "agua-de-estrellas",
     "dance-gypsies-dance",
@@ -727,6 +925,7 @@
   "songbook-flora": {
    "file": "Songbook Flora.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -755,20 +954,17 @@
   "songbook-espanol-v18-02": {
    "file": "Songbook-ESPANOL-v18.02.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "agua-de-estrellas",
     "ide-were",
     "pacha-mama"
    ]
   },
-  "songbook": {
-   "file": "songbook.pdf",
-   "searchable": false,
-   "songs": []
-  },
   "songbook2005": {
    "file": "songbook2005.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "fly-like-an-eagle",
     "hey-niketi",
@@ -783,6 +979,7 @@
   "songbook2020pdf": {
    "file": "Songbook2020pdf.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "agua-de-estrellas",
     "ancient-mother",
@@ -806,6 +1003,7 @@
   "songbookneu": {
    "file": "songbookneu.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "humble-yourself",
@@ -817,6 +1015,7 @@
   "songs-of-light": {
    "file": "Songs-of-Light.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -848,6 +1047,7 @@
   "sound-of-the-heart": {
    "file": "Sound of The Heart.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "cauldron-of-changes",
@@ -900,6 +1100,7 @@
   "spanish-songs": {
    "file": "Spanish Songs.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -915,11 +1116,13 @@
   "taizechords": {
    "file": "taizechords.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": []
   },
   "turkish-sufi-songbook": {
    "file": "Turkish Sufi Songbook.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "round-and-round"
    ]
@@ -927,6 +1130,7 @@
   "unilaiva-songbook": {
    "file": "unilaiva-songbook.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "above-and-below",
     "agua-de-estrellas",
@@ -959,6 +1163,7 @@
   "zangboekje-2023-2024": {
    "file": "zangboekje 2023_2024.pdf",
    "searchable": true,
+   "source": "text layer",
    "songs": [
     "agua-de-estrellas",
     "ancient-mother",
