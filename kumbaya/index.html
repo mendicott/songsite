@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,17 +104,17 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 137 · Tier 1</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 137</p>
   <h1>Kumbaya</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>C major</b></span>
+  <div class="chips"><span class="chip">key <b>C major</b></span>
     <span class="chip">tempo <b>≈84</b></span>
     <span class="chip">chords <b>C F G7</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #137 (printed page A 27). Staff notation appears in <a href="https://www.8notes.com/scores/22520.asp" rel="noopener">8notes.com — Kum Ba Yah (traditional)</a>. The tune is referenced in <a href="https://hymnary.org/tune/kum_ba_yah" rel="noopener">hymnary.org — tune KUM BA YAH</a> (African-American spiritual, Gullah tradition).</p>
+
   <section>
-    <h2>Melody — book notation, encoded by eye, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Extracted from the 8notes.com piano arrangement's MIDI file (traditional; public domain tune) — exact pitches and rhythms, no eye transcription involved. This is the standard campfire/hymnal version (hymnary.org tune KUM BA YAH).</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -139,20 +140,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"></div>
-    <p class="verdict">Verdict: high confidence — machine extraction from a published MIDI of the standard tune. Check against the book&#x27;s word sheet (A p.27, song #137) for the Rainbow variant if any.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #137 (printed page A 27)</dd><dt>Notation</dt><dd><a href="https://www.8notes.com/scores/22520.asp" rel="noopener">8notes.com — Kum Ba Yah (Trad.)</a>; MIDI saved as notation-sources/kumbayah_pno.mid</dd><dt>Tune reference</dt><dd><a href="https://hymnary.org/tune/kum_ba_yah" rel="noopener">hymnary.org — tune KUM BA YAH</a> (African-American spiritual, Gullah tradition)</dd><dt>Method</dt><dd>MIDI melody extraction via music21 → melody.spec.json → MusicXML/MIDI, 2026-09-17</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,17 +104,17 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 11 · Tier 1</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 11</p>
   <h1>Welcome Home!</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>C major</b></span>
+  <div class="chips"><span class="chip">key <b>C major</b></span>
     <span class="chip">tempo <b>≈118</b></span>
     <span class="chip">chords <b>C G</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #11, PDF p.6 (words and chords; no notation in book). The melody here follows the singing on <a href="https://archive.org/download/MettabensRainbowChantCollection/welcome_home_welcome_home.mp3" rel="noopener">Mettaben’s Rainbow Chant Collection, “welcome_home_welcome_home” — archive.org</a> (CC BY-NC-SA).</p>
+
   <section>
-    <h2>Melody — machine transcription, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Transcribed by song2xml (--no-separate fast path) from the Mettaben recording (90-second clip, raw mix). Raw machine output — awaiting human verification against the songbook’s words and chords (book A, PDF p.6, song #11).</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -130,20 +131,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"><div><div class="num">87.3%</div><div class="lbl">chords fit — melody time on C·G tones</div></div><div><div class="num">42.1%</div><div class="lbl">words fit — syllables per line vs. notes per phrase</div></div></div>
-    <p class="verdict">Verdict: pitch evidence says this is the song — detected key (C major) matches the songbook chords exactly. The low words-fit reflects phrase fragmentation in the raw-mix transcription, not a wrong melody; needs human verification.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #11, PDF p.6 (words and chords; no notation in book)</dd><dt>Recording</dt><dd><a href="https://archive.org/download/MettabensRainbowChantCollection/welcome_home_welcome_home.mp3" rel="noopener">Mettaben’s Rainbow Chant Collection, “welcome_home_welcome_home” — archive.org</a> (CC BY-NC-SA)</dd><dt>Method</dt><dd>song2xml --no-separate, 21-second run, 2026-09-16</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

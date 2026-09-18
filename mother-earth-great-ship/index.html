@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,17 +104,17 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 223 · Tier 2</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 223</p>
   <h1>Mother Earth Is a Great Big Ship (Great Ship)</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>A minor</b></span>
+  <div class="chips"><span class="chip">key <b>A minor</b></span>
     <span class="chip">tempo <b>≈96</b></span>
     <span class="chip">chords <b>Am G D Em</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #223, printed page A(43), PDF p.48 (hand-notated with chords).</p>
+
   <section>
-    <h2>Melody — book notation, encoded by eye, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Encoded by eye from the songbook’s hand-drawn notation (book A #223 “Mother Earth is the Great Big Ship”, printed page A(43), PDF p.48, three systems; the lower part of the page scan is heavily degraded). Draft reading — verify against the book page.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -136,20 +137,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"></div>
-    <p class="verdict">Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate-to-low — this page’s scan is among the worst of the notated pages.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #223, printed page A(43), PDF p.48 (hand-notated with chords; scan partly degraded)</dd><dt>Method</dt><dd>Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

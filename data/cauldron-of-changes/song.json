@@ -2,6 +2,7 @@
   "title": "Cauldron of Changes",
   "rank": 20,
   "status": "draft",
+  "about": "It is printed in Alli Ruhi — Songs of the Rainbow p.25 (chorded, with the “Brooms of the witches” verse) · Rainbow AU songs vol. A p.2 (Brooms verse). The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=6zY_ybi-9XI\" rel=\"noopener\">Cauldron of Changes — Bunny Lo, YouTube</a> (cover of the chant popularized by Lindie-Lila, “Return of the Goddess”, 2012). See also <a href=\"https://www.song-circle.com/en/world-songs/rainbow/cauldron-of-changes/\" rel=\"noopener\">song-circle.com — Cauldron of Changes</a>.",
   "eyebrow": "Rank 20 · Tier 1",
   "chips": {
     "key": "B minor on source",
@@ -11,8 +12,14 @@
   },
   "melody_note": "Transcribed by song2xml from a clean solo cover (Bunny Lo, YouTube) of the chant, sung a tone above the songbook's Am chording. Raw machine output — no circle field recording has surfaced yet; this stands in until one does.",
   "fit": [
-    {"num": "87.7%", "label": "chords fit — melody time on chord tones, transposed to the sung key"},
-    {"num": "46.6%", "label": "words match — sung lyric vs. songbook text"}
+    {
+      "num": "87.7%",
+      "label": "chords fit — melody time on chord tones, transposed to the sung key"
+    },
+    {
+      "num": "46.6%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
   ],
   "verdict": "Verdict: pending. In the songbook's own Am voicing the raw fit is 28.1%; transposed to the sung B-minor family it is 87.7% — same tune, different key. Verify against the song-circle.com reference and transpose the notation to Am before promoting.",
   "provenance": {

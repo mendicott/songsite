@@ -2,6 +2,7 @@
   "title": "Welcome Home!",
   "rank": 8,
   "status": "draft",
+  "about": "It is printed in Rainbow AU songs, vol. A, song #11, PDF p.6 (words and chords; no notation in book). The melody here follows the singing on <a href=\"https://archive.org/download/MettabensRainbowChantCollection/welcome_home_welcome_home.mp3\" rel=\"noopener\">Mettaben’s Rainbow Chant Collection, “welcome_home_welcome_home” — archive.org</a> (CC BY-NC-SA).",
   "eyebrow": "Song 11 · Tier 1",
   "chips": {
     "key": "C major",
@@ -10,8 +11,14 @@
   },
   "melody_note": "Transcribed by song2xml (--no-separate fast path) from the Mettaben recording (90-second clip, raw mix). Raw machine output — awaiting human verification against the songbook’s words and chords (book A, PDF p.6, song #11).",
   "fit": [
-    {"num": "87.3%", "label": "chords fit — melody time on C·G tones"},
-    {"num": "42.1%", "label": "words fit — syllables per line vs. notes per phrase"}
+    {
+      "num": "87.3%",
+      "label": "chords fit — melody time on C·G tones"
+    },
+    {
+      "num": "42.1%",
+      "label": "words fit — syllables per line vs. notes per phrase"
+    }
   ],
   "verdict": "Verdict: pitch evidence says this is the song — detected key (C major) matches the songbook chords exactly. The low words-fit reflects phrase fragmentation in the raw-mix transcription, not a wrong melody; needs human verification.",
   "provenance": {

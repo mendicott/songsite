@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,17 +104,17 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Rank 45 · Tier 2</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Rank 45</p>
   <h1>Humble (Yourself)</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>C major / A minor</b></span>
+  <div class="chips"><span class="chip">key <b>C major / A minor</b></span>
     <span class="chip">tempo <b>≈129</b></span>
     <span class="chip">chords <b>Am G E</b></span></div>
 
+  <p class="about">Adapted from the traditional gospel “Humble Yourself in the Sight of the Lord” — the Rainbow rewrite turns it to the Mother and the elements. It is printed in Elf Songbook #136 (chorded) · Songbook2020 #38 (elemental verses). The melody here follows the singing on <a href="https://archive.org/download/MettabensRainbowChantCollection/humble_yourself.mp3" rel="noopener">Mettaben's Rainbow Chant Collection — humble_yourself.mp3</a> (CC BY-NC-SA; 2 alternate takes in same collection).</p>
+
   <section>
-    <h2>Melody — machine transcription, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Transcribed by song2xml from Mettaben's dedicated recording (90-second clip, no separation). Raw machine output — two more Mettaben versions (family jam, version 2) exist for cross-checking.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -144,20 +145,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"><div><div class="num">85.3%</div><div class="lbl">chords fit — melody time on Am·G·E tones</div></div><div><div class="num">41.1%</div><div class="lbl">words match — sung lyric vs. songbook text</div></div></div>
-    <p class="verdict">Verdict: pending. Strong chords fit (85.3%) in the songbook&#x27;s own Am–G–E family; verify verse order (Mother vs. Water/Sun/Moon/Forest variants circulate) before promoting.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Elf Songbook #136 (chorded) · Songbook2020 #38 (elemental verses)</dd><dt>Recording</dt><dd><a href="https://archive.org/download/MettabensRainbowChantCollection/humble_yourself.mp3" rel="noopener">Mettaben's Rainbow Chant Collection — humble_yourself.mp3</a> (CC BY-NC-SA; 2 alternate takes in same collection)</dd><dt>Credit</dt><dd>Adapted from the traditional gospel “Humble Yourself in the Sight of the Lord” — the Rainbow rewrite turns it to the Mother and the elements</dd><dt>Method</dt><dd>song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

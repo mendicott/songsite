@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,18 +104,18 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 242 · Tier 1</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 242</p>
   <h1>Tall Trees Warm Fire (Strong Wind)</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>F major on source</b></span>
+  <div class="chips"><span class="chip">key <b>F major on source</b></span>
     <span class="chip">songbook key <b>E minor</b></span>
     <span class="chip">tempo <b>≈136</b></span>
     <span class="chip">chords <b>Em C D Bm</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #242 (lyrics only) · Sound of The Heart #39 “Strong Wind” (chorded, with Hebrew verse). The melody here follows the singing on <a href="https://archive.org/download/MettabensRainbowChantCollection/pure_earth_warm_fire.mp3" rel="noopener">Mettaben's Rainbow Chant Collection — pure_earth_warm_fire.mp3</a> (CC BY-NC-SA). See also <a href="https://www.song-circle.com/en/world-songs/rainbow/strong-wind/" rel="noopener">song-circle.com — Strong Wind</a>.</p>
+
   <section>
-    <h2>Melody — machine transcription, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Transcribed by song2xml from Mettaben's “pure_earth_warm_fire” recording (no separation) — a variant wording of the same chant family. Raw machine output; the detected key (F major) does not sit inside the songbook's Em chord family, so treat pitches as provisional.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -143,20 +144,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"><div><div class="num">61.5%</div><div class="lbl">chords fit — melody time on Em·C·D·Bm tones</div></div><div><div class="num">39.8%</div><div class="lbl">words match — sung lyric vs. songbook text</div></div></div>
-    <p class="verdict">Verdict: pending — weakest fit of the audio batch. The recording is the “Pure Earth Warm Fire” variant and sits outside the songbook&#x27;s Em family; check against the song-circle.com Strong Wind reference and re-transcribe if a truer circle version surfaces.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #242 (lyrics only) · Sound of The Heart #39 “Strong Wind” (chorded, with Hebrew verse)</dd><dt>Recording</dt><dd><a href="https://archive.org/download/MettabensRainbowChantCollection/pure_earth_warm_fire.mp3" rel="noopener">Mettaben's Rainbow Chant Collection — pure_earth_warm_fire.mp3</a> (CC BY-NC-SA)</dd><dt>Reference</dt><dd><a href="https://www.song-circle.com/en/world-songs/rainbow/strong-wind/" rel="noopener">song-circle.com — Strong Wind</a></dd><dt>Method</dt><dd>song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

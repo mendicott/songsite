@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,18 +104,18 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 120 · Tier 2</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 120</p>
   <h1>Pacha Mama</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>D minor on source</b></span>
+  <div class="chips"><span class="chip">key <b>D minor on source</b></span>
     <span class="chip">songbook key <b>E minor</b></span>
     <span class="chip">tempo <b>≈144</b></span>
     <span class="chip">chords <b>Em Bm Am D</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #120 (lyrics only) · unilaiva-songbook #415 (chorded, credited melody line Ronny Hickel). The melody here follows the singing on <a href="https://archive.org/download/MettabensRainbowChantCollection/pacha_mama.mp3" rel="noopener">Mettaben's Rainbow Chant Collection — pacha_mama.mp3</a> (CC BY-NC-SA). See also Rainbow Kirtan chant book p.22 names Patricko's version (soundcloud.com/patricko-2) as the model Mettaben learned from.</p>
+
   <section>
-    <h2>Melody — machine transcription, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Transcribed by song2xml from Mettaben's dedicated recording (90-second clip, no separation). Raw machine output — awaiting human verification against the unilaiva songbook's chorded text (song 415).</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -151,20 +152,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"><div><div class="num">67.0%</div><div class="lbl">chords fit — melody time on Em·Bm·Am·D tones</div></div><div><div class="num">48.4%</div><div class="lbl">words match — sung lyric vs. songbook text</div></div></div>
-    <p class="verdict">Verdict: pending. Detected key (D minor) sits a tone below the songbook&#x27;s E-minor chording — likely sung transposed; verify against the Patricko reference version before promoting.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #120 (lyrics only) · unilaiva-songbook #415 (chorded, credited melody line Ronny Hickel)</dd><dt>Recording</dt><dd><a href="https://archive.org/download/MettabensRainbowChantCollection/pacha_mama.mp3" rel="noopener">Mettaben's Rainbow Chant Collection — pacha_mama.mp3</a> (CC BY-NC-SA)</dd><dt>Reference</dt><dd>Rainbow Kirtan chant book p.22 names Patricko's version (soundcloud.com/patricko-2) as the model Mettaben learned from</dd><dt>Method</dt><dd>song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

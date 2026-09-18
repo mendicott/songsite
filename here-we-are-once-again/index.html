@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,18 +104,18 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 14 · Tier 1</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 14</p>
   <h1>Here We Are (Once Again)</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>D minor</b></span>
+  <div class="chips"><span class="chip">key <b>D minor</b></span>
     <span class="chip">time <b>6/8</b></span>
     <span class="chip">tempo <b>≈100</b></span>
     <span class="chip">chords <b>Dm C</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #14, PDF p.7 (hand-notated with chords, three systems).</p>
+
   <section>
-    <h2>Melody — book notation, encoded by eye, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Encoded by eye from the songbook’s hand-drawn notation (book A #14, PDF p.7, three systems in 6/8). Draft reading — verify against the book page.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -139,20 +140,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"></div>
-    <p class="verdict">Verdict: pending. Encoded from the book’s hand-notated staff; pitch-level confidence moderate (dense hand-drawn systems). Awaiting human verification against the page.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #14, PDF p.7 (hand-notated with chords, three systems)</dd><dt>Method</dt><dd>Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

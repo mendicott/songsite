@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,18 +104,18 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 113 · Tier 1</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 113</p>
   <h1>Fly Like the Wind</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>D minor on source</b></span>
+  <div class="chips"><span class="chip">key <b>D minor on source</b></span>
     <span class="chip">songbook chords <b>Am Em G</b></span>
     <span class="chip">tempo <b>≈129</b></span>
     <span class="chip">chords <b>Am Em G</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, song #113, p.22 (words and chords; author unrecorded). The melody here follows the singing on <a href="https://www.youtube.com/watch?v=Y97x5OA_0T4&t=3436" rel="noopener">“Rainbow Spirit — Songs and Chants of the Rainbow Family” compilation, track 18 at 0:57:16 — Ananda Das, YouTube</a>. The Granada songbook merges it with Earth My Body — a living medley tradition; it is also attested in the firecirclechants and ES songbooks.</p>
+
   <section>
-    <h2>Melody — machine transcription, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Transcribed by song2xml from the Ananda Das compilation (90-second clip at 0:57:16, no separation). Raw machine output — awaiting human verification against the songbook's chorded text (book A, p.22, #113). The Granada songbook carries it as a medley with Earth My Body.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -157,20 +158,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"><div><div class="num">97.0%</div><div class="lbl">chords fit — melody time on Am·Em·G tones</div></div><div><div class="num">53.5%</div><div class="lbl">words match — sung lyric vs. songbook text</div></div></div>
-    <p class="verdict">Verdict: pending. Chord fit is very strong; the words score is dragged down by the live medley setting (crowd singing, verses interleaved) — verify phrase boundaries by ear before promoting.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #113, p.22 (words and chords; author unrecorded)</dd><dt>Recording</dt><dd><a href="https://www.youtube.com/watch?v=Y97x5OA_0T4&t=3436" rel="noopener">“Rainbow Spirit — Songs and Chants of the Rainbow Family” compilation, track 18 at 0:57:16 — Ananda Das, YouTube</a></dd><dt>Also sung</dt><dd>Granada songbook merges it with Earth My Body (medley tradition); attested in firecirclechants and ES songbooks</dd><dt>Method</dt><dd>song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

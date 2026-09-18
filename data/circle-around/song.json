@@ -2,6 +2,7 @@
   "title": "Circle Around (We Circle Around)",
   "rank": 24,
   "status": "draft",
+  "about": "An Arapaho Ghost Dance song, recorded by James Mooney in the 1890s, and sung with respect for its origins. It is printed in Rainbow AU songs, vol. A, song #214 “I Circle Around”, PDF p.27 (typeset words and chords; no staff notation). Credited “Arapaho (Native American)”, aka “Long Wing Feather”; the book notes it appears in Friction in the System and on Tickle Tune Typhoon “Circle Around”. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=9UQeUY_baac\" rel=\"noopener\">“Shamanism: I Circle Around” — Shamanic Experience (YouTube, 1:19)</a>. See also <a href=\"https://www.song-circle.com/en/world-songs/rainbow/circle-around/\" rel=\"noopener\">song-circle.com — Circle Around</a> (lyrics; no recording listed there).",
   "eyebrow": "Song 214 · Tier 1",
   "chips": {
     "key": "F minor (performed) / E minor (book)",
@@ -10,8 +11,14 @@
   },
   "melody_note": "Transcribed by song2xml (--no-separate fast path) from a YouTube recording. The recording is sung a half step above the book's chords (F minor vs. the book's E minor). Raw machine output — awaiting human verification against the book's words and chords (book A, song #214, PDF p.27; typeset words+chords, no staff notation).",
   "fit": [
-    {"num": "80.2%", "label": "chords fit — melody time on Fm·C#·D# tones (book chords Em·C·D transposed +1 semitone to the performed key)"},
-    {"num": "57.4%", "label": "words fit — syllables per line vs. notes per phrase"}
+    {
+      "num": "80.2%",
+      "label": "chords fit — melody time on Fm·C#·D# tones (book chords Em·C·D transposed +1 semitone to the performed key)"
+    },
+    {
+      "num": "57.4%",
+      "label": "words fit — syllables per line vs. notes per phrase"
+    }
   ],
   "verdict": "Verdict: pitch evidence says this is the song — against the book chords transposed to the performed key, chord-tone fit is 80.2% (it was 48.8% untransposed, which is how the half-step difference was caught). Needs human verification.",
   "provenance": {

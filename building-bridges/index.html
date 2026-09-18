@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,17 +104,17 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 198 · Tier 2</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 198</p>
   <h1>Building Bridges</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>F minor</b></span>
+  <div class="chips"><span class="chip">key <b>F minor</b></span>
     <span class="chip">time <b>4/4 round</b></span>
     <span class="chip">tempo <b>≈92</b></span></div>
 
+  <p class="about">Composed by the women of the Greenham Common peace occupation, England, 1983; transcription used by permission of Elizabeth Cave (per the book). It is printed in Rainbow AU songs, vol. A, song #198, printed page A(39), PDF p.29 (typeset, 4-part round).</p>
+
   <section>
-    <h2>Melody — book notation, encoded by eye, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Encoded by eye from the songbook’s typeset notation (book A #198, printed page A(39), PDF p.29 — a four-line round in four flats, transcription credited to Elizabeth Cave). Draft reading — verify against the book page.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -133,20 +134,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"></div>
-    <p class="verdict">Verdict: pending. Typeset source is cleaner than the hand-drawn pages, but pitch-level confidence still moderate. The round is widely published (Rise Up Singing) for an independent check.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, song #198, printed page A(39), PDF p.29 (typeset, 4-part round)</dd><dt>Credit</dt><dd>Composed by the women of the Greenham Common peace occupation, England, 1983; transcription used by permission of Elizabeth Cave (per the book)</dd><dt>Method</dt><dd>Visual transcription of book notation → melody.spec.json → MusicXML/MIDI, 2026-09-16</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

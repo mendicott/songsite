@@ -2,6 +2,7 @@
   "title": "The River Is Flowing",
   "rank": 15,
   "status": "draft",
+  "about": "Widely credited to Diana Hildebrand-Hull; sung as a commons across circle-song traditions. It is printed in Rainbow AU songs, vol. A, song #244, p.50 (hand-notated). The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=sB2AaVVjF-0\" rel=\"noopener\">“The River is Flowing … A video presentation” — SONGS I LOVE, YouTube</a>. It is also heard on Ananda Das compilation (1:16:11) · Mettaben collection, “the_river_she_is_flowing” (CC BY-NC-SA).",
   "eyebrow": "Song 244 · Tier 1",
   "chips": {
     "key": "E minor",
@@ -12,8 +13,14 @@
   },
   "melody_note": "Transcribed by song2xml from the source recording (90-second clip). Raw machine output — awaiting human verification against the songbook’s hand-notated version (book A, p.50).",
   "fit": [
-    {"num": "80.7%", "label": "chords fit — melody time on Em·Bm·D·G tones"},
-    {"num": "90.2%", "label": "words match — sung lyric vs. songbook text"}
+    {
+      "num": "80.7%",
+      "label": "chords fit — melody time on Em·Bm·D·G tones"
+    },
+    {
+      "num": "90.2%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
   ],
   "verdict": "Verdict: the transcription is this song. Detected key (B minor) sits inside the songbook’s chord family; the sung words are the printed words.",
   "provenance": {

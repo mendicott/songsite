@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,18 +104,18 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 46 · Tier 1</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Song 46</p>
   <h1>Dance Gypsies Dance</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>G minor on source</b></span>
+  <div class="chips"><span class="chip">key <b>G minor on source</b></span>
     <span class="chip">songbook key <b>A minor / D minor</b></span>
     <span class="chip">tempo <b>≈123</b></span>
     <span class="chip">chords <b>Am Em B7</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs, vol. A, p.11 song #46 · Alli Ruhi p.35 (Am–Em–B7) · Songbook Dennis 2021 p.16 (Dm–Am–G). The melody here follows the singing on <a href="https://www.youtube.com/watch?v=Y97x5OA_0T4&t=1174" rel="noopener">Ananda Das compilation, YouTube — 19:34</a>. It is also heard on Gypsy65 — “Rainbow Spirit V; Gypsy Dance” (YouTube, 2007, 46K+ views) · song-circle.com reference page.</p>
+
   <section>
-    <h2>Melody — machine transcription, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Transcribed by song2xml from the Ananda Das compilation (segment at 19:34, 90-second clip, no separation). Raw machine output — the songbooks carry two chordings (Am–Em–B7 and Dm–Am–G); the source sings in G minor.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -143,20 +144,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"><div><div class="num">77.0%</div><div class="lbl">chords fit — melody time on Am·Em·B7 tones</div></div><div><div class="num">44.3%</div><div class="lbl">words match — sung lyric vs. songbook text (incl. Romani/Spanish verses)</div></div></div>
-    <p class="verdict">Verdict: pending. Decent chords fit despite the key offset (sung G minor vs. printed Am); the multilingual verses depress the words score. Cross-check against the Gypsy65 “Rainbow Spirit V; Gypsy Dance” video before promoting.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs, vol. A, p.11 song #46 · Alli Ruhi p.35 (Am–Em–B7) · Songbook Dennis 2021 p.16 (Dm–Am–G)</dd><dt>Recording</dt><dd><a href="https://www.youtube.com/watch?v=Y97x5OA_0T4&t=1174" rel="noopener">Ananda Das compilation, YouTube — 19:34</a></dd><dt>Also sung</dt><dd>Gypsy65 — “Rainbow Spirit V; Gypsy Dance” (YouTube, 2007, 46K+ views) · song-circle.com reference page</dd><dt>Method</dt><dd>song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>

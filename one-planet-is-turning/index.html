@@ -66,6 +66,7 @@
   button:focus-visible{outline:2px solid var(--wood); outline-offset:2px;}
   .subtitle{font-family:Fraunces, Georgia, serif; font-size:1.25rem; color:var(--muted);
     margin:-.6rem 0 1rem;}
+  .about{font-size:1.02rem; margin:0 0 2.2rem; max-width:42rem;}
   .verses{display:grid; gap:1.5rem;}
   .aside{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 .55rem;}
   .chordline{
@@ -103,17 +104,17 @@
 </style>
 </head><body>
 <div class="page">
-  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Rank 39 · Tier 2</p>
+  <p class="eyebrow"><a href="../index.html">Rainbow Songbook</a> · Rank 39</p>
   <h1>One Planet Is Turning</h1>
-  <div class="chips"><span class="chip draft">status <b>draft</b></span>
-    <span class="chip">key <b>E minor</b></span>
+  <div class="chips"><span class="chip">key <b>E minor</b></span>
     <span class="chip">tempo <b>≈92</b></span>
     <span class="chip">chords <b>Em (played throughout)</b></span></div>
 
+  <p class="about">It is printed in Rainbow AU songs (“on her course around the sun”). Staff notation appears in <a href="http://www.bliss-fire.com/RainbowChants.pdf" rel="noopener">Butterfly Bill — Rainbow Chants, p.5</a>. It is a close relative of Charlie Murphy’s “Light Is Returning”.</p>
+
   <section>
-    <h2>Melody — book notation, encoded by eye, pre-verification</h2>
+    <h2>Melody</h2>
     <div class="paper"><div id="osmd" aria-label="Staff notation of the melody"></div></div>
-    <p class="paper-note">Encoded from Butterfly Bill's RainbowChants.pdf p.5 (bliss-fire.com) — typeset lead sheet, three verses under one melody, “E minor is played throughout on the Rainbow Spirit video.” Some long notes are tied across systems; rhythm of the “a-round the” figure is a draft reading — verify.</p>
     <div class="controls">
       <button id="play">&#9654; Play melody</button>
       <span id="status" class="paper-note" style="margin:0"></span>
@@ -139,20 +140,8 @@
 </div></div>
   </section>
 
-  <section>
-    <h2>Verification</h2>
-    <div class="fit"></div>
-    <p class="verdict">Verdict: pending. IDENTITY NOTE: these are the verses of Charlie Murphy&#x27;s “Light Is Returning” (verse 2 here IS “Light is returning, even tho this is the darkest hour”) — the same song family as rank 44 “Returning of the Light”. This bears directly on the open rank-44 identity decision.</p>
-  </section>
-
-  <section>
-    <h2>Provenance</h2>
-    <dl><dt>Songbook</dt><dd>Rainbow AU songs — attested (manifest incipit “on her course around the sun”)</dd><dt>Notation</dt><dd><a href="http://www.bliss-fire.com/RainbowChants.pdf" rel="noopener">Butterfly Bill — Rainbow Chants, p.5</a>, saved in notation-sources/RainbowChants.pdf</dd><dt>Related</dt><dd>Rank 44 “Returning of the Light” / Charlie Murphy “Light Is Returning” (firecirclechants sheet already encoded on this site)</dd><dt>Method</dt><dd>Visual transcription + automated notehead detection → melody.spec.json → MusicXML/MIDI, 2026-09-17</dd></dl>
-  </section>
-
-  <footer>Rainbow Songbook melody-reconstruction project · notation renders live
-  from the project&rsquo;s MusicXML — corrections to
-  <a href="melody.musicxml">the file</a> update this page ·
+  <footer>Rainbow Songbook ·
+  <a href="melody.musicxml">MusicXML</a> ·
   <a href="melody.mid">MIDI</a></footer>
 </div>
 <script id="musicxml-data" type="text/plain"><?xml version="1.0" encoding="utf-8"?>
