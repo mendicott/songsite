@@ -1,0 +1,24 @@
+{
+  "title": "Fly Like the Wind",
+  "rank": 12,
+  "status": "draft",
+  "eyebrow": "Song 113 · Tier 1",
+  "chips": {
+    "key": "D minor on source",
+    "songbook chords": "Am Em G",
+    "tempo": "≈129",
+    "chords": "Am Em G"
+  },
+  "melody_note": "Transcribed by song2xml from the Ananda Das compilation (90-second clip at 0:57:16, no separation). Raw machine output — awaiting human verification against the songbook's chorded text (book A, p.22, #113). The Granada songbook carries it as a medley with Earth My Body.",
+  "fit": [
+    {"num": "97.0%", "label": "chords fit — melody time on Am·Em·G tones"},
+    {"num": "53.5%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Chord fit is very strong; the words score is dragged down by the live medley setting (crowd singing, verses interleaved) — verify phrase boundaries by ear before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #113, p.22 (words and chords; author unrecorded)",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=3436\" rel=\"noopener\">“Rainbow Spirit — Songs and Chants of the Rainbow Family” compilation, track 18 at 0:57:16 — Ananda Das, YouTube</a>",
+    "Also sung": "Granada songbook merges it with Earth My Body (medley tradition); attested in firecirclechants and ES songbooks",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

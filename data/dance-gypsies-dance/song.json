@@ -1,0 +1,24 @@
+{
+  "title": "Dance Gypsies Dance",
+  "rank": 31,
+  "status": "draft",
+  "eyebrow": "Song 46 · Tier 1",
+  "chips": {
+    "key": "G minor on source",
+    "songbook key": "A minor / D minor",
+    "tempo": "≈123",
+    "chords": "Am Em B7"
+  },
+  "melody_note": "Transcribed by song2xml from the Ananda Das compilation (segment at 19:34, 90-second clip, no separation). Raw machine output — the songbooks carry two chordings (Am–Em–B7 and Dm–Am–G); the source sings in G minor.",
+  "fit": [
+    {"num": "77.0%", "label": "chords fit — melody time on Am·Em·B7 tones"},
+    {"num": "44.3%", "label": "words match — sung lyric vs. songbook text (incl. Romani/Spanish verses)"}
+  ],
+  "verdict": "Verdict: pending. Decent chords fit despite the key offset (sung G minor vs. printed Am); the multilingual verses depress the words score. Cross-check against the Gypsy65 “Rainbow Spirit V; Gypsy Dance” video before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, p.11 song #46 · Alli Ruhi p.35 (Am–Em–B7) · Songbook Dennis 2021 p.16 (Dm–Am–G)",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=1174\" rel=\"noopener\">Ananda Das compilation, YouTube — 19:34</a>",
+    "Also sung": "Gypsy65 — “Rainbow Spirit V; Gypsy Dance” (YouTube, 2007, 46K+ views) · song-circle.com reference page",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-17"
+  }
+}
