@@ -1,0 +1,22 @@
+{
+  "title": "Air Moves Us",
+  "rank": 22,
+  "status": "draft",
+  "about": "The Elements Chant: air, fire, water and earth each given a verb — “air moves us, fire transforms us, water shapes us, earth heals us” — with the wheel’s balance turning in the refrain. It circulates as a commons of the pagan fire-circle and Rainbow traditions; the songbooks record no author. It is printed in Rainbow AU songs, vol. A, p.48, song #238. The melody here follows the singing on <a href=\"https://archive.org/download/MettabensRainbowChantCollection/air_moves_us.mp3\" rel=\"noopener\">Mettaben’s Rainbow Chant Collection — air_moves_us.mp3</a> (CC BY-NC-SA).",
+  "eyebrow": "Song 238 · Tier 1",
+  "chips": {
+    "key": "C major on source",
+    "tempo": "≈144"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's air_moves_us.mp3 (90s clip, no separation). 67.6% words fit. Awaiting verification against Circle of Song p.55 (Kate Marks, book-paywalled).",
+  "fit": [
+    {"num": "67.6%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Strongest words fit of the batch; verify against the book entry before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, p.48, song #238",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/air_moves_us.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — air_moves_us.mp3</a> (CC BY-NC-SA)",
+    "Reference": "Circle of Song (Kate Marks) p.55 — notated, book-paywalled",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

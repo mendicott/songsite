@@ -1,0 +1,23 @@
+{
+  "title": "May the Circle Be Open",
+  "rank": 2,
+  "status": "draft",
+  "about": "By Starhawk, from <i>The Spiral Dance</i> (1979) — the closing blessing of the circle, sung as gatherings part: “merry meet and merry part and merry meet again.” It is printed in Rainbow AU songs, vol. A, p.1, song #2 — the book’s second song, right where a closing blessing belongs. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=dzjRd92YvZE\" rel=\"noopener\">the performance carried by song-circle.com’s Merry Meet page</a>, the version the circle-song community itself points to.",
+  "eyebrow": "Song 2 · Tier 1",
+  "chips": {
+    "key": "B minor on source",
+    "tempo": "≈129",
+    "credited to": "Starhawk"
+  },
+  "melody_note": "Transcribed by song2xml from the song-circle.com endorsed performance (dzjRd92YvZE, 90s clip, no separation). 53.5% words fit. First candidate N-rWiFyAUnE scored 12% (instrumental-heavy) and was discarded. Awaiting verification.",
+  "fit": [
+    {"num": "53.5%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Verify against the songbook and a second circle performance before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, p.1, song #2",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=dzjRd92YvZE\" rel=\"noopener\">song-circle.com Merry Meet page, second embedded performance</a>",
+    "Credit": "Starhawk, The Spiral Dance (1979)",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

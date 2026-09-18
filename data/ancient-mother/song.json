@@ -1,0 +1,23 @@
+{
+  "title": "Ancient Mother",
+  "rank": 18,
+  "status": "draft",
+  "about": "A slow, keening invocation — “Ancient Mother, I hear you calling” — sung traditional, and carried far by Robert Gass and On Wings of Song’s 1993 recording; it has since entered the hymnals (Singing the Journey #1069). It is printed in Rainbow AU songs, vol. A, p.5, song #26. The melody here follows the singing on <a href=\"https://archive.org/download/MettabensRainbowChantCollection/ancient_mother.mp3\" rel=\"noopener\">Mettaben’s Rainbow Chant Collection — ancient_mother.mp3</a> (CC BY-NC-SA).",
+  "eyebrow": "Song 26 · Tier 1",
+  "chips": {
+    "key": "F major on source",
+    "tempo": "≈144",
+    "credited to": "traditional / arr. Robert Gass"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's ancient_mother.mp3 (90s clip, no separation). 35.5% words fit — low because the chant is slow and melismatic; phrase detection fragments. A second Mettaben take (ancient_mother_im_coming_home.mp3) is available for cross-checking. Awaiting verification against the hymnal notation (Singing the Journey #1069).",
+  "fit": [
+    {"num": "35.5%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Cross-check against the second Mettaben take and the hymnal setting before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, p.5, song #26",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/ancient_mother.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — ancient_mother.mp3</a> (CC BY-NC-SA)",
+    "Reference": "Singing the Journey (UU hymnal) #1069; Robert Gass, On Wings of Song, 'Ancient Mother' (1993)",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

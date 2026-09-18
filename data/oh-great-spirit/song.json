@@ -1,0 +1,23 @@
+{
+  "title": "Oh Great Spirit",
+  "rank": 25,
+  "status": "draft",
+  "about": "“Oh Great Spirit, Earth, Sun, Sky and Sea, you are inside and all around me” — a two-line prayer widely credited to Adele Getty, sung as a round and as a grace across circle traditions. It is printed in Rainbow AU songs, vol. A, song #32 (words only). The melody here follows the singing on <a href=\"https://archive.org/download/MettabensRainbowChantCollection/o_great_spirit.mp3\" rel=\"noopener\">Mettaben’s Rainbow Chant Collection — o_great_spirit.mp3</a> (CC BY-NC-SA); the same collection holds two further Great Spirit chants that are distinct songs.",
+  "eyebrow": "Song 32 · Tier 1",
+  "chips": {
+    "key": "G minor on source",
+    "tempo": "≈129",
+    "credited to": "Adele Getty"
+  },
+  "melody_note": "Transcribed by song2xml from Mettaben's o_great_spirit.mp3 (90s clip, no separation). 60.9% words fit. Distinguish from great_spirit_carry_us.mp3 and great_spirit_hear_us_heal_us.mp3 — different songs in the same collection. Awaiting verification.",
+  "fit": [
+    {"num": "60.9%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Verify against the songbook words and a second sung source before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #32 (lyrics only)",
+    "Recording": "<a href=\"https://archive.org/download/MettabensRainbowChantCollection/o_great_spirit.mp3\" rel=\"noopener\">Mettaben's Rainbow Chant Collection — o_great_spirit.mp3</a> (CC BY-NC-SA)",
+    "Credit": "Widely credited to Adele Getty",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

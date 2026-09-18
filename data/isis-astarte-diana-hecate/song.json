@@ -1,0 +1,23 @@
+{
+  "title": "Isis Astarte Diana Hecate",
+  "rank": 19,
+  "status": "draft",
+  "about": "The Goddess Chant — seven names sung in a ring: Isis, Astarte, Diana, Hecate, Demeter, Kali, Inanna. The words are credited to Deena Metzger, the melody to Caitlin Mullin; from women’s ritual circles it passed into the fire-circle and Rainbow repertoires. It is printed in Rainbow AU songs, vol. A, p.5, song #24, with a second entry at p.12, song #49. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=DJZHabrymNc\" rel=\"noopener\">a recorded Goddess Chant performance on YouTube</a>.",
+  "eyebrow": "Song 24 · Tier 1",
+  "chips": {
+    "key": "B minor on source",
+    "tempo": "≈76",
+    "credited to": "Deena Metzger / Caitlin Mullin"
+  },
+  "melody_note": "Transcribed by song2xml from YouTube DJZHabrymNc (90s clip, no separation). 53.5% words fit. NOTE: notation-sources/hecate.pdf is Patricia Witt's 'Hecate, Cerridwen' — a different chant (Hoof and Horn companion), not this one. Awaiting verification.",
+  "fit": [
+    {"num": "53.5%", "label": "words match — sung lyric vs. songbook text"}
+  ],
+  "verdict": "Verdict: pending. Verify against the book entries (#24 and #49) before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, p.5 song #24; second entry p.12 song #49",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=DJZHabrymNc\" rel=\"noopener\">Goddess Chant — YouTube</a>",
+    "Credit": "Words Deena Metzger; melody Caitlin Mullin",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}
