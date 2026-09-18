@@ -1,7 +1,7 @@
 {
  "generated": "songbook_census.py (POC)",
- "n_books": 51,
- "n_searchable": 51,
+ "n_books": 40,
+ "n_searchable": 40,
  "counts": {
   "above-and-below": 26,
   "agua-de-estrellas": 16,
@@ -31,7 +31,7 @@
   "isis-astarte-diana-hecate": 1,
   "jay-ma": 11,
   "kumbaya": 7,
-  "lead-us": 24,
+  "lead-us": 25,
   "let-the-way-of-the-heart": 26,
   "let-your-little-light-shine": 4,
   "light-is-returning": 5,
@@ -45,12 +45,12 @@
   "oh-great-spirit": 17,
   "one-planet-is-turning": 8,
   "our-magic": 10,
-  "pacha-mama": 28,
-  "ragupati-ragava": 12,
+  "pacha-mama": 27,
+  "ragupati-ragava": 11,
   "rainbow-around-the-moon": 5,
   "rainbow-country": 1,
   "return-again": 11,
-  "round-and-round": 11,
+  "round-and-round": 10,
   "step-into-the-flow": 5,
   "tall-trees-warm-fire": 14,
   "thank-you-for-the-food": 8,
@@ -63,7 +63,7 @@
   "we-are-a-circle": 18,
   "we-are-circling": 15,
   "we-are-one-in-harmony": 18,
-  "we-are-opening-up": 29,
+  "we-are-opening-up": 27,
   "we-are-the-power": 7,
   "welcome-home": 0,
   "white-buffalo-woman": 2,
@@ -127,14 +127,6 @@
     "we-are-the-power"
    ]
   },
-  "aolbhajans": {
-   "file": "aolbhajans.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": [
-    "we-are-opening-up"
-   ]
-  },
   "booklet-songs-from-the-heart-canciones-del-corazon": {
    "file": "Booklet Songs from the Heart - Canciones del Corazon.pdf",
    "searchable": true,
@@ -192,14 +184,6 @@
     "we-are-a-circle",
     "we-are-circling",
     "we-are-one-in-harmony"
-   ]
-  },
-  "ciranda-poimpoim": {
-   "file": "Ciranda PoimPoim.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": [
-    "pacha-mama"
    ]
   },
   "elf-songbook": {
@@ -305,6 +289,7 @@
     "hoof-and-horn",
     "ide-were",
     "jay-ma",
+    "lead-us",
     "may-the-love",
     "mother-i-feel-you",
     "oh-great-spirit",
@@ -336,6 +321,7 @@
     "every-little-cell",
     "humble-yourself",
     "ide-were",
+    "lead-us",
     "let-the-way-of-the-heart",
     "mother-i-feel-you",
     "ragupati-ragava",
@@ -786,12 +772,6 @@
     "the-earth-is-our-mother"
    ]
   },
-  "sacred-valley3-mantras": {
-   "file": "sacred valley3 mantras.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": []
-  },
   "shanti-salish-kirtan-chantbook-full": {
    "file": "Shanti Salish Kirtan Chantbook - Full ©.pdf",
    "searchable": true,
@@ -801,47 +781,6 @@
     "ragupati-ragava",
     "we-are-opening-up"
    ]
-  },
-  "shanti-salish-kirtan-chantbook-ganesh-2020": {
-   "file": "Shanti Salish Kirtan Chantbook - Ganesh  ©2020.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": []
-  },
-  "shanti-salish-kirtan-chantbook-guru-other-2020": {
-   "file": "Shanti Salish Kirtan Chantbook - Guru_Other ©2020.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": [
-    "lead-us",
-    "we-are-opening-up"
-   ]
-  },
-  "shanti-salish-kirtan-chantbook-krishna-2020": {
-   "file": "Shanti Salish Kirtan Chantbook - Krishna ©2020.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": []
-  },
-  "shanti-salish-kirtan-chantbook-ma-2020": {
-   "file": "Shanti Salish Kirtan Chantbook - Ma ©2020.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": []
-  },
-  "shanti-salish-kirtan-chantbook-ram-2020": {
-   "file": "Shanti Salish Kirtan Chantbook - Ram ©2020.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": [
-    "ragupati-ragava"
-   ]
-  },
-  "shanti-salish-kirtan-chantbook-shiva-2020": {
-   "file": "Shanti Salish Kirtan Chantbook - Shiva  ©2020.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": []
   },
   "sol-diamante-chords": {
    "file": "Sol-Diamante-chords.pdf",
@@ -1111,20 +1050,6 @@
     "may-the-love",
     "pacha-mama",
     "we-are-one-in-harmony"
-   ]
-  },
-  "taizechords": {
-   "file": "taizechords.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": []
-  },
-  "turkish-sufi-songbook": {
-   "file": "Turkish Sufi Songbook.pdf",
-   "searchable": true,
-   "source": "text layer",
-   "songs": [
-    "round-and-round"
    ]
   },
   "unilaiva-songbook": {
