@@ -2,29 +2,29 @@
   "title": "I Find My Joy",
   "rank": 104,
   "status": "draft",
-  "about": "“I find my joy in the simple things that are coming from the earth” — with its wordless heya-heya chorus. Printed in Alli Ruhi — Songs of the Rainbow p.99 and Sound of The Heart song 131 (p.16), among fifteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=kp-0ic_lJgY\" rel=\"noopener\">Medicine}SONG Book — I find my joy in the simple things (Rainbow song)</a>.",
+  "about": "“I find my joy in the simple things that are coming from the earth” — with its wordless heya-heya chorus. Printed in Alli Ruhi — Songs of the Rainbow p.99 and Sound of The Heart song 131 (p.16), among fifteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=izbfdxqI1Ow\" rel=\"noopener\">Stefan Pulsaris &amp; Riedlhof Heartcore — I find my Joy in the simple things (English + Bavarian), via Medicine}SONG Book</a>.",
   "eyebrow": "Beyond the Core 50",
   "chips": {
-    "key": "B major on source",
+    "key": "E minor on source",
     "songbook key": "A minor / G / C",
-    "tempo": "≈152",
+    "tempo": "≈118",
     "chords": "Am G C"
   },
   "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
   "fit": [
     {
-      "num": "41.5%",
+      "num": "92.4%",
       "label": "chords fit — melody time on Am G C tones"
     },
     {
-      "num": "35.4%",
+      "num": "48.8%",
       "label": "words match — sung lyric vs. songbook text"
     }
   ],
-  "verdict": "Verdict: pending. Low chord fit (41.5%) and detected key (B major) far from the songbook chording — clip window may include speech; re-transcribe with an adjusted window before promoting.",
+  "verdict": "Verdict: pending. Re-transcribed 2026-09-18 from the Pulsaris/Riedlhof recording at 60s offset per Marcus (first attempt off the dedicated clip scored 41.5%). 92.4% chord-tone fit; detected E minor vs the songbook's Am G C — likely sung transposed; verify before promoting.",
   "provenance": {
     "Songbook": "Alli Ruhi — Songs of the Rainbow p.99 · Sound of The Heart song 131 (p.16), chords Am G C",
-    "Recording": "<a href=\"https://www.youtube.com/watch?v=kp-0ic_lJgY\" rel=\"noopener\">Medicine}SONG Book (YouTube)</a>",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=izbfdxqI1Ow\" rel=\"noopener\">Stefan Pulsaris &amp; Riedlhof Heartcore, via Medicine}SONG Book (YouTube)</a>",
     "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
   },
   "subtitle": "In the simple things"
