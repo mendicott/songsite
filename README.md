@@ -1,4 +1,4 @@
-# Rainbow Songbook
+# Sacred Rainbow Nation Songs of Light, Peace and Love
 
 Melody reconstruction for the most-sung songs of the Rainbow Gathering song
 circles — part of [A World Made of Rainbows](https://sites.google.com/view/aworldmadeofrainbows).
