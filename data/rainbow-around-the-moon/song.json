@@ -1,0 +1,31 @@
+{
+  "title": "Rainbow Around the Moon",
+  "rank": 55,
+  "status": "draft",
+  "about": "“There's a rainbow around the moon — in the night, in the pale night light, you can see the magic rings.” Printed with chords in Rainbow Caravan and indexed in Rainbow Kirtan, and carried on the Sounds from the Rainbow compilations by the trio recording that appears on Heartsongs Vol. 1 and 6 and the Pennsylvania Prism 2021 set. The melody here follows <a href=\"https://archive.org/download/heartsongs_202212/Sounds%20from%20the%20Rainbow%20-%20Heartsongs/Heartsongs%20Vol.%201/12.%20Trio%20-%20Rainbow%20Around%20The%20Moon.mp3\" rel=\"noopener\">that recording</a> (CC BY-NC-SA).",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "A major on source",
+    "songbook key": "A minor",
+    "tempo": "≈172",
+    "chords": "Am G Dm F"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "60.3%",
+      "label": "chords fit — melody time on Am G Dm F tones"
+    },
+    {
+      "num": "57.2%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected A major against the book's A-minor chording, and the fit sits below the usual bar — every known archive copy is the same trio take, so no alternate recording exists to cross-check; verify by ear before promoting. Rainbow Kirtan p.26 notes a second setting of these words to an Om Namah Shivaya melody.",
+  "provenance": {
+    "Songbook": "Rainbow Caravan #18 p.21 (Am G Dm F) · Rainbow Songs ebook (D A) · indexed in Rainbow Kirtan p.26",
+    "Recording": "<a href=\"https://archive.org/download/heartsongs_202212/Sounds%20from%20the%20Rainbow%20-%20Heartsongs/Heartsongs%20Vol.%201/12.%20Trio%20-%20Rainbow%20Around%20The%20Moon.mp3\" rel=\"noopener\">Trio — Rainbow Around The Moon, Heartsongs Vol. 1 (archive.org, CC BY-NC-SA)</a> · same take on Heartsongs Vol. 6 and Pennsylvania Prism 2021",
+    "Rights": "author unrecorded (AU manifest A #44)",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

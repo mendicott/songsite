@@ -1,0 +1,30 @@
+{
+  "title": "Jay Ma",
+  "rank": 90,
+  "status": "draft",
+  "about": "“When the fire in my soul burns a longing for the goal, then I know in my heart it is you — Jay Ma.” A song to the Divine Mother that the circles share with the wider kirtan world, printed with converging E-minor chords in half a dozen books of the collection, from Sound of The Heart to the unilaiva songbook. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=ywi4kfOb-Pc\" rel=\"noopener\">Stefan Pulsaris &amp; Teresa — Jai MA (Medicine}SONG Book)</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "D minor on source",
+    "songbook key": "E minor",
+    "tempo": "≈144",
+    "chords": "Em C D"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "81.5%",
+      "label": "chords fit — melody time on Em C D tones"
+    },
+    {
+      "num": "32.1%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (D minor) sits a whole step below the songbook's E-minor chording — likely sung transposed; verify before promoting. Note this is the “fire in my soul” circle song, distinct from the many other Jay Ma kirtans in the same books.",
+  "provenance": {
+    "Songbook": "unilaiva-songbook #430 (Em C D) · Sound of The Heart p.81 · Alli Ruhi · New Song Book · Sol Diamante p.93 · Canciones del Corazón",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=ywi4kfOb-Pc\" rel=\"noopener\">Stefan Pulsaris &amp; Teresa — Jai MA, Medicine}SONG Book (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

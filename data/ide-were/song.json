@@ -1,0 +1,31 @@
+{
+  "title": "Ide Were",
+  "rank": 84,
+  "status": "draft",
+  "about": "A traditional Yoruba chant to Ochún, the goddess of love and the fresh waters — it sings of a necklace given as a symbol of initiation into love, an explanation many of the songbooks print beneath the words. It is one of the most widely printed songs in the whole collection, and most books point to the recording by Deva Premal, whose singing the melody here follows: <a href=\"https://www.youtube.com/watch?v=YUeIFRkthb8\" rel=\"noopener\">Deva Premal — Idé Weré Weré</a>.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "G minor on source",
+    "songbook key": "E minor",
+    "tempo": "≈172",
+    "chords": "Em D C G Bm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "79.6%",
+      "label": "chords fit — melody time on Em D C G Bm tones"
+    },
+    {
+      "num": "60.7%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (G minor) sits above the songbook's E-minor chording — sung transposed (several books print it with a capo); verify before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow Caravan #245 p.158 (Em D C G Bm) · Canciones · Alli Ruhi · Sound of The Heart p.108 · Icaros · MasterMantra · Songs of Light · Mantra-Sammlung Rafael and more",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=YUeIFRkthb8\" rel=\"noopener\">Deva Premal — Idé Weré Weré (YouTube)</a> — the version the songbooks themselves cite",
+    "Rights": "traditional Yoruba (Ochún) chant; melody traditional, popularized by modern recordings",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}

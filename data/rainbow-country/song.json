@@ -1,0 +1,26 @@
+{
+  "title": "Rainbow Country",
+  "rank": 52,
+  "status": "draft",
+  "about": "“We're going to that rainbow country, we're moving to the promised land.” A gathering anthem carried by the voice of Rocker T, recorded live at the Michigan gathering in 2002 and passed around ever since on the Sounds from the Rainbow compilations — it appears on five separate archive.org collections. It is a different song from Bob Marley's “Rainbow Country”, sharing only the title. The melody here follows <a href=\"https://archive.org/download/heartsongs_202212/Sounds%20from%20the%20Rainbow%20-%20Heartsongs/Heartsongs%20Vol.%202/02%20Rocker%20T%20-%20Rainbow%20Country.mp3\" rel=\"noopener\">the Heartsongs Vol. 2 recording</a> (CC BY-NC-SA).",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "F major on source",
+    "tempo": "≈144",
+    "chords": "none printed"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification; no songbook chording exists to check against.",
+  "fit": [
+    {
+      "num": "32.5%",
+      "label": "words match — sung lyric vs. machine-heard text"
+    }
+  ],
+  "verdict": "Verdict: pending. No book prints this song — attestation rests on the AU manifest lyric (A #110) and five archive.org recordings. Performer and likely author Rocker T; authorship to be confirmed before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs manifest A #110 (lyrics only) — not printed in any collection book",
+    "Recording": "<a href=\"https://archive.org/download/heartsongs_202212/Sounds%20from%20the%20Rainbow%20-%20Heartsongs/Heartsongs%20Vol.%202/02%20Rocker%20T%20-%20Rainbow%20Country.mp3\" rel=\"noopener\">Rocker T — Rainbow Country, live Michigan 2002 (archive.org, CC BY-NC-SA)</a> · also Utah 2003, Luminous Love Light Sessions",
+    "Rights": "performer and likely author Rocker T — to be confirmed; distinct from the Bob Marley title (verified by lyric transcription 2026-09-18)",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-18"
+  }
+}
