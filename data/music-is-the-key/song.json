@@ -1,0 +1,30 @@
+{
+  "title": "Music Is the Key",
+  "rank": 57,
+  "status": "draft",
+  "about": "“And there's a spirit bringing people together — music is the key.” A campfire anthem about the thing the circles are actually doing when they sing. The words and chords are preserved in Dennis's 2021 songbook in D minor, and the melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=1549\" rel=\"noopener\">Ananda Das's rainbow-songs compilation (at 25:49)</a> — one of the songs rescued from memory by that recording.",
+  "eyebrow": "Beyond the Core 50",
+  "chips": {
+    "key": "D minor on source",
+    "songbook key": "D minor",
+    "tempo": "≈129",
+    "chords": "Dm C Bb"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "96.9%",
+      "label": "chords fit — melody time on Dm C tones"
+    },
+    {
+      "num": "42.8%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook's D-minor chording exactly; the clip is a full-band take, so some long phrases may carry instrumental bleed — verify before promoting.",
+  "provenance": {
+    "Songbook": "Songbook Dennis 03/2021 (Dm C Bb, words and chords)",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=1549\" rel=\"noopener\">Ananda Das — rainbow songs compilation, 25:49 (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
