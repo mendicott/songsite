@@ -1,0 +1,29 @@
+{
+  "title": "In This Reality",
+  "rank": 113,
+  "status": "draft",
+  "about": "“Oh Jah, you have given me everything I need to be free — in this reality.” A reggae prayer of thanksgiving printed in twelve books of the collection, where it runs straight into Jah Rastafarai as a medley. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=vksBoLmZR4Q\" rel=\"noopener\">Jah Rastafari / In This Reality (Jah Levi, Shimshai, RainbowSong)</a> — the second half of that medley.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "A major on source",
+    "songbook chords": "Am G",
+    "tempo": "≈123"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (95-second clip from 2:10, the In This Reality half of the medley, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "87.5%",
+      "label": "chords fit — melody time on A G tones as performed"
+    },
+    {
+      "num": "39.7%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. The recording sings it in A major over A–G while the books chord Am–G — a major/minor discrepancy to resolve by ear before promoting. Authorship associated with Jah Levi (who is credited for the companion Jah Rastafarai in Sound of The Heart) — confirm credit.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words and chords, medley with Jah Rastafarai · 12 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=vksBoLmZR4Q\" rel=\"noopener\">Jah Rastafari / In This Reality — Jah Levi, Shimshai, RainbowSong (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
