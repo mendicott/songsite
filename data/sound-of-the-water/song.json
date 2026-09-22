@@ -1,0 +1,30 @@
+{
+  "title": "Sound of the Water",
+  "rank": 111,
+  "status": "draft",
+  "about": "“I just close my eyes, and the earth is carried away by the river — what is left behind I can't say, it's just the sound of the water.” Printed in fifteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=hAvr4ejDJWo\" rel=\"noopener\">Lulu Moon — The River (I Just Close My Eyes)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "C minor on source",
+    "songbook key": "A minor",
+    "tempo": "≈123",
+    "chords": "Am Em Dm C7"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "84.4%",
+      "label": "chords fit — melody time on Am Em Dm C7 tones"
+    },
+    {
+      "num": "53.7%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (C minor) sits above the books' A-minor chording — sung transposed; verify before promoting.",
+  "provenance": {
+    "Songbook": "Songbook Flora #50, words and chords · Alli Ruhi (Songs of the Rainbow) · 15 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=hAvr4ejDJWo\" rel=\"noopener\">Lulu Moon — The River / Sound of Water (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

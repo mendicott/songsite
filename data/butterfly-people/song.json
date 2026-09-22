@@ -1,0 +1,30 @@
+{
+  "title": "Butterfly People",
+  "rank": 112,
+  "status": "draft",
+  "about": "“On the shore of a mystical ocean there lies a cave with a magical door — all are welcome, but those who enter never shall return.” A story-song printed in fourteen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=vNfZggijXZs\" rel=\"noopener\">Lindsey Wise — Butterfly People ~ Walk in Beauty</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "A minor on source",
+    "songbook key": "C major / D minor",
+    "tempo": "≈136",
+    "chords": "C F Dm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (100-second clip from 2:10, past the opening piece, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "73.8%",
+      "label": "chords fit — melody time on C F Dm tones"
+    },
+    {
+      "num": "55.4%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected A minor is the relative of the books' C-major verse with the D-minor refrain; the words scan well, but the moderate chord fit wants a human pass before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), C F Dm · Sound of The Heart p.53 (D minor) · 14 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=vNfZggijXZs\" rel=\"noopener\">Lindsey Wise — Butterfly People ~ Walk in Beauty (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

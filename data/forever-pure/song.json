@@ -1,0 +1,31 @@
+{
+  "title": "Forever Pure",
+  "rank": 109,
+  "status": "draft",
+  "about": "“You are forever pure, you are forever true, and the dream of this world can never touch you.” The English singing of Sudossi Budossi — Madalasa's lullaby from the Markandeya Purana, sung to children who every one became sadhus — and the widest-attested song added since the Core 50, printed in twenty-five books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=AR4ggkqlEFs\" rel=\"noopener\">Avalon Pleiades — You Are Forever Pure (Suddhosi Buddhosi)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "B minor on source",
+    "songbook key": "E minor",
+    "tempo": "≈123",
+    "chords": "Em C D Am"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "93.7%",
+      "label": "chords fit — melody time on Em C D Am tones"
+    },
+    {
+      "num": "38.2%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key (B minor) sits a fifth from the books' E-minor chording — sung transposed; verify before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words + chords + lullaby note · 25 books of the collection incl. Songbook Flora (as You Are Forever Pure), Canciones, Elf Songbook, unilaiva-songbook",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=AR4ggkqlEFs\" rel=\"noopener\">Avalon Pleiades — You Are Forever Pure / Suddhosi Buddhosi (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Origin": "Traditional Sanskrit (Madalasa's lullaby, Markandeya Purana), English adaptation as sung in the circles",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

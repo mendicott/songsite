@@ -1,0 +1,26 @@
+{
+  "title": "Music of Silence",
+  "rank": 110,
+  "status": "draft",
+  "about": "“Music of silence, music beyond words — children of the ocean, that's what we are.” A quiet anthem printed in seventeen books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=pjqDG6Nd7lA\" rel=\"noopener\">Galactic Vibrations — Music of Silence ~ Sound of Light</a>, which lands exactly in the books' A-minor chording.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "A minor on source",
+    "songbook key": "A minor",
+    "tempo": "≈123",
+    "chords": "Am A7 Em C G Dm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "99.7%",
+      "label": "chords fit — melody time on Am A7 Em C G Dm tones"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook chording exactly with a near-perfect chord fit; phrasing needs a human pass before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words and chords · 17 books of the collection incl. Sound of The Heart p.72, unilaiva-songbook #452, Icaros, Canciones",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=pjqDG6Nd7lA\" rel=\"noopener\">Galactic Vibrations — Music of Silence ~ Sound of Light (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
