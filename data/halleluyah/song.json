@@ -1,0 +1,25 @@
+{
+  "title": "Halleluyah",
+  "rank": 108,
+  "status": "draft",
+  "about": "One word of praise, sung over and over until it carries itself — the circles' own halleluyah, printed plain in six books of the collection and not to be confused with any other song of the name. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=2227\" rel=\"noopener\">Ananda Das's rainbow-songs compilation (at 37:07)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "G major on source",
+    "songbook chords": "Am F C G Em",
+    "tempo": "≈118"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "93.0%",
+      "label": "chords fit — melody time on Am F C G Em tones"
+    }
+  ],
+  "verdict": "Verdict: pending. Strong chord fit inside the songbooks' Am-F-C-G family; a live group take, so phrasing needs a human pass before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow) · New Song Book · Rainbow songs and prays · song.book · Songs of Light · Sound of The Heart",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=2227\" rel=\"noopener\">Ananda Das — rainbow songs compilation, 37:07 (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

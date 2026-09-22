@@ -1,0 +1,31 @@
+{
+  "title": "Give Thanks to the Mother",
+  "rank": 56,
+  "status": "draft",
+  "about": "“Give thanks to the mother Gaia, give thanks to the father sun.” A grace sung before food in circles from Oregon to the Netherlands, printed in four books of the collection and notated in Come Together Songs III. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=2385\" rel=\"noopener\">Ananda Das's rainbow-songs compilation (at 39:43)</a>, which lands squarely in the books' C-major chording.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "C major on source",
+    "songbook key": "C major",
+    "tempo": "≈129",
+    "chords": "C G"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (100-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording and the StimmVolk sheet.",
+  "fit": [
+    {
+      "num": "89.4%",
+      "label": "chords fit — melody time on C G tones"
+    },
+    {
+      "num": "56.5%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook chording exactly and the words scan well; cross-check against the StimmVolk notation (Come Together Songs III p.34) before promoting.",
+  "provenance": {
+    "Songbook": "Mantra's & Rainbow Songs (Iris) #32 (C G) · zangboekje 2023/2024 #48 · Rainbow Caravan index · Songs of Light index",
+    "Sheet": "<a href=\"https://www.stimmvolk.ch/customer/files/19685/Give-thanks-to-the-mother-Gaia---Dankeslied-vor-Essen.pdf\" rel=\"noopener\">StimmVolk — Come Together Songs III p.34 (free PDF)</a>",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=2385\" rel=\"noopener\">Ananda Das — rainbow songs compilation, 39:43 (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
