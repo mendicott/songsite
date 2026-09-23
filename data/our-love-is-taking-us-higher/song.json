@@ -1,0 +1,26 @@
+{
+  "title": "Our Love Is Taking Us Higher",
+  "rank": 58,
+  "status": "draft",
+  "about": "“Our Love is taking us higher — oh oh oh!” A song of the vision itself: swords becoming plows, crystal cities and golden doors, and the question every land asks — Rainbow People, what have you learned? Printed in the Australian songbook, whose image-only page was read by eye to recover the words. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=2985\" rel=\"noopener\">Ananda Das's rainbow-songs compilation (at 49:45)</a> — in A major, exactly as the book chords it.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "A major on source",
+    "songbook key": "A major",
+    "tempo": "≈123",
+    "chords": "A E D"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (90-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "93.5%",
+      "label": "chords fit — melody time on A E D tones"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook's A-major chording exactly; the only known recording, so a second take would strengthen it. Verify phrasing before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs #57, book p.14 (A E D, chorus + 3 verses; image-only scan, words recovered by page read 2026-09-23)",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=Y97x5OA_0T4&t=2985\" rel=\"noopener\">Ananda Das — rainbow songs compilation, 49:45 (YouTube)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
