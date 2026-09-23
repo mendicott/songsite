@@ -1,0 +1,27 @@
+{
+  "title": "Temple of My Heart",
+  "rank": 117,
+  "status": "draft",
+  "about": "“From the temple of my heart up to the highest mountain, love embrace all that is and all that could be.” A song the circles carried and Kevin James carried onward — printed in eleven books of the collection, with the elah-elah refrain that circles sing long after the verses end. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=-4O-eXjEUNY\" rel=\"noopener\">Kevin James — Temple of My Heart (official video)</a>, which lands exactly in the books' A-minor chording.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "A minor on source",
+    "songbook key": "A minor",
+    "tempo": "≈123",
+    "chords": "Am C Em7 B G D"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (95-second clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "97.0%",
+      "label": "chords fit — melody time on Am C Em7 B G D tones"
+    }
+  ],
+  "verdict": "Verdict: pending. Detected key matches the songbook chording exactly with a near-perfect chord fit; phrasing needs a human pass before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), Am C Em7 B G D · 11 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=-4O-eXjEUNY\" rel=\"noopener\">Kevin James — Temple of My Heart, official video (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Origin": "Rainbow circle song, carried onward by Kevin James — a personal friend of Marcus, who attests the song came from the gatherings",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
