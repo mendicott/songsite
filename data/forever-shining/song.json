@@ -1,0 +1,30 @@
+{
+  "title": "Forever Shining",
+  "rank": 118,
+  "status": "draft",
+  "about": "“Forever shining, forever flowing, guiding me to you — you are beautiful, you fill me up with love.” A short praise song printed in ten books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=1wxiHXGoDtU\" rel=\"noopener\">Release — Forever Shining</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "C major on source",
+    "songbook key": "A minor",
+    "tempo": "≈112",
+    "chords": "Am C Dm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "99.4%",
+      "label": "chords fit — melody time on Am C Dm tones"
+    },
+    {
+      "num": "45.3%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Near-perfect fit in the relative major of the books' chording; phrasing needs a human pass before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words and chords (Am C Dm) · Sound of The Heart p.49 · 10 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=1wxiHXGoDtU\" rel=\"noopener\">Release — Forever Shining (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

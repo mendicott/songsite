@@ -1,0 +1,30 @@
+{
+  "title": "Angels Singing",
+  "rank": 122,
+  "status": "draft",
+  "about": "“Wood, stone, feather and bone — currents of the ocean guide us home — angels singing in my soul.” An elements chant printed in nine books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=773cimIGuZ4\" rel=\"noopener\">Lulu Moon — Wood Stone Feather and Bone / Angels Singing (Rainbowsong)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "B minor on source",
+    "songbook key": "D-minor family",
+    "tempo": "≈161",
+    "chords": "F C Dm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "95.7%",
+      "label": "chords fit — melody time on the chording three semitones below the books"
+    },
+    {
+      "num": "53.6%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. Sung three semitones below the books' chording; against that transposition the fit is strong and the words scan well. Verify before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words and chords (F C Dm) · 9 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=773cimIGuZ4\" rel=\"noopener\">Lulu Moon — Wood Stone Feather and Bone / Angels Singing (Rainbowsong) (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

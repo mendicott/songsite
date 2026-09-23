@@ -1,0 +1,30 @@
+{
+  "title": "Mother of My Heart",
+  "rank": 120,
+  "status": "draft",
+  "about": "“Mother of my heart, mother of my soul — sweet mother Mary, mama Gaia, Pacha Mama — she is calling us home.” A mother-song from the medicine valleys printed in ten books of the collection, sung here by Uri (Budgie) in a dedicated recording for the Rainbow Caravan songbook. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=N5kZ21iyI9E\" rel=\"noopener\">Uri (Budgie) — Mother of My Heart, Rainbow Caravan Songbook Collection 1 (song #41; starts at 3:00)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "G major on source",
+    "songbook key": "G major",
+    "tempo": "≈92",
+    "chords": "G D C"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "99.1%",
+      "label": "chords fit — melody time on G D C tones"
+    },
+    {
+      "num": "48.5%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. A dedicated songbook recording in the exact printed key with a near-perfect fit; phrasing needs a human pass before promoting.",
+  "provenance": {
+    "Songbook": "Canciones (Family Songbook), words and chords (G D C) · Rainbow Caravan #41 · Icaros (Sacred Valley, credited Jarah Tree, Pisaq 2014) · 10 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=N5kZ21iyI9E\" rel=\"noopener\">Uri (Budgie) — Mother of My Heart, Rainbow Caravan Songbook Collection 1 (song #41; starts at 3:00) (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Child of the Universe",
+  "rank": 98,
+  "status": "draft",
+  "about": "“I am as old as the universe — I've been here before and I'll be here again — I am a child of the universe, a part of all women and a part of all men.” A big-bang story-song printed in eight books of the collection, sung here by Uri (Budgie) in a dedicated recording for the Rainbow Caravan songbook. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=bWDonZSKpnk\" rel=\"noopener\">Uri (Budgie) — Child of the Universe, Rainbow Caravan Songbook Collection 1 (song #37; song starts past the spoken introduction)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "B major on source",
+    "songbook key": "D-minor family",
+    "tempo": "≈161",
+    "chords": "Dm C Am D"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "89.7%",
+      "label": "chords fit — melody time on the chording three semitones below the books"
+    },
+    {
+      "num": "42.4%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. A dedicated songbook recording sung three semitones below the Canciones chording; the routes file's Melita authorship lead stands to be confirmed. Verify before promoting.",
+  "provenance": {
+    "Songbook": "Canciones (Family Songbook), words and chords (Dm C Am D) · Alli Ruhi (Songs of the Rainbow) · Rainbow Caravan #37 · 8 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=bWDonZSKpnk\" rel=\"noopener\">Uri (Budgie) — Child of the Universe, Rainbow Caravan Songbook Collection 1 (song #37; song starts past the spoken introduction) (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

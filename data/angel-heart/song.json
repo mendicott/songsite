@@ -1,0 +1,24 @@
+{
+  "title": "Angel Heart",
+  "rank": 97,
+  "status": "draft",
+  "about": "“Angel heart — is this another ending or a start? In the end we come full circle again.” A song of consolation printed in twelve books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=lO_rNnafovE\" rel=\"noopener\">Lulu Moon — Angel Heart (Rainbowsong)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "B♭ minor on source",
+    "tempo": "≈144"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "55.7%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. The books print the words without chords on the page extracted; strong word match on the recording. Verify before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words · Sound of The Heart p.50 · 12 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=lO_rNnafovE\" rel=\"noopener\">Lulu Moon — Angel Heart (Rainbowsong) (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}

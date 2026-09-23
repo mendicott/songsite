@@ -1,0 +1,30 @@
+{
+  "title": "I Hear the Silence",
+  "rank": 119,
+  "status": "draft",
+  "about": "“I hear the silence calling me, so softly calling me, to what I have always been.” A slow surrender song printed in ten books of the collection. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=rghRc2NZfC4\" rel=\"noopener\">Spirit Soundz — Hear the Silence Calling</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "B major on source",
+    "songbook key": "A-minor family",
+    "tempo": "≈99",
+    "chords": "Am Em F C G"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "85.4%",
+      "label": "chords fit — melody time on the chording a semitone below the books"
+    },
+    {
+      "num": "34.0%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. The long meditative recording sits a semitone below the books' chording; verify before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow), words and chords (Am Em F C G) · 10 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=rghRc2NZfC4\" rel=\"noopener\">Spirit Soundz — Hear the Silence Calling (YouTube, supplied by Marcus 2026-09-23)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-23"
+  }
+}
