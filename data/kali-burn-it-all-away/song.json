@@ -1,0 +1,30 @@
+{
+  "title": "Kali Burn It All Away",
+  "rank": 124,
+  "status": "draft",
+  "about": "“Om namo Kali Kali, om namo — oh great mother, we invoke you in this space; take away the pain and fill us with your grace.” A Kali fire-invocation printed in eight books of the collection: if it doesn't serve us, then burn it all away. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=QireycfZ_2E\" rel=\"noopener\">Alan Bright — Kali, Burn It All Away (Rainbow Song)</a>.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "D minor on source",
+    "songbook key": "Am G Dm as printed",
+    "tempo": "≈118",
+    "chords": "Am G Dm"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip 30s+90s, no separation). Raw machine output — awaiting human verification against the songbook chording.",
+  "fit": [
+    {
+      "num": "98.0%",
+      "label": "chords fit — melody time on the book chording as printed"
+    },
+    {
+      "num": "44.9%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. 98.0% on the unilaiva chording as printed (d minor detected — the melody lives on the set's Dm side). No author credit in any book. Verify before promoting.",
+  "provenance": {
+    "Songbook": "unilaiva-songbook #425 (Am G Dm; tagged fire · Divine Mother · Kali) · Icaros · Songbook Flora · Songbook2020 · 8 books of the collection",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=QireycfZ_2E\" rel=\"noopener\">Alan Bright — Kali, Burn It All Away, Rainbow Song (YouTube, supplied by Marcus 2026-09-24)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-24"
+  }
+}

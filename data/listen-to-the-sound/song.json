@@ -1,0 +1,29 @@
+{
+  "title": "Listen to the Sound",
+  "rank": 125,
+  "status": "draft",
+  "about": "“Listen to the sound of the angels singing, calling to your heart, praying for your soul — heaven is here, right now.” Tagged simply “Rainbow” in the Songs from the Heart booklet. The melody here follows the singing on <a href=\"https://www.youtube.com/watch?v=yXFiSkOhMBw\" rel=\"noopener\">Lulu Moon — Listen to the Sound of the Angels Singing (Rainbowsong)</a>, a dedicated circle-song take.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "A minor (= books)",
+    "tempo": "≈136",
+    "chords": "Am G Em F C"
+  },
+  "melody_note": "Transcribed by song2xml from the linked recording (clip 2s+110s, no separation). Raw machine output — awaiting human verification against the songbook chording. Census caution: the phrase “listen to the sound” also occurs inside Where I Sit Is Holy and a Witchi Tai To verse — this page is the angels-singing song only, and raw phrase counts overcount it.",
+  "fit": [
+    {
+      "num": "99.2%",
+      "label": "chords fit — melody time on the Alli Ruhi chording, key exact"
+    },
+    {
+      "num": "35.7%",
+      "label": "words match — sung lyric vs. songbook text"
+    }
+  ],
+  "verdict": "Verdict: pending. First-pass exact-key match (a minor = Alli Ruhi's Am G Em F C, 99.2%) on a dedicated Rainbowsong take. Songcircle's 8-book count is inflated by phrase matches; printings verified in Alli Ruhi, the Booklet, and new song book. Verify before promoting.",
+  "provenance": {
+    "Songbook": "Alli Ruhi (Songs of the Rainbow) p.118 (Am G Em F C) · Booklet Songs from the Heart p.36 (“Rainbow”, Am Am7 G E) · new song book p.6 · verified printings; further copies in uncounted books",
+    "Recording": "<a href=\"https://www.youtube.com/watch?v=yXFiSkOhMBw\" rel=\"noopener\">Lulu Moon — Listen to the Sound of the Angels Singing, Rainbowsong (YouTube, supplied by Marcus 2026-09-24)</a>",
+    "Method": "song2xml machine transcription (basic-pitch, no separation) → MusicXML/MIDI, 2026-09-24"
+  }
+}
