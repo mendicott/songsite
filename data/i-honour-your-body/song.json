@@ -1,0 +1,20 @@
+{
+  "title": "I Honour Your Body Earth Mother",
+  "rank": 70,
+  "status": "draft",
+  "about": "“Earth mother we honor your body, Earth mother we honor your bones…” A sweat-lodge and fire-circle song to the Earth Mother, printed in the AU book with an “Awé awé awé ya ho” refrain and a French verse (Terre mère, nous honorons ton corps). The verse melody here follows the ADF druid fellowship’s sheet of the same chant.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "F major (sheet), G-final",
+    "songbook key": "A-minor family, 3/4",
+    "tempo": "≈104",
+    "chords": "Am G"
+  },
+  "melody_note": "Verse melody encoded from the ADF (Ár nDraíocht Féin) Earth Mother Chant sheet — pitches extracted numerically from the PDF’s glyph coordinates, rhythm as engraved in 6/8 except one over-full bar (7 eighths at “honor your bones”) normalized by reading “your” as an eighth and “bones” as a quarter; contour sanity-checked against ADF’s own audio clip (song2xml, no separation). The sheet ends on G — a whole tone below the AU book’s A-minor chording, the usual free-pitch drift. CAUTION: the ADF sheet has only the four verse lines; the songbooks’ “Awé awé awé ya ho” refrain is not on it, and its melody is still wanted.",
+  "verdict": "Verdict: pending. EXTERNAL-VERIFY route — confirm the circle sings this verse shape, and supply a recording for the missing Awé refrain before promoting. Book prints 3/4 where the sheet is 6/8: same lilt written two ways; verify by ear.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #254 “Earth mother we honor your body”, printed page A(52), PDF p.57 — words and chords (Am G), 3/4, with Awé refrain and French verse",
+    "Melody reference": "<a href=\"https://www.adf.org/rituals/chants/earth-mother/earth-mother.html\" rel=\"noopener\">ADF — Earth Mother Chant (Anonymous): free sheet PDF and audio clip</a>, downloaded 2026-09-24",
+    "Method": "Numeric transcription of the PDF engraving (staff-line and notehead glyph coordinates) → melody.spec.json → MusicXML/MIDI; ADF audio clip cross-checked via song2xml --no-separate, 2026-09-24"
+  }
+}

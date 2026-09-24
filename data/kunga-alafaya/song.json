@@ -1,0 +1,19 @@
+{
+  "title": "Kunga Alafaya (Ashe Ashe)",
+  "rank": 78,
+  "status": "draft",
+  "about": "“Kunga alafaya, ashe ashe!” — the Rainbow variant of Funga Alafia, the West-African call-and-response welcome chant (spread from the Nigerian/Liberian greeting song popularised in the U.S. by LaRocque Bey ~1959). Sung with percussion around the fire.",
+  "eyebrow": "Core 100",
+  "chips": {
+    "key": "C major",
+    "tempo": "≈116",
+    "form": "call & response"
+  },
+  "melody_note": "Encoded by eye from the free 8notes.com engraving of Funga Alafia (traditional melody, flute-duet edition, lead line, C major) — the route vetted on the melody-routes list; variant identity Kunga Alafaya = Funga Alafia confirmed 2026-09-23. Call bar, response bar (“ashe ashe”), then the repeat closing to the tonic. Draft reading — verify against the 8notes sheet.",
+  "verdict": "Verdict: pending. The books print words only; melody follows the standard traditional Funga Alafia tune as engraved by 8notes. Confirm the circle sings this shape before promoting.",
+  "provenance": {
+    "Songbook": "Rainbow AU songs, vol. A, song #275 “Kunga alafaya, ashe ashe” (With Percussions), printed p.57, PDF p.62 — lyrics only",
+    "Melody reference": "<a href=\"https://www.8notes.com/scores/Funga_Alafia_Trad_.asp\" rel=\"noopener\">8notes.com — Funga Alafia, traditional melody (free score)</a>",
+    "Method": "Visual transcription of the engraved lead line → melody.spec.json → MusicXML/MIDI, 2026-09-24"
+  }
+}
